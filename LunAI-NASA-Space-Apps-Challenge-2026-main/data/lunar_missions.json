@@ -1,0 +1,1270 @@
+{
+  "as_of": "2026-11-14",
+  "note": "Past mission figures are from NASA and agency mission records. Planned missions are targets as of November 2026 and often move; check nasa.gov/artemis for the latest.",
+  "missions": [
+    {
+      "id": "luna-2",
+      "name": "Luna 2",
+      "agency": "Soviet space program",
+      "country": "USSR",
+      "type": "Impactor",
+      "status": "success",
+      "crewed": false,
+      "launch": "1959-09-12",
+      "landing": "1959-09-13",
+      "end": "1959-09-13",
+      "duration": "About 1.5 days",
+      "site": {
+        "name": "Near Autolycus crater (impact)",
+        "lat": 29.1,
+        "lon": 0.0,
+        "approximate": true
+      },
+      "summary": "The first human-made object to reach the Moon.",
+      "description": "Luna 2 flew straight into the Moon on purpose. Before it hit, its instruments showed that the Moon has no strong magnetic field.",
+      "stats": [
+        {
+          "label": "First",
+          "value": "Object to reach another world"
+        },
+        {
+          "label": "Mass",
+          "value": "390 kg"
+        }
+      ]
+    },
+    {
+      "id": "luna-9",
+      "name": "Luna 9",
+      "agency": "Soviet space program",
+      "country": "USSR",
+      "type": "Robotic lander",
+      "status": "success",
+      "crewed": false,
+      "launch": "1966-01-31",
+      "landing": "1966-02-03",
+      "end": "1966-02-06",
+      "duration": "3 days on the surface",
+      "site": {
+        "name": "Oceanus Procellarum",
+        "lat": 7.08,
+        "lon": -64.37
+      },
+      "summary": "First spacecraft to land softly on the Moon and send back pictures from the surface.",
+      "description": "Luna 9 showed that the lunar ground was firm enough to hold a lander. Engineers had worried it might be deep dust that would swallow a spacecraft.",
+      "stats": [
+        {
+          "label": "First",
+          "value": "Soft landing and surface photos"
+        },
+        {
+          "label": "Surface time",
+          "value": "About 3 days"
+        }
+      ]
+    },
+    {
+      "id": "surveyor-1",
+      "name": "Surveyor 1",
+      "agency": "NASA",
+      "country": "USA",
+      "type": "Robotic lander",
+      "status": "success",
+      "crewed": false,
+      "launch": "1966-05-30",
+      "landing": "1966-06-02",
+      "end": "1966-07-13",
+      "duration": "About 6 weeks of operations",
+      "site": {
+        "name": "Flamsteed P, Oceanus Procellarum",
+        "lat": -2.47,
+        "lon": -43.34
+      },
+      "summary": "America's first soft landing on the Moon, scouting the way for Apollo.",
+      "description": "Surveyor 1 tested the landing technology and photographed the ground around it so NASA could plan where astronauts could safely land.",
+      "stats": [
+        {
+          "label": "Photos sent",
+          "value": "11,240"
+        },
+        {
+          "label": "First",
+          "value": "U.S. soft landing"
+        }
+      ],
+      "photo_query": {
+        "q": "Surveyor",
+        "year_start": 1966,
+        "year_end": 1968
+      }
+    },
+    {
+      "id": "apollo-8",
+      "name": "Apollo 8",
+      "agency": "NASA",
+      "country": "USA",
+      "type": "Crewed orbit",
+      "status": "success",
+      "crewed": true,
+      "launch": "1968-12-21",
+      "landing": null,
+      "end": "1968-12-27",
+      "duration": "6 days 3 h 0 min",
+      "crew": [
+        {
+          "name": "Frank Borman",
+          "role": "Commander"
+        },
+        {
+          "name": "Jim Lovell",
+          "role": "Command Module Pilot"
+        },
+        {
+          "name": "William Anders",
+          "role": "Lunar Module Pilot"
+        }
+      ],
+      "site": null,
+      "summary": "The first people to travel to the Moon and orbit it.",
+      "description": "On Christmas Eve 1968 the crew circled the Moon ten times and took the famous \"Earthrise\" photo of Earth rising over the lunar horizon.",
+      "stats": [
+        {
+          "label": "Lunar orbits",
+          "value": "10"
+        },
+        {
+          "label": "Famous for",
+          "value": "\"Earthrise\" photo"
+        }
+      ],
+      "photo_query": {
+        "q": "Apollo 8",
+        "year_start": 1968,
+        "year_end": 1968
+      }
+    },
+    {
+      "id": "apollo-10",
+      "name": "Apollo 10",
+      "agency": "NASA",
+      "country": "USA",
+      "type": "Crewed orbit",
+      "status": "success",
+      "crewed": true,
+      "launch": "1969-05-18",
+      "landing": null,
+      "end": "1969-05-26",
+      "duration": "8 days 0 h 3 min",
+      "crew": [
+        {
+          "name": "Thomas Stafford",
+          "role": "Commander"
+        },
+        {
+          "name": "John Young",
+          "role": "Command Module Pilot"
+        },
+        {
+          "name": "Eugene Cernan",
+          "role": "Lunar Module Pilot"
+        }
+      ],
+      "site": null,
+      "summary": "A full dress rehearsal for the first landing.",
+      "description": "The lander (\"Snoopy\") flew down to about 15 km above the surface and back up, testing every step except the landing itself.",
+      "stats": [
+        {
+          "label": "Closest approach",
+          "value": "About 15.6 km above the Moon"
+        },
+        {
+          "label": "Lunar orbits",
+          "value": "31"
+        }
+      ],
+      "photo_query": {
+        "q": "Apollo 10",
+        "year_start": 1969,
+        "year_end": 1969
+      }
+    },
+    {
+      "id": "apollo-11",
+      "name": "Apollo 11",
+      "agency": "NASA",
+      "country": "USA",
+      "type": "Crewed landing",
+      "status": "success",
+      "crewed": true,
+      "launch": "1969-07-16",
+      "landing": "1969-07-20",
+      "end": "1969-07-24",
+      "duration": "8 days 3 h 18 min",
+      "crew": [
+        {
+          "name": "Neil Armstrong",
+          "role": "Commander (walked on the Moon)"
+        },
+        {
+          "name": "Michael Collins",
+          "role": "Command Module Pilot (stayed in orbit)"
+        },
+        {
+          "name": "Buzz Aldrin",
+          "role": "Lunar Module Pilot (walked on the Moon)"
+        }
+      ],
+      "site": {
+        "name": "Sea of Tranquility (Tranquility Base)",
+        "lat": 0.674,
+        "lon": 23.473
+      },
+      "summary": "The first time people walked on the Moon.",
+      "description": "Neil Armstrong and Buzz Aldrin landed the lunar module \"Eagle\" while Michael Collins orbited above. They spent about two and a half hours outside, collected rocks, and set up experiments, including a laser reflector that scientists still use today.",
+      "stats": [
+        {
+          "label": "Time on the surface",
+          "value": "21 h 36 min"
+        },
+        {
+          "label": "Moonwalking time",
+          "value": "2 h 31 min"
+        },
+        {
+          "label": "Rocks & soil brought home",
+          "value": "21.6 kg"
+        },
+        {
+          "label": "Lander / ship",
+          "value": "Eagle / Columbia"
+        }
+      ],
+      "photo_query": {
+        "q": "Apollo 11",
+        "year_start": 1969,
+        "year_end": 1969
+      }
+    },
+    {
+      "id": "apollo-12",
+      "name": "Apollo 12",
+      "agency": "NASA",
+      "country": "USA",
+      "type": "Crewed landing",
+      "status": "success",
+      "crewed": true,
+      "launch": "1969-11-14",
+      "landing": "1969-11-19",
+      "end": "1969-11-24",
+      "duration": "10 days 4 h 36 min",
+      "crew": [
+        {
+          "name": "Pete Conrad",
+          "role": "Commander (walked on the Moon)"
+        },
+        {
+          "name": "Richard Gordon",
+          "role": "Command Module Pilot (stayed in orbit)"
+        },
+        {
+          "name": "Alan Bean",
+          "role": "Lunar Module Pilot (walked on the Moon)"
+        }
+      ],
+      "site": {
+        "name": "Ocean of Storms",
+        "lat": -3.012,
+        "lon": -23.422
+      },
+      "summary": "A pinpoint landing next to an older robot lander.",
+      "description": "The rocket was struck by lightning twice during launch but continued. The crew landed close enough to Surveyor 3 to walk over and bring parts of it home.",
+      "stats": [
+        {
+          "label": "Time on the surface",
+          "value": "31 h 31 min"
+        },
+        {
+          "label": "Moonwalking time",
+          "value": "7 h 45 min"
+        },
+        {
+          "label": "Rocks & soil brought home",
+          "value": "34.4 kg"
+        },
+        {
+          "label": "Lander / ship",
+          "value": "Intrepid / Yankee Clipper"
+        }
+      ],
+      "photo_query": {
+        "q": "Apollo 12",
+        "year_start": 1969,
+        "year_end": 1969
+      }
+    },
+    {
+      "id": "apollo-13",
+      "name": "Apollo 13",
+      "agency": "NASA",
+      "country": "USA",
+      "type": "Crewed flyby (aborted landing)",
+      "status": "partial",
+      "crewed": true,
+      "launch": "1970-04-11",
+      "landing": null,
+      "end": "1970-04-17",
+      "duration": "5 days 22 h 54 min",
+      "crew": [
+        {
+          "name": "Jim Lovell",
+          "role": "Commander"
+        },
+        {
+          "name": "Jack Swigert",
+          "role": "Command Module Pilot"
+        },
+        {
+          "name": "Fred Haise",
+          "role": "Lunar Module Pilot"
+        }
+      ],
+      "site": null,
+      "summary": "\"Houston, we've had a problem\": the landing was cancelled, but the crew got home safely.",
+      "description": "An oxygen tank exploded on the way to the Moon. The crew used the lunar module as a lifeboat, swung around the Moon and returned to Earth. It is remembered as a \"successful failure\".",
+      "stats": [
+        {
+          "label": "Planned landing site",
+          "value": "Fra Mauro"
+        },
+        {
+          "label": "Record",
+          "value": "Farthest humans from Earth until Artemis II"
+        }
+      ],
+      "photo_query": {
+        "q": "Apollo 13",
+        "year_start": 1970,
+        "year_end": 1970
+      }
+    },
+    {
+      "id": "luna-16",
+      "name": "Luna 16",
+      "agency": "Soviet space program",
+      "country": "USSR",
+      "type": "Robotic sample return",
+      "status": "success",
+      "crewed": false,
+      "launch": "1970-09-12",
+      "landing": "1970-09-20",
+      "end": "1970-09-24",
+      "duration": "12 days",
+      "site": {
+        "name": "Sea of Fertility",
+        "lat": -0.513,
+        "lon": 56.364
+      },
+      "summary": "The first robot to bring Moon soil back to Earth.",
+      "description": "Luna 16 drilled into the ground, packed the sample into a capsule and launched it back to Earth with no people involved.",
+      "stats": [
+        {
+          "label": "Sample returned",
+          "value": "101 g"
+        }
+      ]
+    },
+    {
+      "id": "luna-17",
+      "name": "Luna 17 / Lunokhod 1",
+      "agency": "Soviet space program",
+      "country": "USSR",
+      "type": "Robotic rover",
+      "status": "success",
+      "crewed": false,
+      "launch": "1970-11-10",
+      "landing": "1970-11-17",
+      "end": "1971-09-14",
+      "duration": "About 10 months of driving",
+      "site": {
+        "name": "Sea of Rains",
+        "lat": 38.28,
+        "lon": -35.0
+      },
+      "summary": "The first remote-controlled rover on another world.",
+      "description": "Drivers on Earth steered Lunokhod 1 using pictures that arrived a few seconds late, taking photos and testing the soil as it went.",
+      "stats": [
+        {
+          "label": "Distance driven",
+          "value": "About 10.5 km"
+        },
+        {
+          "label": "Lifetime",
+          "value": "About 10 months"
+        }
+      ]
+    },
+    {
+      "id": "apollo-14",
+      "name": "Apollo 14",
+      "agency": "NASA",
+      "country": "USA",
+      "type": "Crewed landing",
+      "status": "success",
+      "crewed": true,
+      "launch": "1971-01-31",
+      "landing": "1971-02-05",
+      "end": "1971-02-09",
+      "duration": "9 days 0 h 2 min",
+      "crew": [
+        {
+          "name": "Alan Shepard",
+          "role": "Commander (walked on the Moon)"
+        },
+        {
+          "name": "Stuart Roosa",
+          "role": "Command Module Pilot (stayed in orbit)"
+        },
+        {
+          "name": "Edgar Mitchell",
+          "role": "Lunar Module Pilot (walked on the Moon)"
+        }
+      ],
+      "site": {
+        "name": "Fra Mauro highlands",
+        "lat": -3.645,
+        "lon": -17.471
+      },
+      "summary": "Finished Apollo 13's job and included golf on the Moon.",
+      "description": "The crew explored the Fra Mauro hills that Apollo 13 never reached. Alan Shepard, America's first astronaut, famously hit two golf balls.",
+      "stats": [
+        {
+          "label": "Time on the surface",
+          "value": "33 h 31 min"
+        },
+        {
+          "label": "Moonwalking time",
+          "value": "9 h 22 min"
+        },
+        {
+          "label": "Rocks & soil brought home",
+          "value": "42.8 kg"
+        },
+        {
+          "label": "Lander / ship",
+          "value": "Antares / Kitty Hawk"
+        }
+      ],
+      "photo_query": {
+        "q": "Apollo 14",
+        "year_start": 1971,
+        "year_end": 1971
+      }
+    },
+    {
+      "id": "apollo-15",
+      "name": "Apollo 15",
+      "agency": "NASA",
+      "country": "USA",
+      "type": "Crewed landing",
+      "status": "success",
+      "crewed": true,
+      "launch": "1971-07-26",
+      "landing": "1971-07-30",
+      "end": "1971-08-07",
+      "duration": "12 days 7 h 12 min",
+      "crew": [
+        {
+          "name": "David Scott",
+          "role": "Commander (walked on the Moon)"
+        },
+        {
+          "name": "Alfred Worden",
+          "role": "Command Module Pilot (stayed in orbit)"
+        },
+        {
+          "name": "James Irwin",
+          "role": "Lunar Module Pilot (walked on the Moon)"
+        }
+      ],
+      "site": {
+        "name": "Hadley Rille, Apennine Mountains",
+        "lat": 26.132,
+        "lon": 3.634
+      },
+      "summary": "The first mission with a Moon buggy.",
+      "description": "With the Lunar Roving Vehicle the crew could drive kilometres between stops. They found the \"Genesis Rock\", a piece of the Moon's ancient crust.",
+      "stats": [
+        {
+          "label": "Time on the surface",
+          "value": "66 h 55 min"
+        },
+        {
+          "label": "Moonwalking time",
+          "value": "18 h 35 min"
+        },
+        {
+          "label": "Rocks & soil brought home",
+          "value": "77.3 kg"
+        },
+        {
+          "label": "Driven in the rover",
+          "value": "27.8 km"
+        }
+      ],
+      "photo_query": {
+        "q": "Apollo 15",
+        "year_start": 1971,
+        "year_end": 1971
+      }
+    },
+    {
+      "id": "apollo-16",
+      "name": "Apollo 16",
+      "agency": "NASA",
+      "country": "USA",
+      "type": "Crewed landing",
+      "status": "success",
+      "crewed": true,
+      "launch": "1972-04-16",
+      "landing": "1972-04-21",
+      "end": "1972-04-27",
+      "duration": "11 days 1 h 51 min",
+      "crew": [
+        {
+          "name": "John Young",
+          "role": "Commander (walked on the Moon)"
+        },
+        {
+          "name": "Ken Mattingly",
+          "role": "Command Module Pilot (stayed in orbit)"
+        },
+        {
+          "name": "Charles Duke",
+          "role": "Lunar Module Pilot (walked on the Moon)"
+        }
+      ],
+      "site": {
+        "name": "Descartes Highlands",
+        "lat": -8.973,
+        "lon": 15.5
+      },
+      "summary": "The first landing in the Moon's bright highlands.",
+      "description": "Geologists expected volcanic rock here, but the crew found mostly rock smashed together by ancient impacts, which changed ideas about how the Moon formed.",
+      "stats": [
+        {
+          "label": "Time on the surface",
+          "value": "71 h 2 min"
+        },
+        {
+          "label": "Moonwalking time",
+          "value": "20 h 14 min"
+        },
+        {
+          "label": "Rocks & soil brought home",
+          "value": "95.7 kg"
+        },
+        {
+          "label": "Driven in the rover",
+          "value": "26.7 km"
+        }
+      ],
+      "photo_query": {
+        "q": "Apollo 16",
+        "year_start": 1972,
+        "year_end": 1972
+      }
+    },
+    {
+      "id": "apollo-17",
+      "name": "Apollo 17",
+      "agency": "NASA",
+      "country": "USA",
+      "type": "Crewed landing",
+      "status": "success",
+      "crewed": true,
+      "launch": "1972-12-07",
+      "landing": "1972-12-11",
+      "end": "1972-12-19",
+      "duration": "12 days 13 h 52 min",
+      "crew": [
+        {
+          "name": "Eugene Cernan",
+          "role": "Commander (walked on the Moon)"
+        },
+        {
+          "name": "Ronald Evans",
+          "role": "Command Module Pilot (stayed in orbit)"
+        },
+        {
+          "name": "Harrison Schmitt",
+          "role": "Lunar Module Pilot (walked on the Moon), geologist"
+        }
+      ],
+      "site": {
+        "name": "Taurus-Littrow valley",
+        "lat": 20.191,
+        "lon": 30.772
+      },
+      "summary": "The last time people walked on the Moon (so far).",
+      "description": "Harrison Schmitt was the first scientist on the Moon. The crew set records for time outside and samples collected, and took the \"Blue Marble\" photo of Earth on the way.",
+      "stats": [
+        {
+          "label": "Time on the surface",
+          "value": "75 h 0 min"
+        },
+        {
+          "label": "Moonwalking time",
+          "value": "22 h 4 min"
+        },
+        {
+          "label": "Rocks & soil brought home",
+          "value": "110.5 kg"
+        },
+        {
+          "label": "Driven in the rover",
+          "value": "35.7 km"
+        }
+      ],
+      "photo_query": {
+        "q": "Apollo 17",
+        "year_start": 1972,
+        "year_end": 1972
+      }
+    },
+    {
+      "id": "luna-24",
+      "name": "Luna 24",
+      "agency": "Soviet space program",
+      "country": "USSR",
+      "type": "Robotic sample return",
+      "status": "success",
+      "crewed": false,
+      "launch": "1976-08-09",
+      "landing": "1976-08-18",
+      "end": "1976-08-22",
+      "duration": "13 days",
+      "site": {
+        "name": "Sea of Crises",
+        "lat": 12.71,
+        "lon": 62.21
+      },
+      "summary": "The last Moon sample return for 44 years.",
+      "description": "Luna 24 drilled about 2 metres down and brought the core home. No new Moon samples reached Earth again until China's Chang'e 5 in 2020.",
+      "stats": [
+        {
+          "label": "Sample returned",
+          "value": "About 170 g"
+        },
+        {
+          "label": "Drill depth",
+          "value": "About 2 m"
+        }
+      ]
+    },
+    {
+      "id": "change-3",
+      "name": "Chang'e 3",
+      "agency": "CNSA",
+      "country": "China",
+      "type": "Robotic lander and rover",
+      "status": "success",
+      "crewed": false,
+      "launch": "2013-12-01",
+      "landing": "2013-12-14",
+      "end": null,
+      "duration": "Lander worked for years",
+      "site": {
+        "name": "Sea of Rains",
+        "lat": 44.12,
+        "lon": -19.51
+      },
+      "summary": "China's first Moon landing and the first soft landing since 1976.",
+      "description": "The lander carried the Yutu (\"Jade Rabbit\") rover and a small telescope that observed the sky from the Moon.",
+      "stats": [
+        {
+          "label": "Rover",
+          "value": "Yutu"
+        }
+      ]
+    },
+    {
+      "id": "change-4",
+      "name": "Chang'e 4",
+      "agency": "CNSA",
+      "country": "China",
+      "type": "Robotic lander and rover",
+      "status": "success",
+      "crewed": false,
+      "launch": "2018-12-07",
+      "landing": "2019-01-03",
+      "end": null,
+      "duration": "Still operating for years after landing",
+      "site": {
+        "name": "Von Kármán crater (far side)",
+        "lat": -45.444,
+        "lon": 177.599
+      },
+      "summary": "The first landing on the far side of the Moon.",
+      "description": "Because the far side never faces Earth, the mission talked to Earth through a relay satellite parked beyond the Moon. Its Yutu-2 rover became the longest-lived lunar rover.",
+      "stats": [
+        {
+          "label": "Rover",
+          "value": "Yutu-2"
+        },
+        {
+          "label": "Relay satellite",
+          "value": "Queqiao"
+        }
+      ]
+    },
+    {
+      "id": "change-5",
+      "name": "Chang'e 5",
+      "agency": "CNSA",
+      "country": "China",
+      "type": "Robotic sample return",
+      "status": "success",
+      "crewed": false,
+      "launch": "2020-11-23",
+      "landing": "2020-12-01",
+      "end": "2020-12-16",
+      "duration": "23 days",
+      "site": {
+        "name": "Mons Rümker, Ocean of Storms",
+        "lat": 43.06,
+        "lon": -51.92
+      },
+      "summary": "Brought back the youngest Moon rocks ever studied.",
+      "description": "The rocks showed volcanoes were still erupting on the Moon about 2 billion years ago, later than scientists had thought.",
+      "stats": [
+        {
+          "label": "Sample returned",
+          "value": "1,731 g"
+        }
+      ]
+    },
+    {
+      "id": "artemis-1",
+      "name": "Artemis I",
+      "agency": "NASA",
+      "country": "USA",
+      "type": "Uncrewed test flight",
+      "status": "success",
+      "crewed": false,
+      "launch": "2022-11-16",
+      "landing": null,
+      "end": "2022-12-11",
+      "duration": "25 days 10 h 53 min",
+      "site": null,
+      "summary": "The first flight of NASA's new Moon rocket (SLS) and Orion capsule, with no one aboard.",
+      "description": "Orion flew far beyond the Moon and back to prove it was safe for astronauts. Mannequins with sensors measured what a crew would experience.",
+      "stats": [
+        {
+          "label": "Farthest from Earth",
+          "value": "432,210 km"
+        },
+        {
+          "label": "Crew",
+          "value": "None (test flight)"
+        }
+      ],
+      "photo_query": {
+        "q": "Artemis I",
+        "year_start": 2022,
+        "year_end": 2022
+      }
+    },
+    {
+      "id": "chandrayaan-3",
+      "name": "Chandrayaan-3",
+      "agency": "ISRO",
+      "country": "India",
+      "type": "Robotic lander and rover",
+      "status": "success",
+      "crewed": false,
+      "launch": "2023-07-14",
+      "landing": "2023-08-23",
+      "end": "2023-09-03",
+      "duration": "About 2 weeks on the surface",
+      "site": {
+        "name": "Near the south pole",
+        "lat": -69.37,
+        "lon": 32.32
+      },
+      "summary": "India's first Moon landing and the first landing near the south pole.",
+      "description": "The Vikram lander and Pragyan rover measured the soil and confirmed sulphur there during one lunar day, about two Earth weeks.",
+      "stats": [
+        {
+          "label": "Rover",
+          "value": "Pragyan (drove about 100 m)"
+        }
+      ]
+    },
+    {
+      "id": "slim",
+      "name": "SLIM",
+      "agency": "JAXA",
+      "country": "Japan",
+      "type": "Robotic lander",
+      "status": "partial",
+      "crewed": false,
+      "launch": "2023-09-06",
+      "landing": "2024-01-19",
+      "end": null,
+      "duration": "Several lunar days",
+      "site": {
+        "name": "Shioli crater",
+        "lat": -13.316,
+        "lon": 25.251
+      },
+      "summary": "A pinpoint landing within about 55 m of its target.",
+      "description": "SLIM proved precise landing works. An engine problem left it on its nose, which limited its solar power, but it still survived several cold lunar nights.",
+      "stats": [
+        {
+          "label": "Landing accuracy",
+          "value": "About 55 m"
+        }
+      ]
+    },
+    {
+      "id": "im-1",
+      "name": "IM-1 Odysseus",
+      "agency": "Intuitive Machines (NASA CLPS)",
+      "country": "USA",
+      "type": "Robotic lander",
+      "status": "partial",
+      "crewed": false,
+      "launch": "2024-02-15",
+      "landing": "2024-02-22",
+      "end": "2024-02-29",
+      "duration": "About 7 days on the surface",
+      "site": {
+        "name": "Malapert A, south polar region",
+        "lat": -80.13,
+        "lon": 1.44
+      },
+      "summary": "The first U.S. landing since 1972 and the first by a private company.",
+      "description": "Odysseus landed hard and tipped onto its side but still sent back data for NASA's instruments.",
+      "stats": [
+        {
+          "label": "First",
+          "value": "Commercial Moon landing"
+        }
+      ],
+      "photo_query": {
+        "q": "Intuitive Machines",
+        "year_start": 2024,
+        "year_end": 2024
+      }
+    },
+    {
+      "id": "change-6",
+      "name": "Chang'e 6",
+      "agency": "CNSA",
+      "country": "China",
+      "type": "Robotic sample return",
+      "status": "success",
+      "crewed": false,
+      "launch": "2024-05-03",
+      "landing": "2024-06-01",
+      "end": "2024-06-25",
+      "duration": "53 days",
+      "site": {
+        "name": "Apollo basin (far side)",
+        "lat": -41.64,
+        "lon": -153.99
+      },
+      "summary": "The first samples ever brought back from the Moon's far side.",
+      "description": "Chang'e 6 scooped and drilled samples from the giant South Pole–Aitken basin and returned them to Earth.",
+      "stats": [
+        {
+          "label": "Sample returned",
+          "value": "1,935 g"
+        }
+      ]
+    },
+    {
+      "id": "blue-ghost-1",
+      "name": "Blue Ghost Mission 1",
+      "agency": "Firefly Aerospace (NASA CLPS)",
+      "country": "USA",
+      "type": "Robotic lander",
+      "status": "success",
+      "crewed": false,
+      "launch": "2025-01-15",
+      "landing": "2025-03-02",
+      "end": "2025-03-16",
+      "duration": "About 14 days on the surface",
+      "site": {
+        "name": "Mare Crisium (Sea of Crises)",
+        "lat": 18.56,
+        "lon": 61.81
+      },
+      "summary": "The first fully successful landing by a private company.",
+      "description": "Blue Ghost landed upright and ran all ten NASA experiments for a full lunar day, including filming a sunset from the Moon.",
+      "stats": [
+        {
+          "label": "NASA instruments",
+          "value": "10"
+        }
+      ],
+      "photo_query": {
+        "q": "Blue Ghost",
+        "year_start": 2025,
+        "year_end": 2025
+      }
+    },
+    {
+      "id": "im-2",
+      "name": "IM-2 Athena",
+      "agency": "Intuitive Machines (NASA CLPS)",
+      "country": "USA",
+      "type": "Robotic lander",
+      "status": "partial",
+      "crewed": false,
+      "launch": "2025-02-26",
+      "landing": "2025-03-06",
+      "end": "2025-03-07",
+      "duration": "About 1 day on the surface",
+      "site": null,
+      "summary": "Reached the south polar region near Mons Mouton but landed on its side.",
+      "description": "Athena carried a drill to search for ice. It tipped over in a crater, so the mission ended early.",
+      "stats": [
+        {
+          "label": "Target",
+          "value": "Mons Mouton, about 84.5°S"
+        }
+      ],
+      "photo_query": {
+        "q": "Intuitive Machines",
+        "year_start": 2025,
+        "year_end": 2025
+      }
+    },
+    {
+      "id": "artemis-2",
+      "name": "Artemis II",
+      "agency": "NASA",
+      "country": "USA",
+      "type": "Crewed flyby",
+      "status": "success",
+      "crewed": true,
+      "launch": "2026-04-01",
+      "landing": null,
+      "end": "2026-04-10",
+      "duration": "About 9 days",
+      "crew": [
+        {
+          "name": "Reid Wiseman",
+          "role": "Commander"
+        },
+        {
+          "name": "Victor Glover",
+          "role": "Pilot"
+        },
+        {
+          "name": "Christina Koch",
+          "role": "Mission Specialist"
+        },
+        {
+          "name": "Jeremy Hansen",
+          "role": "Mission Specialist (Canadian Space Agency)"
+        }
+      ],
+      "site": null,
+      "summary": "The first people to travel around the Moon since 1972.",
+      "description": "Four astronauts flew Orion around the far side of the Moon and back, testing it with a crew on board. They went farther from Earth than anyone before them.",
+      "stats": [
+        {
+          "label": "Farthest from Earth",
+          "value": "About 406,770 km (252,756 mi), a human record"
+        },
+        {
+          "label": "Splashdown",
+          "value": "Pacific Ocean, off San Diego"
+        }
+      ],
+      "sources": [
+        "https://www.adn.com/nation-world/2026/04/10/artemis-ii-crew-splashdown-in-the-pacific-to-cap-nasas-lunar-comeback/"
+      ],
+      "photo_query": {
+        "q": "Artemis II",
+        "year_start": 2026,
+        "year_end": 2026
+      }
+    },
+    {
+      "id": "griffin-1",
+      "name": "Griffin Mission One",
+      "agency": "Astrobotic (NASA CLPS)",
+      "country": "USA",
+      "type": "Robotic lander and rover",
+      "status": "planned",
+      "crewed": false,
+      "launch": null,
+      "target": "No earlier than late 2026",
+      "landing": null,
+      "end": null,
+      "duration": "Planned: about one lunar day",
+      "site": {
+        "name": "Nobile region, south pole",
+        "lat": -85.2,
+        "lon": 53.5,
+        "approximate": true
+      },
+      "summary": "A large robotic lander delivering Astrolab's FLIP rover to the south pole.",
+      "description": "Griffin is planned to launch on a SpaceX Falcon Heavy and land near the south pole, where NASA wants to send astronauts. The date has slipped several times.",
+      "stats": [
+        {
+          "label": "Rocket",
+          "value": "SpaceX Falcon Heavy"
+        },
+        {
+          "label": "Rover",
+          "value": "FLIP (Astrolab)"
+        }
+      ],
+      "sources": [
+        "https://www.astrobotic.com/astrolabs-flip-rover-joins-astrobotics-griffin-1-to-the-moon/",
+        "https://spacenexus.us/programs/clps"
+      ],
+      "photo_query": {
+        "q": "Astrobotic Griffin"
+      }
+    },
+    {
+      "id": "im-3",
+      "name": "IM-3",
+      "agency": "Intuitive Machines (NASA CLPS)",
+      "country": "USA",
+      "type": "Robotic lander and rover",
+      "status": "planned",
+      "crewed": false,
+      "launch": null,
+      "target": "2027",
+      "landing": null,
+      "end": null,
+      "duration": "Planned: about one lunar day",
+      "site": {
+        "name": "Reiner Gamma",
+        "lat": 7.5,
+        "lon": -59.0,
+        "approximate": true
+      },
+      "summary": "A trip to Reiner Gamma, a bright swirl on the Moon's surface.",
+      "description": "Reiner Gamma is a light-coloured swirl linked to a patch of magnetism in the crust. IM-3 will study how it shields the ground from the solar wind.",
+      "stats": [
+        {
+          "label": "Target",
+          "value": "Lunar swirl & magnetic anomaly"
+        }
+      ],
+      "sources": [
+        "https://www.space.com/astronomy/moon/moon-rush-these-private-spacecraft-will-attempt-lunar-landings-in-2026",
+        "https://spacenexus.us/programs/clps"
+      ],
+      "photo_query": {
+        "q": "Intuitive Machines"
+      }
+    },
+    {
+      "id": "blue-moon-mk1",
+      "name": "Blue Moon MK1 Pathfinder",
+      "agency": "Blue Origin (NASA)",
+      "country": "USA",
+      "type": "Robotic lander",
+      "status": "planned",
+      "crewed": false,
+      "launch": null,
+      "target": "2027",
+      "landing": null,
+      "end": null,
+      "duration": "Planned demonstration",
+      "site": null,
+      "summary": "A cargo lander test flight ahead of Blue Origin's crewed Moon lander.",
+      "description": "MK1 will test the landing systems Blue Origin needs for its larger crewed Blue Moon lander. It waits on the New Glenn rocket.",
+      "stats": [
+        {
+          "label": "Rocket",
+          "value": "Blue Origin New Glenn"
+        },
+        {
+          "label": "Goal",
+          "value": "South polar region"
+        }
+      ],
+      "sources": [
+        "https://spacenexus.us/programs/clps"
+      ],
+      "photo_query": {
+        "q": "Blue Moon lander"
+      }
+    },
+    {
+      "id": "blue-ghost-2",
+      "name": "Blue Ghost Mission 2",
+      "agency": "Firefly Aerospace (NASA CLPS)",
+      "country": "USA",
+      "type": "Robotic lander",
+      "status": "planned",
+      "crewed": false,
+      "launch": null,
+      "target": "2027",
+      "landing": null,
+      "end": null,
+      "duration": "Planned",
+      "site": null,
+      "summary": "A far-side landing plus a relay satellite for ESA.",
+      "description": "Firefly plans to land on the Moon's far side and drop off ESA's Lunar Pathfinder, a satellite that relays radio signals for future missions.",
+      "stats": [
+        {
+          "label": "Landing area",
+          "value": "Far side"
+        },
+        {
+          "label": "Extra payload",
+          "value": "ESA Lunar Pathfinder"
+        }
+      ],
+      "sources": [
+        "https://douglasmmessier.substack.com/p/a-look-at-nasas-20-upcoming-lunar"
+      ],
+      "photo_query": {
+        "q": "Blue Ghost"
+      }
+    },
+    {
+      "id": "artemis-3",
+      "name": "Artemis III",
+      "agency": "NASA",
+      "country": "USA",
+      "type": "Crewed Earth-orbit test",
+      "status": "planned",
+      "crewed": true,
+      "launch": null,
+      "target": "2027 (mid-year target)",
+      "landing": null,
+      "end": null,
+      "duration": "Planned: several days in Earth orbit",
+      "crew": [
+        {
+          "name": "Randy Bresnik",
+          "role": "Commander"
+        },
+        {
+          "name": "Luca Parmitano",
+          "role": "Pilot (European Space Agency)"
+        },
+        {
+          "name": "Frank Rubio",
+          "role": "Mission Specialist"
+        },
+        {
+          "name": "Andre Douglas",
+          "role": "Mission Specialist"
+        }
+      ],
+      "site": null,
+      "summary": "A practice run in Earth orbit: Orion docks with test versions of the Moon landers.",
+      "description": "In 2026 NASA turned Artemis III from a landing into a lower-risk rehearsal. The crew will fly Orion in Earth orbit and practise docking with test versions of SpaceX's Starship and Blue Origin's Blue Moon landers.",
+      "stats": [
+        {
+          "label": "Rocket",
+          "value": "SLS with Orion"
+        },
+        {
+          "label": "Landers tested",
+          "value": "SpaceX Starship & Blue Origin Blue Moon"
+        }
+      ],
+      "sources": [
+        "https://www.nasa.gov/?p=1004090",
+        "https://www.planetary.org/articles/what-we-know-about-artemis-iii-nasa-announces-crew"
+      ],
+      "photo_query": {
+        "q": "Artemis III",
+        "year_start": 2023,
+        "year_end": 2026
+      }
+    },
+    {
+      "id": "artemis-4",
+      "name": "Artemis IV",
+      "agency": "NASA",
+      "country": "USA",
+      "type": "Crewed landing",
+      "status": "planned",
+      "crewed": true,
+      "launch": null,
+      "target": "2028",
+      "landing": null,
+      "end": null,
+      "duration": "Planned",
+      "crew": [],
+      "site": {
+        "name": "South polar region",
+        "lat": -89.0,
+        "lon": 0.0,
+        "approximate": true
+      },
+      "summary": "Planned as the first crewed Moon landing since Apollo 17 in 1972.",
+      "description": "Astronauts will ride Orion to the Moon and transfer to a commercial lander (SpaceX Starship HLS or Blue Origin Blue Moon) to land near the south pole, where ice may be hidden in shadowed craters. The crew has not been announced.",
+      "stats": [
+        {
+          "label": "Lander",
+          "value": "Starship HLS or Blue Moon"
+        },
+        {
+          "label": "Crew",
+          "value": "Not yet announced"
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Artemis_IV",
+        "https://www.space.com/space-exploration/artemis/when-will-spacex-and-blue-origin-fly-to-the-moon-nasa-reveals-lunar-lander-timelines-and-an-artemis-iii-update"
+      ],
+      "photo_query": {
+        "q": "Artemis IV",
+        "year_start": 2023,
+        "year_end": 2026
+      }
+    },
+    {
+      "id": "artemis-5",
+      "name": "Artemis V",
+      "agency": "NASA",
+      "country": "USA",
+      "type": "Crewed landing",
+      "status": "planned",
+      "crewed": true,
+      "launch": null,
+      "target": "No earlier than late 2028",
+      "landing": null,
+      "end": null,
+      "duration": "Planned",
+      "crew": [],
+      "site": null,
+      "summary": "A second landing, meant to begin building a long-term Moon base.",
+      "description": "NASA plans regular landings from Artemis V onward and to start a base near the south pole. Plans changed in 2026 when work on the Gateway space station was paused.",
+      "stats": [
+        {
+          "label": "Goal",
+          "value": "Start of a south-pole Moon base"
+        },
+        {
+          "label": "Crew",
+          "value": "Not yet announced"
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Artemis_V",
+        "https://www.nasa.gov/blogs/missions/2026/10/23/nasa-shares-artemis-acceleration-plans-for-moon-missions/"
+      ],
+      "photo_query": {
+        "q": "Artemis V",
+        "year_start": 2023,
+        "year_end": 2026
+      }
+    }
+  ]
+}

@@ -1,0 +1,612 @@
+{
+  "all": [
+    {
+      "theta0": 2.8,
+      "coast_time_days": 5.0,
+      "closest_dist_km": 155354.76176803416,
+      "t_days": 17.68402777777778,
+      "speed_rel": 22471.354461959123,
+      "reason": null
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 5.0,
+      "closest_dist_km": 175568.92858529833,
+      "t_days": 16.761111111111113,
+      "speed_rel": 19444.012335629654,
+      "reason": null
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 6.0,
+      "closest_dist_km": 178327.57489402633,
+      "t_days": 16.209722222222222,
+      "speed_rel": 17738.329202923233,
+      "reason": null
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 6.0,
+      "closest_dist_km": 182600.83581641558,
+      "t_days": 15.095833333333333,
+      "speed_rel": 16786.51781559956,
+      "reason": null
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 7.0,
+      "closest_dist_km": 224446.7260438416,
+      "t_days": 17.738194444444446,
+      "speed_rel": 13658.333840621333,
+      "reason": null
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 5.0,
+      "closest_dist_km": 225002.11400394246,
+      "t_days": 16.323611111111113,
+      "speed_rel": 16908.163516625755,
+      "reason": null
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 7.0,
+      "closest_dist_km": 228274.1066219675,
+      "t_days": 17.259722222222223,
+      "speed_rel": 13035.14844064739,
+      "reason": null
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 6.0,
+      "closest_dist_km": 232314.0380183949,
+      "t_days": 19.483333333333334,
+      "speed_rel": 15449.34878577671,
+      "reason": null
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 8.0,
+      "closest_dist_km": 240124.92846346434,
+      "t_days": 16.304861111111112,
+      "speed_rel": 11247.954226500937,
+      "reason": null
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 7.0,
+      "closest_dist_km": 241585.83424413207,
+      "t_days": 13.7125,
+      "speed_rel": 13315.64312441626,
+      "reason": null
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 8.0,
+      "closest_dist_km": 245377.1030943654,
+      "t_days": 16.56111111111111,
+      "speed_rel": 11513.360810109276,
+      "reason": null
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 8.0,
+      "closest_dist_km": 256035.04697270063,
+      "t_days": 16.349305555555556,
+      "speed_rel": 11288.47831017451,
+      "reason": null
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 10.0,
+      "closest_dist_km": 276549.2392019746,
+      "t_days": 15.293055555555556,
+      "speed_rel": 7952.338307621269,
+      "reason": null
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 10.0,
+      "closest_dist_km": 280584.0604531804,
+      "t_days": 17.580555555555556,
+      "speed_rel": 8060.486745618248,
+      "reason": null
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 10.0,
+      "closest_dist_km": 283472.5467074213,
+      "t_days": 17.23263888888889,
+      "speed_rel": 7836.454549318412,
+      "reason": null
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 11.0,
+      "closest_dist_km": 295955.68282775255,
+      "t_days": 16.84722222222222,
+      "speed_rel": 6549.840029510666,
+      "reason": null
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 11.0,
+      "closest_dist_km": 297231.04485491884,
+      "t_days": 18.575694444444444,
+      "speed_rel": 6584.714685961458,
+      "reason": null
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 12.0,
+      "closest_dist_km": 305247.8119164924,
+      "t_days": 15.51388888888889,
+      "speed_rel": 5622.0846807318185,
+      "reason": null
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 12.0,
+      "closest_dist_km": 307592.5824882304,
+      "t_days": 16.86875,
+      "speed_rel": 5592.2107536760095,
+      "reason": null
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 12.0,
+      "closest_dist_km": 309786.42231640714,
+      "t_days": 18.14097222222222,
+      "speed_rel": 5514.250553379292,
+      "reason": null
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 14.0,
+      "closest_dist_km": 325308.53131605947,
+      "t_days": 15.450694444444444,
+      "speed_rel": 3932.615661708628,
+      "reason": null
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 0.0,
+      "closest_dist_km": 326341.79976034793,
+      "t_days": 4.461111111111111,
+      "speed_rel": 1395.2930589276914,
+      "reason": null
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 0.0,
+      "closest_dist_km": 326675.4057118066,
+      "t_days": 3.8958333333333335,
+      "speed_rel": 1403.1463339093307,
+      "reason": null
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 3.0,
+      "closest_dist_km": 327510.8216448569,
+      "t_days": 4.457638888888889,
+      "speed_rel": 1301.3589629169162,
+      "reason": null
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 3.0,
+      "closest_dist_km": 327535.28676136275,
+      "t_days": 3.9194444444444443,
+      "speed_rel": 1337.1121800918804,
+      "reason": null
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 0.0,
+      "closest_dist_km": 327857.903391695,
+      "t_days": 2.723611111111111,
+      "speed_rel": 1403.2719773156405,
+      "reason": null
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 4.0,
+      "closest_dist_km": 327959.9907996233,
+      "t_days": 4.295138888888889,
+      "speed_rel": 1269.9557177545835,
+      "reason": null
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 4.0,
+      "closest_dist_km": 328541.24313517805,
+      "t_days": 4.335416666666666,
+      "speed_rel": 1292.881572428057,
+      "reason": null
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 3.0,
+      "closest_dist_km": 329013.407020749,
+      "t_days": 3.379861111111111,
+      "speed_rel": 1332.307986370636,
+      "reason": null
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 4.0,
+      "closest_dist_km": 330309.63289061724,
+      "t_days": 4.372222222222222,
+      "speed_rel": 1389.1875948394897,
+      "reason": null
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 15.0,
+      "closest_dist_km": 339538.8690898656,
+      "t_days": 18.399305555555557,
+      "speed_rel": 2953.9803684048916,
+      "reason": null
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 16.0,
+      "closest_dist_km": 344603.1235309019,
+      "t_days": 16.33888888888889,
+      "speed_rel": 2321.56514249146,
+      "reason": null
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 16.0,
+      "closest_dist_km": 348518.9252608145,
+      "t_days": 19.281944444444445,
+      "speed_rel": 2107.5092958653145,
+      "reason": null
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 9.0,
+      "closest_dist_km": 350810.4771791533,
+      "t_days": 9.434722222222222,
+      "speed_rel": 1945.4200427602877,
+      "reason": null
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 9.0,
+      "closest_dist_km": 355279.99346451525,
+      "t_days": 9.473611111111111,
+      "speed_rel": 2551.2984095078154,
+      "reason": null
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 11.0,
+      "closest_dist_km": 357628.0007827978,
+      "t_days": 24.875,
+      "speed_rel": 1746.033431138919,
+      "reason": null
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 17.0,
+      "closest_dist_km": 358039.04049387045,
+      "t_days": 17.26597222222222,
+      "speed_rel": 1127.1215718542248,
+      "reason": null
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 9.0,
+      "closest_dist_km": 359471.53232250636,
+      "t_days": 25.0,
+      "speed_rel": 2932.0575787103953,
+      "reason": null
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 13.0,
+      "closest_dist_km": 359759.19202145917,
+      "t_days": 24.913888888888888,
+      "speed_rel": 1904.0094535899707,
+      "reason": null
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 15.0,
+      "closest_dist_km": 360668.92146291933,
+      "t_days": 24.868055555555557,
+      "speed_rel": 1935.0632286824523,
+      "reason": null
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 18.0,
+      "closest_dist_km": 362874.33749110065,
+      "t_days": 5.373611111111111,
+      "speed_rel": 6771.992326206556,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 19.0,
+      "closest_dist_km": 362874.33749110065,
+      "t_days": 5.373611111111111,
+      "speed_rel": 6771.992326206556,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 20.0,
+      "closest_dist_km": 362874.33749110065,
+      "t_days": 5.373611111111111,
+      "speed_rel": 6771.992326206556,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 21.0,
+      "closest_dist_km": 362874.33749110065,
+      "t_days": 5.373611111111111,
+      "speed_rel": 6771.992326206556,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 22.0,
+      "closest_dist_km": 362874.33749110065,
+      "t_days": 5.373611111111111,
+      "speed_rel": 6771.992326206556,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 23.0,
+      "closest_dist_km": 362874.33749110065,
+      "t_days": 5.373611111111111,
+      "speed_rel": 6771.992326206556,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 24.0,
+      "closest_dist_km": 362874.33749110065,
+      "t_days": 5.373611111111111,
+      "speed_rel": 6771.992326206556,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 13.0,
+      "closest_dist_km": 363511.89198584825,
+      "t_days": 5.368055555555555,
+      "speed_rel": 7253.991960284003,
+      "reason": null
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 14.0,
+      "closest_dist_km": 363511.89198584825,
+      "t_days": 5.368055555555555,
+      "speed_rel": 7253.991960284003,
+      "reason": null
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 15.0,
+      "closest_dist_km": 363511.89198584825,
+      "t_days": 5.368055555555555,
+      "speed_rel": 7253.991960284003,
+      "reason": null
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 16.0,
+      "closest_dist_km": 363511.89198584825,
+      "t_days": 5.368055555555555,
+      "speed_rel": 7253.991960284003,
+      "reason": null
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 17.0,
+      "closest_dist_km": 363511.89198584825,
+      "t_days": 5.368055555555555,
+      "speed_rel": 7253.991960284003,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 18.0,
+      "closest_dist_km": 363511.89198584825,
+      "t_days": 5.368055555555555,
+      "speed_rel": 7253.991960284003,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 19.0,
+      "closest_dist_km": 363511.89198584825,
+      "t_days": 5.368055555555555,
+      "speed_rel": 7253.991960284003,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 20.0,
+      "closest_dist_km": 363511.89198584825,
+      "t_days": 5.368055555555555,
+      "speed_rel": 7253.991960284003,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 21.0,
+      "closest_dist_km": 363511.89198584825,
+      "t_days": 5.368055555555555,
+      "speed_rel": 7253.991960284003,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 22.0,
+      "closest_dist_km": 363511.89198584825,
+      "t_days": 5.368055555555555,
+      "speed_rel": 7253.991960284003,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 23.0,
+      "closest_dist_km": 363511.89198584825,
+      "t_days": 5.368055555555555,
+      "speed_rel": 7253.991960284003,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 24.0,
+      "closest_dist_km": 363511.89198584825,
+      "t_days": 5.368055555555555,
+      "speed_rel": 7253.991960284003,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 13.0,
+      "closest_dist_km": 364004.06873280107,
+      "t_days": 5.104861111111111,
+      "speed_rel": 7791.478688264362,
+      "reason": null
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 14.0,
+      "closest_dist_km": 364004.06873280107,
+      "t_days": 5.104861111111111,
+      "speed_rel": 7791.478688264362,
+      "reason": null
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 17.0,
+      "closest_dist_km": 364004.06873280107,
+      "t_days": 5.104861111111111,
+      "speed_rel": 7791.478688264362,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 18.0,
+      "closest_dist_km": 364004.06873280107,
+      "t_days": 5.104861111111111,
+      "speed_rel": 7791.478688264362,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 19.0,
+      "closest_dist_km": 364004.06873280107,
+      "t_days": 5.104861111111111,
+      "speed_rel": 7791.478688264362,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 20.0,
+      "closest_dist_km": 364004.06873280107,
+      "t_days": 5.104861111111111,
+      "speed_rel": 7791.478688264362,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 21.0,
+      "closest_dist_km": 364004.06873280107,
+      "t_days": 5.104861111111111,
+      "speed_rel": 7791.478688264362,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 22.0,
+      "closest_dist_km": 364004.06873280107,
+      "t_days": 5.104861111111111,
+      "speed_rel": 7791.478688264362,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 23.0,
+      "closest_dist_km": 364004.06873280107,
+      "t_days": 5.104861111111111,
+      "speed_rel": 7791.478688264362,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 24.0,
+      "closest_dist_km": 364004.06873280107,
+      "t_days": 5.104861111111111,
+      "speed_rel": 7791.478688264362,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 2.0,
+      "closest_dist_km": 366758.4750318954,
+      "t_days": 2.0229166666666667,
+      "speed_rel": 8783.099281189225,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 2.0,
+      "closest_dist_km": 366821.08246593067,
+      "t_days": 2.015972222222222,
+      "speed_rel": 8297.4030891382,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 2.0,
+      "closest_dist_km": 366935.2341964748,
+      "t_days": 2.0194444444444444,
+      "speed_rel": 8472.402644549407,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.8,
+      "coast_time_days": 1.0,
+      "closest_dist_km": 368775.431566394,
+      "t_days": 1.0125,
+      "speed_rel": 8186.470669290976,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.5,
+      "coast_time_days": 1.0,
+      "closest_dist_km": 369040.5707299353,
+      "t_days": 1.0159722222222223,
+      "speed_rel": 8332.046368598636,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 2.2,
+      "coast_time_days": 1.0,
+      "closest_dist_km": 369110.45559832774,
+      "t_days": 1.0194444444444444,
+      "speed_rel": 8579.37164809932,
+      "reason": "escaped Earth-Moon system"
+    }
+  ],
+  "best": {
+    "theta0": 2.8,
+    "coast_time_days": 5.0,
+    "closest_dist_km": 155354.76176803416,
+    "t_days": 17.68402777777778,
+    "speed_rel": 22471.354461959123,
+    "reason": null
+  }
+}

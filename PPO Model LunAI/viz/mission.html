@@ -1,0 +1,411 @@
+<title>Lunar Descent Telemetry</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxanium:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.27.0/plotly.min.js"></script>
+<style>
+:root{
+  --bg:#0a0d12;
+  --surface:#121821;
+  --surface-2:#1a222d;
+  --border:#263241;
+  --text:#e8edf2;
+  --text-dim:#8fa1b3;
+  --text-faint:#5b6b7a;
+  --accent:#ff7a33;
+  --accent-soft:#ff7a3322;
+  --cool:#4fd1c5;
+  --cool-soft:#4fd1c522;
+  --moon:#cbc3b3;
+  --good:#5ee6a0;
+  --warn:#ffcf5c;
+  --danger:#ff5c5c;
+  --font-display:'Oxanium',system-ui,sans-serif;
+  --font-body:'IBM Plex Sans',system-ui,sans-serif;
+  --font-mono:'IBM Plex Mono',ui-monospace,monospace;
+}
+
+*{box-sizing:border-box;}
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:var(--font-body);
+  padding:0 20px 48px;
+  min-width:0;
+}
+h1,h2,h3{font-family:var(--font-display);text-wrap:balance;margin:0;}
+.mono{font-family:var(--font-mono);font-variant-numeric:tabular-nums;}
+
+a{color:var(--cool);}
+
+.wrap{max-width:1180px;margin:0 auto;}
+
+/* ---------------- header ---------------- */
+.topbar{
+  display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;
+  gap:16px;
+  padding:28px 0 18px;
+  border-bottom:1px solid var(--border);
+}
+.title-block .eyebrow{
+  font-family:var(--font-mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--text-faint);margin:0 0 6px;
+}
+.title-block h1{font-size:28px;font-weight:700;letter-spacing:.01em;}
+.title-block h1 em{color:var(--accent);font-style:normal;}
+
+.outcome-badge{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:8px 14px;border-radius:5px;
+  background:var(--cool-soft);border:1px solid #4fd1c555;
+  color:var(--cool);font-family:var(--font-mono);font-size:13px;letter-spacing:.04em;
+  white-space:nowrap;
+}
+.outcome-badge .dot{width:7px;height:7px;border-radius:50%;background:var(--cool);box-shadow:0 0 8px var(--cool);}
+
+/* ---------------- stat tiles ---------------- */
+.stats{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:1px;
+  background:var(--border);
+  border:1px solid var(--border);
+  margin-top:18px;
+}
+.stat{
+  background:var(--surface);
+  padding:16px 18px;
+  display:flex;flex-direction:column;gap:6px;
+}
+.stat .label{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--text-faint);font-family:var(--font-mono);}
+.stat .value{font-family:var(--font-mono);font-size:24px;font-weight:600;color:var(--text);}
+.stat .value .unit{font-size:14px;color:var(--text-dim);font-weight:400;margin-left:4px;}
+.stat.flag .value{color:var(--warn);}
+
+@media (max-width:720px){
+  .stats{grid-template-columns:repeat(2,1fr);}
+}
+
+/* ---------------- view switcher + plot ---------------- */
+.panel{
+  margin-top:28px;
+  border:1px solid var(--border);
+  background:var(--surface);
+}
+.panel-head{
+  display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;
+  padding:14px 18px;border-bottom:1px solid var(--border);
+}
+.panel-head h2{font-size:15px;letter-spacing:.03em;color:var(--text-dim);font-weight:600;}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;}
+.tab{
+  font-family:var(--font-mono);font-size:12.5px;letter-spacing:.03em;
+  padding:7px 13px;border-radius:4px;border:1px solid var(--border);
+  background:transparent;color:var(--text-dim);cursor:pointer;
+}
+.tab:hover{color:var(--text);border-color:#3a4a5c;}
+.tab.active{background:var(--accent-soft);border-color:#ff7a3366;color:var(--accent);}
+.plot-host{padding:6px;}
+#plot{width:100%;height:520px;}
+.caption{
+  padding:10px 18px 16px;font-size:12.5px;color:var(--text-dim);line-height:1.5;
+  border-top:1px solid var(--border);
+}
+.caption b{color:var(--text);}
+
+/* ---------------- phase timeline ---------------- */
+.timeline-section{margin-top:28px;}
+.timeline-section h2{font-size:15px;letter-spacing:.03em;color:var(--text-dim);font-weight:600;margin-bottom:12px;}
+.timeline{
+  display:grid;grid-template-columns:repeat(6,1fr);gap:10px;
+}
+.phase{
+  background:var(--surface);border:1px solid var(--border);border-top:3px solid var(--border);
+  padding:14px 14px 16px;position:relative;
+}
+.phase.real{border-top-color:var(--cool);}
+.phase.scripted{border-top-color:var(--accent);}
+.phase.repose{border-top-color:var(--warn);}
+.phase .n{font-family:var(--font-mono);font-size:11px;color:var(--text-faint);letter-spacing:.06em;}
+.phase h3{font-size:14px;margin-top:4px;line-height:1.25;}
+.phase p{font-size:12px;color:var(--text-dim);margin:8px 0 0;line-height:1.45;}
+.phase .kind{
+  position:absolute;top:12px;right:12px;font-family:var(--font-mono);font-size:9.5px;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--text-faint);
+}
+
+@media (max-width:980px){
+  .timeline{grid-template-columns:repeat(2,1fr);}
+}
+@media (max-width:480px){
+  .timeline{grid-template-columns:1fr;}
+}
+
+/* ---------------- footer note ---------------- */
+.note{
+  margin-top:28px;padding:16px 18px;border:1px solid var(--border);
+  background:var(--surface-2);border-left:3px solid var(--warn);
+  font-size:13px;color:var(--text-dim);line-height:1.6;
+}
+.note b{color:var(--text);}
+footer{margin-top:24px;padding:18px 0 0;color:var(--text-faint);font-size:11.5px;font-family:var(--font-mono);}
+</style>
+
+<div class="wrap">
+
+  <div class="topbar">
+    <div class="title-block">
+      <p class="eyebrow">Earth &rarr; Moon &middot; single continuous run</p>
+      <h1>SLS/ICPS <em>Lunar Descent</em> Telemetry</h1>
+    </div>
+    <div class="outcome-badge"><span class="dot"></span>LUNAR IMPACT &middot; 1.17&nbsp;km FROM TARGET</div>
+  </div>
+
+  <div class="stats">
+    <div class="stat">
+      <div class="label">Miss distance</div>
+      <div class="value">1.17<span class="unit">km</span></div>
+    </div>
+    <div class="stat flag">
+      <div class="label">Touchdown speed</div>
+      <div class="value">207.1<span class="unit">m/s</span></div>
+    </div>
+    <div class="stat">
+      <div class="label">ICPS fuel remaining</div>
+      <div class="value">0<span class="unit">kg</span></div>
+    </div>
+    <div class="stat">
+      <div class="label">Mission elapsed</div>
+      <div class="value">5.28<span class="unit">days</span></div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-head">
+      <h2>Trajectory</h2>
+      <div class="tabs" id="tabs">
+        <button class="tab active" data-view="overview">Translunar overview</button>
+        <button class="tab" data-view="approach">Lunar approach</button>
+        <button class="tab" data-view="ascent">Ascent telemetry</button>
+        <button class="tab" data-view="descent">Descent telemetry</button>
+      </div>
+    </div>
+    <div class="plot-host"><div id="plot"></div></div>
+    <div class="caption" id="caption"></div>
+  </div>
+
+  <div class="timeline-section">
+    <h2>Mission sequence</h2>
+    <div class="timeline">
+      <div class="phase real">
+        <span class="kind">Flown</span>
+        <div class="n">T+0s</div>
+        <h3>Liftoff &amp; ascent</h3>
+        <p>SRB + core burn, scripted pitch program. Core sep at T+480s, 182&nbsp;km alt, 8,792&nbsp;m/s.</p>
+      </div>
+      <div class="phase repose">
+        <span class="kind">Re-pose</span>
+        <div class="n">T+480s</div>
+        <h3>Insert to parking orbit</h3>
+        <p>Scripted ascent can't reach transfer energy (needs 4.5&ndash;9.5&nbsp;km/s vs. ICPS's 3.5&nbsp;km/s budget) &mdash; re-posed into the validated 300&nbsp;km circular orbit.</p>
+      </div>
+      <div class="phase scripted">
+        <span class="kind">Lambert-targeted</span>
+        <div class="n">T+480s</div>
+        <h3>TLI burn</h3>
+        <p>3,117&nbsp;m/s impulsive burn aimed at the Moon's predicted position, 37,807&nbsp;kg of propellant.</p>
+      </div>
+      <div class="phase scripted">
+        <span class="kind">Coast</span>
+        <div class="n">+5.2 days</div>
+        <h3>Translunar coast</h3>
+        <p>Unpowered coast to the Moon &mdash; closest approach 273.8&nbsp;km off-target at 2,528&nbsp;m/s (free impact).</p>
+      </div>
+      <div class="phase repose">
+        <span class="kind">Re-pose</span>
+        <div class="n">T+5.28d</div>
+        <h3>Descent initiation</h3>
+        <p>Re-posed to the RL policy's trained start: 15&nbsp;km directly above the lat/lon target, near-zero relative speed.</p>
+      </div>
+      <div class="phase real">
+        <span class="kind">RL &middot; PPO</span>
+        <div class="n">+264s</div>
+        <h3>Powered descent</h3>
+        <p>Throttle-only policy (2M-step checkpoint), auto-retrograde. Tank ran dry mid-descent &rarr; hard impact, 1.17&nbsp;km off, 207&nbsp;m/s.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="note">
+    <b>Two re-poses, not two bugs.</b> Rows 97 and 7,692 of the exported CSV contain genuine spatial discontinuities &mdash; the simulator's scripted ascent cannot reach transfer energy on its own, and the landing policy was trained from a clean 15&nbsp;km starting condition, not from wherever translunar coast happens to end. Both jumps are deliberate, documented re-poses (position/velocity only; elapsed time, trajectory history and remaining propellant all carry through for real), not something the physics produced on its own.
+  </div>
+
+  <footer>SLSEnv &middot; RK4, full two-body + lunar third-body gravity &middot; PPO (Stable-Baselines3) &middot; data: full_mission.csv, 7,956 rows</footer>
+</div>
+
+<script>
+const DATA_URL = 'mission_data.json';
+
+const CAPTIONS = {
+  overview: 'Earth-centered inertial frame. The ascent (cyan) and final descent (orange) are far too small to see at translunar scale &mdash; that\'s expected. The dotted segments mark the two re-pose jumps.',
+  approach: 'Moon-relative frame, final descent segment only. Moon rendered to true radius (1,737.4 km). Target marked at the commanded lat/lon; impact marked where the policy actually touched down.',
+  ascent: 'Altitude and inertial speed during the real, physically-flown liftoff (T+0 to T+480s, core separation).',
+  descent: 'Altitude above the lunar surface and miss distance to target during the final 264 seconds of RL-controlled descent.',
+};
+
+function withOpacity(hex, a){
+  return hex; // colors already chosen for dark ground; rely on Plotly opacity param instead
+}
+
+function layoutBase(extra){
+  return Object.assign({
+    paper_bgcolor: '#121821',
+    plot_bgcolor: '#121821',
+    font: { family: 'IBM Plex Mono, monospace', color: '#8fa1b3', size: 11 },
+    margin: { l: 10, r: 10, t: 10, b: 10 },
+    showlegend: true,
+    legend: { font: { color: '#8fa1b3', size: 11 }, bgcolor: 'rgba(0,0,0,0)' },
+  }, extra);
+}
+
+function sphere(cx, cy, cz, radius, n, colorscale){
+  const theta = [], phi = [];
+  for (let i=0;i<=n;i++) theta.push(Math.PI*i/n);
+  for (let j=0;j<=n;j++) phi.push(2*Math.PI*j/n);
+  const x=[], y=[], z=[];
+  for (let i=0;i<=n;i++){
+    const xr=[], yr=[], zr=[];
+    for (let j=0;j<=n;j++){
+      xr.push(cx + radius*Math.sin(theta[i])*Math.cos(phi[j]));
+      yr.push(cy + radius*Math.sin(theta[i])*Math.sin(phi[j]));
+      zr.push(cz + radius*Math.cos(theta[i]));
+    }
+    x.push(xr); y.push(yr); z.push(zr);
+  }
+  return { type:'surface', x, y, z, showscale:false, colorscale, opacity:1, hoverinfo:'skip', lighting:{diffuse:0.9,ambient:0.5} };
+}
+
+function renderOverview(data){
+  const ov = data.overview;
+  const traces = [];
+
+  // Earth marker
+  traces.push({
+    type:'scatter3d', mode:'markers', x:[0], y:[0], z:[0],
+    marker:{size:14, color:'#4fd1c5'}, name:'Earth', hoverinfo:'name',
+  });
+
+  traces.push({
+    type:'scatter3d', mode:'lines', x:ov.moon_path_km.map(p=>p[0]), y:ov.moon_path_km.map(p=>p[1]), z:ov.moon_path_km.map(p=>p[2]),
+    line:{color:'#cbc3b355', width:3, dash:'dot'}, name:'Moon path',
+  });
+  traces.push({
+    type:'scatter3d', mode:'markers', x:[ov.moon_final_km[0]], y:[ov.moon_final_km[1]], z:[ov.moon_final_km[2]],
+    marker:{size:9, color:'#cbc3b3'}, name:'Moon (arrival)',
+  });
+
+  traces.push({
+    type:'scatter3d', mode:'lines', x:ov.ascent_path_km.map(p=>p[0]), y:ov.ascent_path_km.map(p=>p[1]), z:ov.ascent_path_km.map(p=>p[2]),
+    line:{color:'#4fd1c5', width:5}, name:'Ascent (flown)',
+  });
+  traces.push({
+    type:'scatter3d', mode:'lines', x:ov.transit_path_km.map(p=>p[0]), y:ov.transit_path_km.map(p=>p[1]), z:ov.transit_path_km.map(p=>p[2]),
+    line:{color:'#ff7a33', width:4}, name:'TLI + coast',
+  });
+  traces.push({
+    type:'scatter3d', mode:'lines', x:ov.descent_path_km.map(p=>p[0]), y:ov.descent_path_km.map(p=>p[1]), z:ov.descent_path_km.map(p=>p[2]),
+    line:{color:'#ffcf5c', width:6}, name:'Descent (flown)',
+  });
+
+  const sp = ov.splice_points_km;
+  for (let i=0;i<sp.length;i+=2){
+    traces.push({
+      type:'scatter3d', mode:'lines', x:[sp[i][0],sp[i+1][0]], y:[sp[i][1],sp[i+1][1]], z:[sp[i][2],sp[i+1][2]],
+      line:{color:'#ff5c5c', width:3, dash:'dot'}, name: i===0?'Re-pose jump':undefined, showlegend: i===0,
+    });
+  }
+
+  Plotly.react('plot', traces, layoutBase({
+    scene:{
+      xaxis:{title:'x (km)', color:'#5b6b7a', gridcolor:'#263241', backgroundcolor:'#121821'},
+      yaxis:{title:'y (km)', color:'#5b6b7a', gridcolor:'#263241', backgroundcolor:'#121821'},
+      zaxis:{title:'z (km)', color:'#5b6b7a', gridcolor:'#263241', backgroundcolor:'#121821'},
+      aspectmode:'data',
+    },
+  }), {displaylogo:false, responsive:true});
+}
+
+function renderApproach(data){
+  const ap = data.approach;
+  const traces = [];
+
+  traces.push(sphere(0,0,0, ap.moon_radius_km, 28, [[0,'#8a8273'],[1,'#d8d2c4']]));
+
+  traces.push({
+    type:'scatter3d', mode:'lines+markers', x:ap.descent_path_km.map(p=>p[0]), y:ap.descent_path_km.map(p=>p[1]), z:ap.descent_path_km.map(p=>p[2]),
+    line:{color:'#ffcf5c', width:6}, marker:{size:1.5,color:'#ffcf5c'}, name:'Descent path',
+  });
+  traces.push({
+    type:'scatter3d', mode:'markers', x:[ap.target_km[0]], y:[ap.target_km[1]], z:[ap.target_km[2]],
+    marker:{size:7, color:'#5ee6a0', symbol:'diamond'}, name:'Target (3.63°N, 85.81°W)',
+  });
+  traces.push({
+    type:'scatter3d', mode:'markers', x:[ap.impact_km[0]], y:[ap.impact_km[1]], z:[ap.impact_km[2]],
+    marker:{size:7, color:'#ff5c5c', symbol:'x'}, name:'Impact point',
+  });
+
+  Plotly.react('plot', traces, layoutBase({
+    scene:{
+      xaxis:{title:'x (km, Moon-relative)', color:'#5b6b7a', gridcolor:'#263241', backgroundcolor:'#121821'},
+      yaxis:{title:'y (km, Moon-relative)', color:'#5b6b7a', gridcolor:'#263241', backgroundcolor:'#121821'},
+      zaxis:{title:'z (km, Moon-relative)', color:'#5b6b7a', gridcolor:'#263241', backgroundcolor:'#121821'},
+      aspectmode:'data',
+    },
+  }), {displaylogo:false, responsive:true});
+}
+
+function renderAscent(data){
+  const at = data.ascent_telem;
+  const traces = [
+    { type:'scatter', mode:'lines', x:at.t, y:at.altitude_km, name:'Altitude (km)', line:{color:'#4fd1c5', width:2.5}, yaxis:'y' },
+    { type:'scatter', mode:'lines', x:at.t, y:at.speed_ms, name:'Inertial speed (m/s)', line:{color:'#ff7a33', width:2.5}, yaxis:'y2' },
+  ];
+  Plotly.react('plot', traces, layoutBase({
+    xaxis:{title:'t (s)', color:'#5b6b7a', gridcolor:'#263241'},
+    yaxis:{title:'altitude (km)', color:'#4fd1c5', gridcolor:'#263241'},
+    yaxis2:{title:'speed (m/s)', color:'#ff7a33', overlaying:'y', side:'right', gridcolor:'transparent'},
+  }), {displaylogo:false, responsive:true});
+}
+
+function renderDescent(data){
+  const dt = data.descent_telem;
+  const traces = [
+    { type:'scatter', mode:'lines', x:dt.t_rel, y:dt.alt_km, name:'Altitude above surface (km)', line:{color:'#ffcf5c', width:2.5}, yaxis:'y' },
+    { type:'scatter', mode:'lines', x:dt.t_rel, y:dt.target_dist_m.map(v=>v/1000), name:'Distance to target (km)', line:{color:'#5ee6a0', width:2.5}, yaxis:'y2' },
+  ];
+  Plotly.react('plot', traces, layoutBase({
+    xaxis:{title:'t since descent start (s)', color:'#5b6b7a', gridcolor:'#263241'},
+    yaxis:{title:'altitude (km)', color:'#ffcf5c', gridcolor:'#263241'},
+    yaxis2:{title:'distance to target (km)', color:'#5ee6a0', overlaying:'y', side:'right', gridcolor:'transparent'},
+  }), {displaylogo:false, responsive:true});
+}
+
+const RENDERERS = { overview: renderOverview, approach: renderApproach, ascent: renderAscent, descent: renderDescent };
+
+let MISSION_DATA = null;
+
+function showView(view){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active', t.dataset.view===view));
+  document.getElementById('caption').textContent = CAPTIONS[view];
+  if (MISSION_DATA) RENDERERS[view](MISSION_DATA);
+}
+
+document.getElementById('tabs').addEventListener('click', (e)=>{
+  const btn = e.target.closest('.tab');
+  if (!btn) return;
+  showView(btn.dataset.view);
+});
+
+fetch(DATA_URL).then(r=>r.json()).then(data=>{
+  MISSION_DATA = data;
+  showView('overview');
+}).catch(err=>{
+  document.getElementById('plot').innerHTML = '<p style="color:#ff5c5c;padding:40px;font-family:var(--font-mono)">Failed to load mission_data.json: '+err+'</p>';
+});
+</script>

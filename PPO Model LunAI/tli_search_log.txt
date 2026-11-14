@@ -1,0 +1,41 @@
+Coarse grid: 312 trials (24 theta0 x 13 burn_duration)
+
+Top 15 closest approaches (coarse grid):
+{'theta0': 5.235987755982988, 'burn_duration': 1070.0, 'closest_dist_km': 184780.26516699424, 't_days': 1.3844907407407407, 'speed_rel': 22065.66912464963, 'reason': 'escaped Earth-Moon system'}
+{'theta0': 5.235987755982988, 'burn_duration': 980.8333333333334, 'closest_dist_km': 187224.0431385309, 't_days': 2.138888888888889, 'speed_rel': 22437.13823735269, 'reason': None}
+{'theta0': 4.974188368183839, 'burn_duration': 1070.0, 'closest_dist_km': 190340.0651832922, 't_days': 1.2486111111111111, 'speed_rel': 20358.535252795005, 'reason': 'escaped Earth-Moon system'}
+{'theta0': 4.974188368183839, 'burn_duration': 980.8333333333334, 'closest_dist_km': 191230.1606187679, 't_days': 1.7548611111111112, 'speed_rel': 19880.03275920829, 'reason': None}
+{'theta0': 5.497787143782138, 'burn_duration': 980.8333333333334, 'closest_dist_km': 211284.2205246888, 't_days': 2.7074074074074073, 'speed_rel': 25752.97142395264, 'reason': None}
+{'theta0': 5.497787143782138, 'burn_duration': 1070.0, 'closest_dist_km': 215712.6355350711, 't_days': 1.4458333333333333, 'speed_rel': 22817.078659600313, 'reason': 'escaped Earth-Moon system'}
+{'theta0': 4.71238898038469, 'burn_duration': 980.8333333333334, 'closest_dist_km': 219473.57247481795, 't_days': 1.4462962962962962, 'speed_rel': 17597.690343431514, 'reason': None}
+{'theta0': 4.71238898038469, 'burn_duration': 1070.0, 'closest_dist_km': 224028.27509203402, 't_days': 1.0773148148148148, 'speed_rel': 18151.434026003244, 'reason': 'escaped Earth-Moon system'}
+{'theta0': 5.759586531581287, 'burn_duration': 980.8333333333334, 'closest_dist_km': 252662.53624197905, 't_days': 3.691435185185185, 'speed_rel': 30538.334678267645, 'reason': None}
+{'theta0': 4.45058959258554, 'burn_duration': 980.8333333333334, 'closest_dist_km': 260149.0052863845, 't_days': 1.173148148148148, 'speed_rel': 15376.64620205895, 'reason': None}
+{'theta0': 5.759586531581287, 'burn_duration': 891.6666666666667, 'closest_dist_km': 262426.9232995425, 't_days': 5.305092592592593, 'speed_rel': 8169.727761844968, 'reason': None}
+{'theta0': 5.235987755982988, 'burn_duration': 891.6666666666667, 'closest_dist_km': 265052.1268023808, 't_days': 3.2152777777777777, 'speed_rel': 8164.512963711377, 'reason': None}
+{'theta0': 6.021385919380436, 'burn_duration': 891.6666666666667, 'closest_dist_km': 267374.8690271248, 't_days': 5.2444444444444445, 'speed_rel': 8168.561804062533, 'reason': None}
+{'theta0': 5.497787143782138, 'burn_duration': 891.6666666666667, 'closest_dist_km': 268406.98262856633, 't_days': 5.369675925925926, 'speed_rel': 8127.063564290472, 'reason': None}
+{'theta0': 4.71238898038469, 'burn_duration': 891.6666666666667, 'closest_dist_km': 268461.1793060864, 't_days': 1.1175925925925927, 'speed_rel': 8159.75238047633, 'reason': None}
+
+Top 15 after local refinement:
+{'theta0': 5.160987755982988, 'burn_duration': 1070.0, 'closest_dist_km': 182615.56001691736, 't_days': 1.3506944444444444, 'speed_rel': 21645.08064008493, 'reason': 'escaped Earth-Moon system'}
+{'theta0': 5.160987755982988, 'burn_duration': 1085.0, 'closest_dist_km': 182615.56001691736, 't_days': 1.3506944444444444, 'speed_rel': 21645.08064008493, 'reason': 'escaped Earth-Moon system'}
+{'theta0': 5.160987755982988, 'burn_duration': 1100.0, 'closest_dist_km': 182615.56001691736, 't_days': 1.3506944444444444, 'speed_rel': 21645.08064008493, 'reason': 'escaped Earth-Moon system'}
+{'theta0': 5.160987755982988, 'burn_duration': 1115.0, 'closest_dist_km': 182615.56001691736, 't_days': 1.3506944444444444, 'speed_rel': 21645.08064008493, 'reason': 'escaped Earth-Moon system'}
+{'theta0': 5.160987755982988, 'burn_duration': 1130.0, 'closest_dist_km': 182615.56001691736, 't_days': 1.3506944444444444, 'speed_rel': 21645.08064008493, 'reason': 'escaped Earth-Moon system'}
+{'theta0': 5.123487755982987, 'burn_duration': 1070.0, 'closest_dist_km': 182717.01043246183, 't_days': 1.3321759259259258, 'speed_rel': 21413.39997229728, 'reason': 'escaped Earth-Moon system'}
+{'theta0': 5.123487755982987, 'burn_duration': 1085.0, 'closest_dist_km': 182717.01043246183, 't_days': 1.3321759259259258, 'speed_rel': 21413.39997229728, 'reason': 'escaped Earth-Moon system'}
+{'theta0': 5.123487755982987, 'burn_duration': 1100.0, 'closest_dist_km': 182717.01043246183, 't_days': 1.3321759259259258, 'speed_rel': 21413.39997229728, 'reason': 'escaped Earth-Moon system'}
+{'theta0': 5.123487755982987, 'burn_duration': 1115.0, 'closest_dist_km': 182717.01043246183, 't_days': 1.3321759259259258, 'speed_rel': 21413.39997229728, 'reason': 'escaped Earth-Moon system'}
+{'theta0': 5.123487755982987, 'burn_duration': 1130.0, 'closest_dist_km': 182717.01043246183, 't_days': 1.3321759259259258, 'speed_rel': 21413.39997229728, 'reason': 'escaped Earth-Moon system'}
+{'theta0': 5.160987755982988, 'burn_duration': 1055.0, 'closest_dist_km': 183258.54805511746, 't_days': 1.4032407407407408, 'speed_rel': 21626.352173588446, 'reason': 'escaped Earth-Moon system'}
+{'theta0': 5.123487755982987, 'burn_duration': 1055.0, 'closest_dist_km': 183280.6303510976, 't_days': 1.3828703703703704, 'speed_rel': 21385.27496174167, 'reason': 'escaped Earth-Moon system'}
+{'theta0': 5.198487755982988, 'burn_duration': 1070.0, 'closest_dist_km': 183300.1207695661, 't_days': 1.368287037037037, 'speed_rel': 21864.39615718953, 'reason': 'escaped Earth-Moon system'}
+{'theta0': 5.198487755982988, 'burn_duration': 1085.0, 'closest_dist_km': 183300.1207695661, 't_days': 1.368287037037037, 'speed_rel': 21864.39615718953, 'reason': 'escaped Earth-Moon system'}
+{'theta0': 5.198487755982988, 'burn_duration': 1100.0, 'closest_dist_km': 183300.1207695661, 't_days': 1.368287037037037, 'speed_rel': 21864.39615718953, 'reason': 'escaped Earth-Moon system'}
+
+BEST RESULT:
+{'theta0': 5.160987755982988, 'burn_duration': 1070.0, 'closest_dist_km': 182615.56001691736, 't_days': 1.3506944444444444, 'speed_rel': 21645.08064008493, 'reason': 'escaped Earth-Moon system'}
+
+Total wall time: 623.7s
+Saved full results to tli_search_result.json

@@ -1,0 +1,28 @@
+Grid: 75 trials (3 theta0 x 25 coast_days)
+
+Top 20 closest approaches:
+{'theta0': 2.8, 'coast_time_days': 5.0, 'closest_dist_km': 155354.76176803416, 't_days': 17.68402777777778, 'speed_rel': 22471.354461959123, 'reason': None}
+{'theta0': 2.5, 'coast_time_days': 5.0, 'closest_dist_km': 175568.92858529833, 't_days': 16.761111111111113, 'speed_rel': 19444.012335629654, 'reason': None}
+{'theta0': 2.5, 'coast_time_days': 6.0, 'closest_dist_km': 178327.57489402633, 't_days': 16.209722222222222, 'speed_rel': 17738.329202923233, 'reason': None}
+{'theta0': 2.2, 'coast_time_days': 6.0, 'closest_dist_km': 182600.83581641558, 't_days': 15.095833333333333, 'speed_rel': 16786.51781559956, 'reason': None}
+{'theta0': 2.5, 'coast_time_days': 7.0, 'closest_dist_km': 224446.7260438416, 't_days': 17.738194444444446, 'speed_rel': 13658.333840621333, 'reason': None}
+{'theta0': 2.2, 'coast_time_days': 5.0, 'closest_dist_km': 225002.11400394246, 't_days': 16.323611111111113, 'speed_rel': 16908.163516625755, 'reason': None}
+{'theta0': 2.8, 'coast_time_days': 7.0, 'closest_dist_km': 228274.1066219675, 't_days': 17.259722222222223, 'speed_rel': 13035.14844064739, 'reason': None}
+{'theta0': 2.8, 'coast_time_days': 6.0, 'closest_dist_km': 232314.0380183949, 't_days': 19.483333333333334, 'speed_rel': 15449.34878577671, 'reason': None}
+{'theta0': 2.5, 'coast_time_days': 8.0, 'closest_dist_km': 240124.92846346434, 't_days': 16.304861111111112, 'speed_rel': 11247.954226500937, 'reason': None}
+{'theta0': 2.2, 'coast_time_days': 7.0, 'closest_dist_km': 241585.83424413207, 't_days': 13.7125, 'speed_rel': 13315.64312441626, 'reason': None}
+{'theta0': 2.2, 'coast_time_days': 8.0, 'closest_dist_km': 245377.1030943654, 't_days': 16.56111111111111, 'speed_rel': 11513.360810109276, 'reason': None}
+{'theta0': 2.8, 'coast_time_days': 8.0, 'closest_dist_km': 256035.04697270063, 't_days': 16.349305555555556, 'speed_rel': 11288.47831017451, 'reason': None}
+{'theta0': 2.2, 'coast_time_days': 10.0, 'closest_dist_km': 276549.2392019746, 't_days': 15.293055555555556, 'speed_rel': 7952.338307621269, 'reason': None}
+{'theta0': 2.5, 'coast_time_days': 10.0, 'closest_dist_km': 280584.0604531804, 't_days': 17.580555555555556, 'speed_rel': 8060.486745618248, 'reason': None}
+{'theta0': 2.8, 'coast_time_days': 10.0, 'closest_dist_km': 283472.5467074213, 't_days': 17.23263888888889, 'speed_rel': 7836.454549318412, 'reason': None}
+{'theta0': 2.5, 'coast_time_days': 11.0, 'closest_dist_km': 295955.68282775255, 't_days': 16.84722222222222, 'speed_rel': 6549.840029510666, 'reason': None}
+{'theta0': 2.8, 'coast_time_days': 11.0, 'closest_dist_km': 297231.04485491884, 't_days': 18.575694444444444, 'speed_rel': 6584.714685961458, 'reason': None}
+{'theta0': 2.2, 'coast_time_days': 12.0, 'closest_dist_km': 305247.8119164924, 't_days': 15.51388888888889, 'speed_rel': 5622.0846807318185, 'reason': None}
+{'theta0': 2.5, 'coast_time_days': 12.0, 'closest_dist_km': 307592.5824882304, 't_days': 16.86875, 'speed_rel': 5592.2107536760095, 'reason': None}
+{'theta0': 2.8, 'coast_time_days': 12.0, 'closest_dist_km': 309786.42231640714, 't_days': 18.14097222222222, 'speed_rel': 5514.250553379292, 'reason': None}
+
+BEST RESULT:
+{'theta0': 2.8, 'coast_time_days': 5.0, 'closest_dist_km': 155354.76176803416, 't_days': 17.68402777777778, 'speed_rel': 22471.354461959123, 'reason': None}
+
+Total wall time: 129.4s

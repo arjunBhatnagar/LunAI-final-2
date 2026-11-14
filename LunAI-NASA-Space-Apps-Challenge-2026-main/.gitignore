@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.env
+
+# Too large for GitHub (3.1 GB) — download separately
+# https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/
+de441.bsp

@@ -1,0 +1,9 @@
+# Note: rasterio and pandas are avoided on purpose - this machine's Windows
+# Application Control policy blocks their compiled DLLs. tifffile + numpy/scipy
+# cover GeoTIFF reading without them.
+numpy
+scipy
+scikit-learn
+matplotlib
+tifffile
+joblib

@@ -1,0 +1,67 @@
+DATA CITATIONS
+Lunar South Pole Landing Site Classifier
+===============================================================================
+
+1. TOPOLOGY
+-------------------------------------------------------------------------------
+Data:       5 m/pixel LOLA Digital Elevation Models for south pole landing
+            sites (elevation, slope, slope error, roughness, total error) -
+            Site01 (Connecting Ridge), Site04 (Shackleton rim), Site23
+            (Malapert Massif).
+Repository: NASA Goddard Planetary Geodesy Dynamics Archive (PGDA)
+            https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/
+Source:     NASA Goddard Space Flight Center / Lunar Reconnaissance Orbiter
+            (LRO) / Lunar Orbiter Laser Altimeter (LOLA)
+
+Cite as:
+Barker, M. K., Mazarico, E., Neumann, G. A., Smith, D. E., Zuber, M. T., &
+Head, J. W. (2021). Improved LOLA elevation maps for south pole landing
+sites: Error estimates and their impact on illumination conditions.
+Planetary and Space Science, 203, 105119.
+https://doi.org/10.1016/j.pss.2020.105119
+
+Companion instrument citation:
+Smith, D. E., Zuber, M. T., Jackson, G. B., et al. (2010). The Lunar
+Orbiter Laser Altimeter Investigation on the Lunar Reconnaissance Orbiter
+Mission. Space Science Reviews, 150, 209-241.
+https://doi.org/10.1007/s11214-009-9512-y
+
+
+2. COMMUNICATIONS (solar illumination + Earth visibility) AND WATER/ICE
+   PROXY (permanent shadow fraction)
+-------------------------------------------------------------------------------
+Data:       Lunar Polar Illumination products - average solar illumination
+            (AVGVISIB), average Earth visibility (AVGVISIB_EARTH), and
+            permanently shadowed regions (LPSR). 85S-90S, 60 m/pixel.
+Repository: NASA Goddard Planetary Geodesy Dynamics Archive (PGDA)
+            https://pgda.gsfc.nasa.gov/products/69
+Source:     NASA Goddard Space Flight Center / LRO / LOLA
+
+Cite as (per the dataset's own citation request):
+Mazarico, E., Neumann, G. A., Smith, D. E., Zuber, M. T., & Torrence, M. H.
+(2011). Illumination conditions of the lunar polar regions using LOLA
+topography. Icarus, 211(2), 1066-1081.
+https://doi.org/10.1016/j.icarus.2010.10.030
+
+
+3. POINTS OF INTEREST (named craters, massifs, etc.)
+-------------------------------------------------------------------------------
+Data:       Named lunar surface features near each site (e.g. Mons Malapert,
+            Lhamu, Shackleton Crater).
+Repository: Gazetteer of Planetary Nomenclature
+            https://planetarynames.wr.usgs.gov/
+Source:     USGS Astrogeology Science Center, maintained on behalf of the
+            IAU Working Group for Planetary System Nomenclature.
+            NOTE: this is the one dataset in this project that is not
+            NASA-hosted - it is public-domain US federal government data
+            (USGS), which is the standard reference NASA itself uses for
+            lunar nomenclature.
+
+Cite as:
+International Astronomical Union (IAU) Working Group for Planetary System
+Nomenclature. Gazetteer of Planetary Nomenclature. USGS Astrogeology
+Science Center. Retrieved 2026-11-13, from
+https://planetarynames.wr.usgs.gov/
+
+===============================================================================
+Accessed: 2026-11-13

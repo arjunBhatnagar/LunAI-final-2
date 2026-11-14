@@ -1,0 +1,32 @@
+Grid: 357 trials (21 theta0 x 17 tof_days)
+
+62 / 357 trials hit the Moon
+
+Top 10 closest to target coordinates (any outcome):
+{'theta0': 4.1, 'tof_days': 5.25, 'closest_dist_km': 158.7622722686209, 't_days': 5.020833333333333, 'speed_rel': 2562.5619194356727, 'burn_dv': 3389.2595089108404, 'reason': 'lunar impact'}
+{'theta0': 4.3, 'tof_days': 5.5, 'closest_dist_km': 266.8940696623658, 't_days': 5.272222222222222, 'speed_rel': 2419.5513751836984, 'burn_dv': 3183.7029475692866, 'reason': 'lunar impact'}
+{'theta0': 4.6, 'tof_days': 5.5, 'closest_dist_km': 270.05890226419217, 't_days': 5.272222222222222, 'speed_rel': 2419.5880183311947, 'burn_dv': 3172.8988908045076, 'reason': 'lunar impact'}
+{'theta0': 4.4, 'tof_days': 5.5, 'closest_dist_km': 271.2689223520147, 't_days': 5.271527777777778, 'speed_rel': 2402.020093812774, 'burn_dv': 3116.402583011397, 'reason': 'lunar impact'}
+{'theta0': 4.2, 'tof_days': 5.5, 'closest_dist_km': 273.5361452638516, 't_days': 5.272916666666666, 'speed_rel': 2419.3632229434666, 'burn_dv': 3311.6955140022155, 'reason': 'lunar impact'}
+{'theta0': 4.5, 'tof_days': 5.5, 'closest_dist_km': 274.87774303772375, 't_days': 5.272222222222222, 'speed_rel': 2422.8619262069774, 'burn_dv': 3152.7690296165883, 'reason': 'lunar impact'}
+{'theta0': 4.7, 'tof_days': 5.5, 'closest_dist_km': 277.6813671793522, 't_days': 5.272916666666666, 'speed_rel': 2421.0379109210335, 'burn_dv': 3293.6179671513546, 'reason': 'lunar impact'}
+{'theta0': 4.8, 'tof_days': 5.5, 'closest_dist_km': 283.28944221608214, 't_days': 5.273611111111111, 'speed_rel': 2406.745831093618, 'burn_dv': 3468.4970260115324, 'reason': 'lunar impact'}
+{'theta0': 4.5, 'tof_days': 5.25, 'closest_dist_km': 307.4136674020328, 't_days': 5.017361111111111, 'speed_rel': 2581.294294790576, 'burn_dv': 3136.7656423901335, 'reason': 'lunar impact'}
+{'theta0': 4.3, 'tof_days': 5.25, 'closest_dist_km': 307.65723370407886, 't_days': 5.017361111111111, 'speed_rel': 2582.102489444361, 'burn_dv': 3139.160113477772, 'reason': 'lunar impact'}
+
+Top 10 impacts by LOWEST landing speed (best handoff candidates):
+{'theta0': 4.4, 'tof_days': 5.5, 'closest_dist_km': 271.2689223520147, 't_days': 5.271527777777778, 'speed_rel': 2402.020093812774, 'burn_dv': 3116.402583011397, 'reason': 'lunar impact'}
+{'theta0': 4.8, 'tof_days': 5.5, 'closest_dist_km': 283.28944221608214, 't_days': 5.273611111111111, 'speed_rel': 2406.745831093618, 'burn_dv': 3468.4970260115324, 'reason': 'lunar impact'}
+{'theta0': 4.2, 'tof_days': 5.5, 'closest_dist_km': 273.5361452638516, 't_days': 5.272916666666666, 'speed_rel': 2419.3632229434666, 'burn_dv': 3311.6955140022155, 'reason': 'lunar impact'}
+{'theta0': 4.3, 'tof_days': 5.5, 'closest_dist_km': 266.8940696623658, 't_days': 5.272222222222222, 'speed_rel': 2419.5513751836984, 'burn_dv': 3183.7029475692866, 'reason': 'lunar impact'}
+{'theta0': 4.6, 'tof_days': 5.5, 'closest_dist_km': 270.05890226419217, 't_days': 5.272222222222222, 'speed_rel': 2419.5880183311947, 'burn_dv': 3172.8988908045076, 'reason': 'lunar impact'}
+{'theta0': 4.7, 'tof_days': 5.5, 'closest_dist_km': 277.6813671793522, 't_days': 5.272916666666666, 'speed_rel': 2421.0379109210335, 'burn_dv': 3293.6179671513546, 'reason': 'lunar impact'}
+{'theta0': 4.5, 'tof_days': 5.5, 'closest_dist_km': 274.87774303772375, 't_days': 5.272222222222222, 'speed_rel': 2422.8619262069774, 'burn_dv': 3152.7690296165883, 'reason': 'lunar impact'}
+{'theta0': 4.0, 'tof_days': 4.25, 'closest_dist_km': 1667.7008383810114, 't_days': 4.027083333333334, 'speed_rel': 2522.4290190106253, 'burn_dv': 3230.614238014795, 'reason': 'lunar impact'}
+{'theta0': 4.2, 'tof_days': 5.0, 'closest_dist_km': 922.404535385345, 't_days': 4.763888888888889, 'speed_rel': 2525.513041539956, 'burn_dv': 3176.7708615373513, 'reason': 'lunar impact'}
+{'theta0': 4.5, 'tof_days': 5.0, 'closest_dist_km': 919.5306984749693, 't_days': 4.763888888888889, 'speed_rel': 2525.937429834138, 'burn_dv': 3177.174189765078, 'reason': 'lunar impact'}
+
+BEST RESULT (lowest-speed impact):
+{'theta0': 4.4, 'tof_days': 5.5, 'closest_dist_km': 271.2689223520147, 't_days': 5.271527777777778, 'speed_rel': 2402.020093812774, 'burn_dv': 3116.402583011397, 'reason': 'lunar impact'}
+
+Total wall time: 251.5s

@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LunAI Results Viewer</title>
+<style>/*__STYLES__*/</style>
+</head>
+<body>
+<main id="app" class="left-open">
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark"></span>LUNAI</div>
+    <div class="mission"><strong id="missionTitle">Lunar South Pole</strong><span id="missionSubtitle">Loading…</span></div>
+    <div class="spacer"></div>
+    <span class="chip" id="epochChip" title="The date and time shown in the scene (UTC)"></span>
+    <button class="tb" id="helpToggle" title="How to use LunAI">?<span class="tb-text"> Help</span></button>
+    <button class="tb" id="detailsToggle" aria-pressed="true">Details</button>
+    <button class="tb" id="graphsToggle">Graphs</button>
+    <button class="tb" id="viewToggle" title="Look straight down on Earth and Moon">2D</button>
+    <button class="tb" id="fullscreenToggle" title="Fullscreen" aria-label="Fullscreen">⛶</button>
+  </header>
+
+  <nav class="rail" aria-label="Panels and view controls">
+    <button data-view="sites" data-tip="Landing spots (classifier results)" aria-label="Landing spots" class="active">◎</button>
+    <button data-view="upload" data-tip="Upload a CSV" aria-label="Upload a CSV">⇪</button>
+    <button data-view="missions" data-tip="Moon missions" aria-label="Moon missions">✦</button>
+    <button data-view="layers" data-tip="What's shown on the map" aria-label="Layers">▦</button>
+    <button data-view="data" data-tip="About the data" aria-label="About the data">ⓘ</button>
+    <div class="rail-fill"></div>
+    <button id="zoomIn" data-tip="Zoom in" aria-label="Zoom in">+</button>
+    <button id="zoomOut" data-tip="Zoom out" aria-label="Zoom out">−</button>
+    <button id="homeView" data-tip="Reset view" aria-label="Reset view">⌂</button>
+  </nav>
+
+  <aside id="leftPanel" class="panel left">
+    <header class="panel-head"><h2 id="leftTitle">Landing spots</h2><div class="spacer"></div><button class="close" id="leftClose" aria-label="Close panel">×</button></header>
+    <div class="panel-body">
+      <section data-panel="sites">
+        <p class="hint">Results from the landing-site classifier for three measured areas near the south pole, plus any result CSVs you upload. Tap one to see its spots.</p>
+        <div id="candidateList" class="cards"></div>
+        <div class="field coords-box" style="margin-top:16px">
+          <span class="label">Go to coordinates <i class="help" data-term="coordinates">?</i></span>
+          <div class="grid2">
+            <div><label class="sublabel" for="goLat">Latitude</label><input id="goLat" class="input" placeholder="e.g. -89.5 or 89.5S" inputmode="decimal"></div>
+            <div><label class="sublabel" for="goLon">Longitude</label><input id="goLon" class="input" placeholder="e.g. -138 or 138W" inputmode="decimal"></div>
+          </div>
+          <button id="goButton" class="btn wide">Go</button>
+          <p class="foot" id="goStatus"></p>
+        </div>
+      </section>
+
+      <section data-panel="upload" hidden>
+        <p class="hint">Show the output of another program. Pick a CSV, or drop it anywhere on the page. <i class="help" data-term="csv">?</i></p>
+        <label class="drop" id="csvDrop" for="uploadCsv"><input id="uploadCsv" type="file" accept=".csv,text/csv"><strong>Choose a CSV file</strong><span>or drop it anywhere on the map</span></label>
+        <p id="csvStatus" class="foot" role="status"></p>
+        <button id="clearTrajectory" class="btn ghost wide" hidden>Close the trajectory</button>
+        <details class="fold" open><summary>What can I upload?</summary><div class="fold-body foot" style="margin:0">
+          <p style="margin:0 0 8px"><b>Trajectories:</b> columns <code>t</code> (s) and <code>rx ry rz</code> (m, Earth-centred inertial). Optional: <code>vx vy vz</code>, <code>moon_rx moon_ry moon_rz</code>, <code>target_rx target_ry target_rz</code>, <code>mass</code>, <code>thrust_N</code>, <code>stage_index</code>, <code>altitude</code>, <code>target_distance</code>, <code>mdot</code>, <code>ax ay az</code>, <code>phase</code>, <code>utc</code>, <code>sun_rx sun_ry sun_rz</code>. Shown at true scale with Earth fixed at the centre.</p>
+          <p style="margin:0"><b>Result tables:</b> any CSV with latitude and longitude columns (<code>lat</code>/<code>lon</code> or <code>lat_deg</code>/<code>lon_deg</code>), such as the classifier's <code>Site*_candidates.csv</code>. Each row becomes a spot on the Moon. A <code>composite_score</code> or <code>score</code> column is shown as the score; all other columns are listed as they are.</p>
+        </div></details>
+      </section>
+
+      <section data-panel="missions" hidden>
+        <p class="hint">Every major Moon mission so far, plus what NASA has planned next. Tap one to read about it.</p>
+        <div class="mission-stats" id="missionStats"></div>
+        <div class="chips" id="missionFilters">
+          <button data-filter="all" class="active">All</button><button data-filter="past">Past</button><button data-filter="planned">Upcoming</button><button data-filter="crewed">With astronauts</button>
+        </div>
+        <div id="missionList" class="timeline"></div>
+        <p class="foot" id="missionNote"></p>
+      </section>
+
+      <section data-panel="layers" hidden>
+        <label class="layer"><input type="checkbox" data-layer="candidates" checked><div><span>Classifier regions</span><small>Sites 1, 4 and 23 (yellow)</small></div></label>
+        <label class="layer"><input type="checkbox" data-layer="results" checked><div><span>Uploaded spots</span><small>Rows from result CSVs you upload (blue)</small></div></label>
+        <label class="layer"><input type="checkbox" data-layer="historic" checked><div><span>Moon missions</span><small>Past landings (white/grey) and planned ones (purple)</small></div></label>
+        <label class="layer"><input type="checkbox" data-layer="labels" checked><div><span>Labels</span><small>Names and spacecraft readout</small></div></label>
+        <label class="layer"><input type="checkbox" data-layer="sun" checked><div><span>Sun</span><small>The Sun's disc and glow (lighting stays on)</small></div></label>
+      </section>
+
+      <section data-panel="data" hidden>
+        <div class="rows">
+          <div class="row"><span>Landing results</span><strong id="classifierName">—</strong></div>
+          <div class="row"><span>Terrain data</span><strong id="terrainSource">—</strong></div>
+          <div class="row"><span>Planet positions</span><strong id="ephemerisSource">—</strong></div>
+          <div class="row"><span>Scene date (UTC)</span><strong id="epochValue" class="mono">—</strong></div>
+        </div>
+        <button id="openGraphs" class="btn wide">Graphs & raw simulation data</button>
+        <p class="foot">The landing results are read straight from the classifier's output files in <code>classifier/LunAI-Classifier2-main/python/outputs</code>. This site only displays them.</p>
+      </section>
+    </div>
+  </aside>
+
+  <aside id="rightPanel" class="panel right">
+    <header class="panel-head tabs">
+      <button class="tab active" data-tab="site">Spot</button>
+      <button class="tab" data-tab="flight" id="flightTab" hidden>Trajectory</button>
+      <button class="tab" data-tab="missionInfo" id="missionTab" hidden>Mission</button>
+      <div class="spacer"></div>
+      <button class="close" id="rightClose" aria-label="Close details">×</button>
+    </header>
+    <div class="panel-body">
+      <section data-tab-panel="site">
+        <div class="site-head"><h3 id="siteName">—</h3><span id="siteCoords" class="mono"></span></div>
+        <div class="verdict" id="siteVerdict"></div>
+        <div class="class-block" id="classBlock">
+          <div class="class-top"><span class="badge" id="siteClass">—</span><span class="muted" id="siteConfidence"></span></div>
+          <div class="class-bar" id="classBar"></div>
+          <div class="legend" id="classLegend"></div>
+          <p class="foot" id="classModel"></p>
+        </div>
+        <div class="rows" id="classDetails" style="margin-top:10px"></div>
+        <p class="notice" id="pointNote" hidden></p>
+        <div id="photoSection">
+          <div class="section">Photos</div>
+          <canvas id="orbitalPhoto" class="orbital" hidden></canvas>
+          <p class="foot" id="orbitalNote"></p>
+          <div id="photoGrid" class="photos"></div>
+          <p class="foot" id="photoNote"></p>
+        </div>
+        <div id="landingSpots" hidden>
+          <div class="section"><span id="spotsTitle">Best landing spots</span> <i class="help" data-term="landingSpots">?</i></div>
+          <div id="landingSpotList" class="spots"></div>
+          <div id="figureWrap" hidden>
+            <div class="section">The classifier's maps</div>
+            <img id="classifierFigure" class="figure" alt="Classifier output figure: input layers and ranked candidates">
+            <p class="foot">Click to enlarge. Red crosses are the ranked spots; cyan stars are named craters.</p>
+          </div>
+          <p class="foot" id="poiList"></p>
+        </div>
+        <div class="metrics" id="siteMetrics"></div>
+        <div id="envSection">
+          <div class="section">Sun & Earth here <span class="muted" id="envTime"></span></div>
+          <div class="rows">
+            <div class="row"><span>Sun height <i class="help" data-term="sunElevation">?</i></span><strong id="sunElevation">—</strong></div>
+            <div class="row"><span>Sunlight</span><strong id="sunState">—</strong></div>
+            <div class="row"><span>Earth in view <i class="help" data-term="earthComms">?</i></span><strong id="earthState">—</strong></div>
+            <div class="row"><span>Solar power <i class="help" data-term="solarPower">?</i></span><strong id="solarPower">—</strong></div>
+            <div class="row"><span>Next 24 hours</span><strong id="envTotals">—</strong></div>
+          </div>
+          <p class="foot" id="envNote"></p>
+        </div>
+      </section>
+
+      <section data-tab-panel="flight" hidden>
+        <div class="route-line" id="telemetryLine"></div>
+        <div class="stats">
+          <div class="stat"><span>Duration</span><strong id="tmDuration">—</strong></div>
+          <div class="stat"><span>Path length</span><strong id="tmDistance">—</strong></div>
+          <div class="stat"><span>Mass</span><strong id="tmMass">—</strong></div>
+          <div class="stat"><span>Top speed</span><strong id="tmPeak">—</strong></div>
+        </div>
+        <div class="control-row"><span class="label">Look at</span><div class="segmented" id="focusButtons">
+          <button data-focus="track">Track</button><button data-focus="vehicle">Vehicle</button><button data-focus="moon">Moon</button><button data-focus="earth">Earth</button></div></div>
+        <div class="chart-block">
+          <div class="chart-head"><h3>Speed <i class="help" data-term="speed">?</i></h3><span class="spacer"></span><span class="readout" id="speedReadout"></span></div>
+          <canvas class="chart" id="speedChart" aria-label="Speed over time"></canvas>
+          <p class="foot" id="speedNote"></p>
+        </div>
+        <div class="section">Stages</div>
+        <div id="phaseList"></div>
+        <p class="foot" id="routeNote"></p>
+      </section>
+
+      <section data-tab-panel="missionInfo" hidden>
+        <div id="missionDetail"></div>
+      </section>
+    </div>
+  </aside>
+
+  <section class="bottom-bar" id="bottomBar" hidden>
+    <button class="play" id="barPlay" aria-label="Play">▶</button>
+    <span class="bar-label">Trajectory</span>
+    <input id="barRange" type="range" min="0" max="1000" value="0" aria-label="Scrub trajectory time">
+    <select id="barSpeed" aria-label="Playback speed"></select>
+    <time class="bar-time" id="barTime">—</time>
+  </section>
+
+  <div id="labels" class="labels"></div>
+  <div id="tooltip"></div>
+  <div id="helpBubble" role="tooltip" hidden></div>
+
+  <section id="welcome" class="modal" hidden>
+    <div class="dialog welcome" role="dialog" aria-modal="true" aria-labelledby="welcomeTitle">
+      <header class="panel-head"><h2 id="welcomeTitle">Welcome to LunAI</h2><div class="spacer"></div><button class="close" data-close="welcome" aria-label="Close">×</button></header>
+      <div class="panel-body">
+        <p class="lead">This site shows results made by other programs. Start anywhere:</p>
+        <ol class="steps">
+          <li><b>See the landing results</b><span>The classifier's best landing spots for three areas near the south pole.</span><button class="btn ghost" data-goto="sites">Landing spots</button></li>
+          <li><b>Upload a CSV</b><span>A trajectory to replay at true scale, or a table of spots to put on the Moon.</span><button class="btn ghost" data-goto="upload">Upload</button></li>
+          <li><b>Explore real missions</b><span>Apollo, Artemis and more: who flew, when, and what they found.</span><button class="btn ghost" data-goto="missions">Missions</button></li>
+        </ol>
+        <p class="foot">Drag to turn the view · scroll to zoom · right-drag to move. Tap any <i class="help" data-term="help">?</i> for a plain-English explanation.</p>
+        <button class="btn wide" data-close="welcome">Start exploring</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="figureModal" class="modal" hidden>
+    <div class="dialog wide" role="dialog" aria-modal="true" aria-label="Classifier figure">
+      <header class="panel-head"><h2>The classifier's maps</h2><div class="spacer"></div><button class="close" data-close="figureModal" aria-label="Close">×</button></header>
+      <div class="panel-body"><img id="figureLarge" class="figure large" alt="Classifier output figure"></div>
+    </div>
+  </section>
+
+  <section id="graphsModal" class="modal" hidden>
+    <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="graphsTitle">
+      <header class="panel-head"><h2 id="graphsTitle">Graphs</h2><div class="spacer"></div><button class="close" data-close="graphsModal" aria-label="Close">×</button></header>
+      <div class="panel-body">
+        <p class="hint" id="graphsMeta"></p>
+        <div id="graphList"></div>
+        <details class="fold"><summary>Raw simulation input</summary><div class="fold-body"><pre class="raw" id="rawData"></pre></div></details>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script>/*__SCRIPT__*/</script>
+</body>
+</html>

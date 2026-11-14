@@ -1,0 +1,5 @@
+name,type,diameter_km,lat,lon,x_m,y_m,inside_site
+Henson,Crater, craters,43.00,-88.5700,-130.6300,-32910.7,-28237.8,False
+Marvin,Crater, craters,4.60,-89.1300,-87.7800,-26362.0,1021.9,False
+Shackleton,Crater, craters,20.92,-89.6700,129.7800,7690.2,-6402.7,False
+Spudis,Crater, craters,13.00,-89.5100,-84.6100,-14792.8,1395.7,False

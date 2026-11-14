@@ -1,0 +1,38 @@
+[
+  {
+    "id": "site_shackleton",
+    "name": "Shackleton Rim",
+    "lat": -89.7,
+    "lon": -90.0,
+    "water_ice": 0.74,
+    "slope_deg": 3.1,
+    "terrain_roughness": 0.7,
+    "elevation_m": -220.0,
+    "earth_line_of_sight": 0.72,
+    "notes": "High persistent shadow near crater rim with strong ice prospecting potential."
+  },
+  {
+    "id": "site_amundsen",
+    "name": "Amundsen Crater",
+    "lat": -84.2,
+    "lon": 55.0,
+    "water_ice": 0.62,
+    "slope_deg": 4.8,
+    "terrain_roughness": 1.2,
+    "elevation_m": -310.0,
+    "earth_line_of_sight": 0.68,
+    "notes": "Large impact crater with nearby permanent shadow and strong scientific value."
+  },
+  {
+    "id": "site_nobile",
+    "name": "Nobile Rim",
+    "lat": -86.5,
+    "lon": 30.0,
+    "water_ice": 0.58,
+    "slope_deg": 6.5,
+    "terrain_roughness": 1.7,
+    "elevation_m": 480.0,
+    "earth_line_of_sight": 0.61,
+    "notes": "Elevated rim with broad solar visibility but more rugged terrain and lower ice concentration."
+  }
+]

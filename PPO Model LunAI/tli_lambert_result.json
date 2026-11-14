@@ -1,0 +1,3226 @@
+{
+  "all": [
+    {
+      "theta0": 4.1,
+      "tof_days": 5.25,
+      "closest_dist_km": 158.7622722686209,
+      "t_days": 5.020833333333333,
+      "speed_rel": 2562.5619194356727,
+      "burn_dv": 3389.2595089108404,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.3,
+      "tof_days": 5.5,
+      "closest_dist_km": 266.8940696623658,
+      "t_days": 5.272222222222222,
+      "speed_rel": 2419.5513751836984,
+      "burn_dv": 3183.7029475692866,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.6,
+      "tof_days": 5.5,
+      "closest_dist_km": 270.05890226419217,
+      "t_days": 5.272222222222222,
+      "speed_rel": 2419.5880183311947,
+      "burn_dv": 3172.8988908045076,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.4,
+      "tof_days": 5.5,
+      "closest_dist_km": 271.2689223520147,
+      "t_days": 5.271527777777778,
+      "speed_rel": 2402.020093812774,
+      "burn_dv": 3116.402583011397,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.2,
+      "tof_days": 5.5,
+      "closest_dist_km": 273.5361452638516,
+      "t_days": 5.272916666666666,
+      "speed_rel": 2419.3632229434666,
+      "burn_dv": 3311.6955140022155,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.5,
+      "tof_days": 5.5,
+      "closest_dist_km": 274.87774303772375,
+      "t_days": 5.272222222222222,
+      "speed_rel": 2422.8619262069774,
+      "burn_dv": 3152.7690296165883,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.7,
+      "tof_days": 5.5,
+      "closest_dist_km": 277.6813671793522,
+      "t_days": 5.272916666666666,
+      "speed_rel": 2421.0379109210335,
+      "burn_dv": 3293.6179671513546,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.8,
+      "tof_days": 5.5,
+      "closest_dist_km": 283.28944221608214,
+      "t_days": 5.273611111111111,
+      "speed_rel": 2406.745831093618,
+      "burn_dv": 3468.4970260115324,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.5,
+      "tof_days": 5.25,
+      "closest_dist_km": 307.4136674020328,
+      "t_days": 5.017361111111111,
+      "speed_rel": 2581.294294790576,
+      "burn_dv": 3136.7656423901335,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.3,
+      "tof_days": 5.25,
+      "closest_dist_km": 307.65723370407886,
+      "t_days": 5.017361111111111,
+      "speed_rel": 2582.102489444361,
+      "burn_dv": 3139.160113477772,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.6,
+      "tof_days": 5.25,
+      "closest_dist_km": 373.71219995676375,
+      "t_days": 5.017361111111111,
+      "speed_rel": 2541.2535368723993,
+      "burn_dv": 3229.458525040354,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.2,
+      "tof_days": 5.25,
+      "closest_dist_km": 378.301647971194,
+      "t_days": 5.017361111111111,
+      "speed_rel": 2540.8413828268535,
+      "burn_dv": 3235.492813622809,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.7,
+      "tof_days": 5.25,
+      "closest_dist_km": 379.05234788831143,
+      "t_days": 5.018055555555556,
+      "speed_rel": 2533.159756120162,
+      "burn_dv": 3380.2306637027955,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.4,
+      "tof_days": 5.25,
+      "closest_dist_km": 398.8583593548045,
+      "t_days": 5.016666666666667,
+      "speed_rel": 2533.7666521873334,
+      "burn_dv": 3113.5582135678715,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.5,
+      "tof_days": 5.75,
+      "closest_dist_km": 729.885093467629,
+      "t_days": 5.527083333333334,
+      "speed_rel": 2205.808202717003,
+      "burn_dv": 3108.984286246378,
+      "reason": null
+    },
+    {
+      "theta0": 4.4,
+      "tof_days": 5.75,
+      "closest_dist_km": 732.4502561165056,
+      "t_days": 5.527777777777778,
+      "speed_rel": 2219.5449435820437,
+      "burn_dv": 3145.658112539832,
+      "reason": null
+    },
+    {
+      "theta0": 4.3,
+      "tof_days": 5.75,
+      "closest_dist_km": 734.9971337679776,
+      "t_days": 5.527777777777778,
+      "speed_rel": 2205.8661924179946,
+      "burn_dv": 3246.7028068277546,
+      "reason": null
+    },
+    {
+      "theta0": 4.6,
+      "tof_days": 5.75,
+      "closest_dist_km": 735.3087374764887,
+      "t_days": 5.527777777777778,
+      "speed_rel": 2219.363414920983,
+      "burn_dv": 3135.008813399691,
+      "reason": null
+    },
+    {
+      "theta0": 4.7,
+      "tof_days": 5.75,
+      "closest_dist_km": 737.8669876170597,
+      "t_days": 5.527777777777778,
+      "speed_rel": 2206.6088004602357,
+      "burn_dv": 3221.8828772828556,
+      "reason": null
+    },
+    {
+      "theta0": 4.8,
+      "tof_days": 5.75,
+      "closest_dist_km": 746.6169141325403,
+      "t_days": 5.528472222222222,
+      "speed_rel": 2202.831914473314,
+      "burn_dv": 3368.3642483979957,
+      "reason": null
+    },
+    {
+      "theta0": 4.7,
+      "tof_days": 5.0,
+      "closest_dist_km": 798.4957245556019,
+      "t_days": 4.7659722222222225,
+      "speed_rel": 2588.735173853274,
+      "burn_dv": 3479.7815681728243,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.3,
+      "tof_days": 5.0,
+      "closest_dist_km": 870.0318498713826,
+      "t_days": 4.763888888888889,
+      "speed_rel": 2557.9906759117266,
+      "burn_dv": 3113.8889473554073,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.4,
+      "tof_days": 5.0,
+      "closest_dist_km": 873.851414683413,
+      "t_days": 4.763888888888889,
+      "speed_rel": 2554.787401317814,
+      "burn_dv": 3116.984428171742,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.6,
+      "tof_days": 5.0,
+      "closest_dist_km": 895.521507682798,
+      "t_days": 4.764583333333333,
+      "speed_rel": 2535.7715983234752,
+      "burn_dv": 3301.5862220641593,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.1,
+      "tof_days": 5.0,
+      "closest_dist_km": 902.2270830486041,
+      "t_days": 4.764583333333333,
+      "speed_rel": 2533.465385245254,
+      "burn_dv": 3301.1269790027973,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.5,
+      "tof_days": 5.0,
+      "closest_dist_km": 919.5306984749693,
+      "t_days": 4.763888888888889,
+      "speed_rel": 2525.937429834138,
+      "burn_dv": 3177.174189765078,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.2,
+      "tof_days": 5.0,
+      "closest_dist_km": 922.404535385345,
+      "t_days": 4.763888888888889,
+      "speed_rel": 2525.513041539956,
+      "burn_dv": 3176.7708615373513,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.0,
+      "tof_days": 4.75,
+      "closest_dist_km": 1143.9017451092138,
+      "t_days": 4.516666666666667,
+      "speed_rel": 2561.5945523351747,
+      "burn_dv": 3380.712639375747,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.6,
+      "tof_days": 4.75,
+      "closest_dist_km": 1163.3713535754814,
+      "t_days": 4.5159722222222225,
+      "speed_rel": 2594.9674440793337,
+      "burn_dv": 3387.2698767010934,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.5,
+      "tof_days": 4.75,
+      "closest_dist_km": 1168.0438227087136,
+      "t_days": 4.5152777777777775,
+      "speed_rel": 2596.5593325586983,
+      "burn_dv": 3233.9582207076905,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.1,
+      "tof_days": 4.75,
+      "closest_dist_km": 1174.8712377671031,
+      "t_days": 4.5152777777777775,
+      "speed_rel": 2592.7846214087767,
+      "burn_dv": 3229.4883745578386,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.2,
+      "tof_days": 5.75,
+      "closest_dist_km": 1195.9429476812752,
+      "t_days": 5.532638888888889,
+      "speed_rel": 2054.9437765604525,
+      "burn_dv": 3404.7639408048635,
+      "reason": null
+    },
+    {
+      "theta0": 4.4,
+      "tof_days": 4.75,
+      "closest_dist_km": 1220.4610278841365,
+      "t_days": 4.514583333333333,
+      "speed_rel": 2561.252132307198,
+      "burn_dv": 3138.2407848594235,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.2,
+      "tof_days": 4.75,
+      "closest_dist_km": 1223.1519027808247,
+      "t_days": 4.514583333333333,
+      "speed_rel": 2560.2203448464606,
+      "burn_dv": 3135.941727235823,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.5,
+      "tof_days": 6.0,
+      "closest_dist_km": 1283.0504865304274,
+      "t_days": 5.784027777777778,
+      "speed_rel": 2040.5357335367469,
+      "burn_dv": 3121.2643452251596,
+      "reason": null
+    },
+    {
+      "theta0": 4.6,
+      "tof_days": 6.0,
+      "closest_dist_km": 1283.6216055133073,
+      "t_days": 5.784027777777778,
+      "speed_rel": 2037.7935131344077,
+      "burn_dv": 3149.2121296083947,
+      "reason": null
+    },
+    {
+      "theta0": 4.4,
+      "tof_days": 6.0,
+      "closest_dist_km": 1286.45118403586,
+      "t_days": 5.784027777777778,
+      "speed_rel": 2035.3835052469688,
+      "burn_dv": 3194.3805196269445,
+      "reason": null
+    },
+    {
+      "theta0": 4.7,
+      "tof_days": 6.0,
+      "closest_dist_km": 1288.8542408410308,
+      "t_days": 5.784027777777778,
+      "speed_rel": 2035.8068191870748,
+      "burn_dv": 3167.0724091141024,
+      "reason": null
+    },
+    {
+      "theta0": 4.8,
+      "tof_days": 6.0,
+      "closest_dist_km": 1295.5080142430195,
+      "t_days": 5.784722222222222,
+      "speed_rel": 2036.2050947118682,
+      "burn_dv": 3282.353405272412,
+      "reason": null
+    },
+    {
+      "theta0": 4.3,
+      "tof_days": 6.0,
+      "closest_dist_km": 1295.773056723652,
+      "t_days": 5.784722222222222,
+      "speed_rel": 2033.86504434968,
+      "burn_dv": 3327.59213342839,
+      "reason": null
+    },
+    {
+      "theta0": 4.9,
+      "tof_days": 6.0,
+      "closest_dist_km": 1306.2747470563809,
+      "t_days": 5.785416666666666,
+      "speed_rel": 2031.7771613190507,
+      "burn_dv": 3452.542732109152,
+      "reason": null
+    },
+    {
+      "theta0": 4.3,
+      "tof_days": 4.5,
+      "closest_dist_km": 1459.826533245009,
+      "t_days": 4.26875,
+      "speed_rel": 2565.4231214181086,
+      "burn_dv": 3114.665917284616,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.2,
+      "tof_days": 4.5,
+      "closest_dist_km": 1462.918615604158,
+      "t_days": 4.26875,
+      "speed_rel": 2563.9198027175025,
+      "burn_dv": 3115.4414942940057,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.5,
+      "tof_days": 4.5,
+      "closest_dist_km": 1462.9600457500053,
+      "t_days": 4.269444444444445,
+      "speed_rel": 2558.616736177907,
+      "burn_dv": 3304.8109597733514,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.6,
+      "tof_days": 4.5,
+      "closest_dist_km": 1471.3040694696615,
+      "t_days": 4.270138888888889,
+      "speed_rel": 2547.9183537326135,
+      "burn_dv": 3484.4841775628647,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.0,
+      "tof_days": 4.5,
+      "closest_dist_km": 1479.4646964159758,
+      "t_days": 4.269444444444445,
+      "speed_rel": 2546.7099420620157,
+      "burn_dv": 3297.6694347417133,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.4,
+      "tof_days": 4.5,
+      "closest_dist_km": 1498.9252845191984,
+      "t_days": 4.26875,
+      "speed_rel": 2534.63753711699,
+      "burn_dv": 3178.944159740252,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 3.9,
+      "tof_days": 4.25,
+      "closest_dist_km": 1503.3044439424978,
+      "t_days": 4.029166666666667,
+      "speed_rel": 2618.0009019148747,
+      "burn_dv": 3381.7323449313512,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.1,
+      "tof_days": 4.5,
+      "closest_dist_km": 1508.256658468443,
+      "t_days": 4.26875,
+      "speed_rel": 2528.4297989824436,
+      "burn_dv": 3174.7417617147375,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 3.8,
+      "tof_days": 3.75,
+      "closest_dist_km": 1588.3160861104882,
+      "t_days": 3.558333333333333,
+      "speed_rel": 2617.4050277909073,
+      "burn_dv": 3396.714182297115,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.2,
+      "tof_days": 4.25,
+      "closest_dist_km": 1590.2522915845616,
+      "t_days": 4.027083333333334,
+      "speed_rel": 2585.622888763576,
+      "burn_dv": 3115.8386155053227,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.3,
+      "tof_days": 4.25,
+      "closest_dist_km": 1594.0829459338916,
+      "t_days": 4.027083333333334,
+      "speed_rel": 2582.8845055449196,
+      "burn_dv": 3138.3823204523155,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.1,
+      "tof_days": 4.25,
+      "closest_dist_km": 1604.3651735454507,
+      "t_days": 4.027083333333334,
+      "speed_rel": 2574.6185700698325,
+      "burn_dv": 3137.2733779877244,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.3,
+      "tof_days": 3.5,
+      "closest_dist_km": 1605.98334481827,
+      "t_days": 3.326388888888889,
+      "speed_rel": 2636.59591156911,
+      "burn_dv": 3290.749442241154,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 3.9,
+      "tof_days": 3.5,
+      "closest_dist_km": 1615.1267369226275,
+      "t_days": 3.326388888888889,
+      "speed_rel": 2626.81496582066,
+      "burn_dv": 3196.0383397431438,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.0,
+      "tof_days": 3.5,
+      "closest_dist_km": 1618.794291937662,
+      "t_days": 3.326388888888889,
+      "speed_rel": 2620.2069726686386,
+      "burn_dv": 3189.8484515704445,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.5,
+      "tof_days": 4.25,
+      "closest_dist_km": 1620.5622330601416,
+      "t_days": 4.027777777777778,
+      "speed_rel": 2556.3922016153656,
+      "burn_dv": 3387.6422581461884,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 3.9,
+      "tof_days": 4.0,
+      "closest_dist_km": 1632.470095078004,
+      "t_days": 3.790277777777778,
+      "speed_rel": 2619.8663174953967,
+      "burn_dv": 3304.294275131732,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.4,
+      "tof_days": 4.25,
+      "closest_dist_km": 1646.649905552058,
+      "t_days": 4.027083333333334,
+      "speed_rel": 2538.5063210124754,
+      "burn_dv": 3234.163939075616,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.1,
+      "tof_days": 4.0,
+      "closest_dist_km": 1648.557946139305,
+      "t_days": 3.7895833333333333,
+      "speed_rel": 2609.443076979806,
+      "burn_dv": 3140.5370681665286,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.3,
+      "tof_days": 4.0,
+      "closest_dist_km": 1650.5931759775938,
+      "t_days": 3.7895833333333333,
+      "speed_rel": 2605.751310534643,
+      "burn_dv": 3177.4237784860775,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.4,
+      "tof_days": 3.5,
+      "closest_dist_km": 1655.1870770910452,
+      "t_days": 3.326388888888889,
+      "speed_rel": 2590.3836351483396,
+      "burn_dv": 3464.558615913963,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.0,
+      "tof_days": 4.25,
+      "closest_dist_km": 1667.7008383810114,
+      "t_days": 4.027083333333334,
+      "speed_rel": 2522.4290190106253,
+      "burn_dv": 3230.614238014795,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 3.8,
+      "tof_days": 3.5,
+      "closest_dist_km": 1669.2512884775151,
+      "t_days": 3.326388888888889,
+      "speed_rel": 2576.0637342746168,
+      "burn_dv": 3326.3559974106847,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.0,
+      "tof_days": 4.0,
+      "closest_dist_km": 1673.6365047271636,
+      "t_days": 3.7895833333333333,
+      "speed_rel": 2584.7926556730695,
+      "burn_dv": 3179.7552002728753,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 3.9,
+      "tof_days": 3.75,
+      "closest_dist_km": 1675.4922769848024,
+      "t_days": 3.55625,
+      "speed_rel": 2599.921759795624,
+      "burn_dv": 3242.3425783018956,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.1,
+      "tof_days": 3.5,
+      "closest_dist_km": 1681.5808086557026,
+      "t_days": 3.3256944444444443,
+      "speed_rel": 2567.5862890304825,
+      "burn_dv": 3116.1397006263483,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.5,
+      "tof_days": 4.0,
+      "closest_dist_km": 1684.9238288026786,
+      "t_days": 3.790277777777778,
+      "speed_rel": 2571.270374693303,
+      "burn_dv": 3480.293067546153,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.2,
+      "tof_days": 3.5,
+      "closest_dist_km": 1689.036043966486,
+      "t_days": 3.3256944444444443,
+      "speed_rel": 2561.5333321123085,
+      "burn_dv": 3172.486760349792,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.4,
+      "tof_days": 3.75,
+      "closest_dist_km": 1691.2559788982287,
+      "t_days": 3.55625,
+      "speed_rel": 2585.754741007592,
+      "burn_dv": 3379.274378516357,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.4,
+      "tof_days": 4.0,
+      "closest_dist_km": 1708.816319159312,
+      "t_days": 3.7895833333333333,
+      "speed_rel": 2553.5747160344717,
+      "burn_dv": 3301.688322731106,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.1,
+      "tof_days": 3.75,
+      "closest_dist_km": 1717.2443510985436,
+      "t_days": 3.5555555555555554,
+      "speed_rel": 2564.072436667092,
+      "burn_dv": 3110.6180103749257,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.2,
+      "tof_days": 3.75,
+      "closest_dist_km": 1718.0526048589259,
+      "t_days": 3.5555555555555554,
+      "speed_rel": 2563.8097494463414,
+      "burn_dv": 3137.0823962605396,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.0,
+      "tof_days": 3.75,
+      "closest_dist_km": 1739.227315125071,
+      "t_days": 3.5555555555555554,
+      "speed_rel": 2545.9833148593993,
+      "burn_dv": 3146.013659684556,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.2,
+      "tof_days": 4.0,
+      "closest_dist_km": 1741.4532360030948,
+      "t_days": 3.7888888888888888,
+      "speed_rel": 2528.9495963164095,
+      "burn_dv": 3114.471506908842,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.3,
+      "tof_days": 3.75,
+      "closest_dist_km": 1747.913662623595,
+      "t_days": 3.5555555555555554,
+      "speed_rel": 2538.608208976408,
+      "burn_dv": 3228.988934538251,
+      "reason": "lunar impact"
+    },
+    {
+      "theta0": 4.6,
+      "tof_days": 6.25,
+      "closest_dist_km": 1893.2815197453408,
+      "t_days": 6.040972222222222,
+      "speed_rel": 1899.4144386131468,
+      "burn_dv": 3110.5752497675676,
+      "reason": null
+    },
+    {
+      "theta0": 4.5,
+      "tof_days": 6.25,
+      "closest_dist_km": 1894.4397498022813,
+      "t_days": 6.041666666666667,
+      "speed_rel": 1903.578755742198,
+      "burn_dv": 3154.81230603722,
+      "reason": null
+    },
+    {
+      "theta0": 4.7,
+      "tof_days": 6.25,
+      "closest_dist_km": 1897.5922619785656,
+      "t_days": 6.041666666666667,
+      "speed_rel": 1903.3534945912406,
+      "burn_dv": 3137.865030012283,
+      "reason": null
+    },
+    {
+      "theta0": 4.4,
+      "tof_days": 6.25,
+      "closest_dist_km": 1898.3963473977678,
+      "t_days": 6.041666666666667,
+      "speed_rel": 1899.277598481444,
+      "burn_dv": 3261.9598295121455,
+      "reason": null
+    },
+    {
+      "theta0": 4.8,
+      "tof_days": 6.25,
+      "closest_dist_km": 1901.100893509417,
+      "t_days": 6.041666666666667,
+      "speed_rel": 1899.9037653652463,
+      "burn_dv": 3212.3574769243405,
+      "reason": null
+    },
+    {
+      "theta0": 4.9,
+      "tof_days": 6.25,
+      "closest_dist_km": 1909.308055522233,
+      "t_days": 6.042361111111111,
+      "speed_rel": 1898.9596612716746,
+      "burn_dv": 3353.2123201381446,
+      "reason": null
+    },
+    {
+      "theta0": 4.6,
+      "tof_days": 6.5,
+      "closest_dist_km": 2539.6708202191635,
+      "t_days": 6.298611111111111,
+      "speed_rel": 1791.4683278477148,
+      "burn_dv": 3128.0520429696485,
+      "reason": null
+    },
+    {
+      "theta0": 4.7,
+      "tof_days": 6.5,
+      "closest_dist_km": 2539.9763502810815,
+      "t_days": 6.298611111111111,
+      "speed_rel": 1791.4925275667108,
+      "burn_dv": 3115.666771989345,
+      "reason": null
+    },
+    {
+      "theta0": 4.5,
+      "tof_days": 6.5,
+      "closest_dist_km": 2542.020647154955,
+      "t_days": 6.299305555555556,
+      "speed_rel": 1793.2265819077295,
+      "burn_dv": 3208.1127370553486,
+      "reason": null
+    },
+    {
+      "theta0": 4.8,
+      "tof_days": 6.5,
+      "closest_dist_km": 2544.6715340544147,
+      "t_days": 6.298611111111111,
+      "speed_rel": 1790.0655075246877,
+      "burn_dv": 3160.745931254868,
+      "reason": null
+    },
+    {
+      "theta0": 4.9,
+      "tof_days": 6.5,
+      "closest_dist_km": 2550.1641383640454,
+      "t_days": 6.299305555555556,
+      "speed_rel": 1790.6057452123355,
+      "burn_dv": 3269.0194236862153,
+      "reason": null
+    },
+    {
+      "theta0": 5.0,
+      "tof_days": 6.5,
+      "closest_dist_km": 2558.770401996921,
+      "t_days": 6.3,
+      "speed_rel": 1789.6466262065867,
+      "burn_dv": 3433.4687122197543,
+      "reason": null
+    },
+    {
+      "theta0": 4.4,
+      "tof_days": 6.5,
+      "closest_dist_km": 2561.027424942696,
+      "t_days": 6.3,
+      "speed_rel": 1790.8351871558102,
+      "burn_dv": 3347.6452512888222,
+      "reason": null
+    },
+    {
+      "theta0": 4.7,
+      "tof_days": 6.75,
+      "closest_dist_km": 3203.262181593586,
+      "t_days": 6.55625,
+      "speed_rel": 1707.6534456054412,
+      "burn_dv": 3114.1582207682914,
+      "reason": null
+    },
+    {
+      "theta0": 4.6,
+      "tof_days": 6.75,
+      "closest_dist_km": 3203.474174974169,
+      "t_days": 6.55625,
+      "speed_rel": 1707.2320597719681,
+      "burn_dv": 3166.2723644675248,
+      "reason": null
+    },
+    {
+      "theta0": 4.5,
+      "tof_days": 6.75,
+      "closest_dist_km": 3206.430793459036,
+      "t_days": 6.5569444444444445,
+      "speed_rel": 1708.0939271165862,
+      "burn_dv": 3280.486362028432,
+      "reason": null
+    },
+    {
+      "theta0": 4.9,
+      "tof_days": 6.75,
+      "closest_dist_km": 3209.2634491784715,
+      "t_days": 6.55625,
+      "speed_rel": 1706.1277235614841,
+      "burn_dv": 3201.861326334755,
+      "reason": null
+    },
+    {
+      "theta0": 5.0,
+      "tof_days": 6.75,
+      "closest_dist_km": 3215.1654617820445,
+      "t_days": 6.5569444444444445,
+      "speed_rel": 1706.3327521234826,
+      "burn_dv": 3336.033921733746,
+      "reason": null
+    },
+    {
+      "theta0": 4.7,
+      "tof_days": 7.0,
+      "closest_dist_km": 3864.5504122996613,
+      "t_days": 6.813194444444444,
+      "speed_rel": 1641.7344098919348,
+      "burn_dv": 3136.617482218021,
+      "reason": null
+    },
+    {
+      "theta0": 4.6,
+      "tof_days": 7.0,
+      "closest_dist_km": 3865.3291336299926,
+      "t_days": 6.813194444444444,
+      "speed_rel": 1641.3520415206972,
+      "burn_dv": 3224.42525695846,
+      "reason": null
+    },
+    {
+      "theta0": 4.8,
+      "tof_days": 7.0,
+      "closest_dist_km": 3865.4523230757322,
+      "t_days": 6.813194444444444,
+      "speed_rel": 1641.689896283626,
+      "burn_dv": 3113.5516674795913,
+      "reason": null
+    },
+    {
+      "theta0": 4.9,
+      "tof_days": 7.0,
+      "closest_dist_km": 3868.3042002538573,
+      "t_days": 6.813194444444444,
+      "speed_rel": 1641.3031644521495,
+      "burn_dv": 3155.6735048711994,
+      "reason": null
+    },
+    {
+      "theta0": 5.0,
+      "tof_days": 7.0,
+      "closest_dist_km": 3872.086417871097,
+      "t_days": 6.813888888888889,
+      "speed_rel": 1641.9619582424123,
+      "burn_dv": 3254.6219871658445,
+      "reason": null
+    },
+    {
+      "theta0": 5.1,
+      "tof_days": 7.0,
+      "closest_dist_km": 3876.9926280439436,
+      "t_days": 6.814583333333333,
+      "speed_rel": 1642.2957761060031,
+      "burn_dv": 3412.518273189204,
+      "reason": null
+    },
+    {
+      "theta0": 4.5,
+      "tof_days": 7.0,
+      "closest_dist_km": 3934.7275236938153,
+      "t_days": 6.813888888888889,
+      "speed_rel": 1634.8990922508597,
+      "burn_dv": 3371.0074693210013,
+      "reason": null
+    },
+    {
+      "theta0": 4.3,
+      "tof_days": 6.25,
+      "closest_dist_km": 4115.500521866428,
+      "t_days": 6.05625,
+      "speed_rel": 1592.488075180046,
+      "burn_dv": 3425.546745416031,
+      "reason": null
+    },
+    {
+      "theta0": 4.7,
+      "tof_days": 7.25,
+      "closest_dist_km": 4506.864183919165,
+      "t_days": 7.070138888888889,
+      "speed_rel": 1592.2053341751491,
+      "burn_dv": 3179.790868007987,
+      "reason": null
+    },
+    {
+      "theta0": 4.8,
+      "tof_days": 7.25,
+      "closest_dist_km": 4507.700412612168,
+      "t_days": 7.069444444444445,
+      "speed_rel": 1591.1296568182072,
+      "burn_dv": 3119.2869091444936,
+      "reason": null
+    },
+    {
+      "theta0": 4.6,
+      "tof_days": 7.25,
+      "closest_dist_km": 4507.907835820506,
+      "t_days": 7.070138888888889,
+      "speed_rel": 1591.9926804358477,
+      "burn_dv": 3301.696756944098,
+      "reason": null
+    },
+    {
+      "theta0": 4.9,
+      "tof_days": 7.25,
+      "closest_dist_km": 4508.8950103714615,
+      "t_days": 7.070138888888889,
+      "speed_rel": 1592.006108336498,
+      "burn_dv": 3135.329255556317,
+      "reason": null
+    },
+    {
+      "theta0": 5.0,
+      "tof_days": 7.25,
+      "closest_dist_km": 4511.451218922573,
+      "t_days": 7.070138888888889,
+      "speed_rel": 1591.8140489629877,
+      "burn_dv": 3191.2547599974605,
+      "reason": null
+    },
+    {
+      "theta0": 5.1,
+      "tof_days": 7.25,
+      "closest_dist_km": 4514.462243855642,
+      "t_days": 7.070833333333334,
+      "speed_rel": 1592.4709511469396,
+      "burn_dv": 3317.8391732778086,
+      "reason": null
+    },
+    {
+      "theta0": 5.2,
+      "tof_days": 7.25,
+      "closest_dist_km": 4517.489047681502,
+      "t_days": 7.071527777777778,
+      "speed_rel": 1593.0736491944651,
+      "burn_dv": 3497.657029661127,
+      "reason": null
+    },
+    {
+      "theta0": 4.7,
+      "tof_days": 7.5,
+      "closest_dist_km": 5115.043628635527,
+      "t_days": 7.326388888888889,
+      "speed_rel": 1554.4952608902663,
+      "burn_dv": 3242.936755804527,
+      "reason": null
+    },
+    {
+      "theta0": 4.8,
+      "tof_days": 7.5,
+      "closest_dist_km": 5116.7793656964905,
+      "t_days": 7.326388888888889,
+      "speed_rel": 1554.3168793028926,
+      "burn_dv": 3146.868456936965,
+      "reason": null
+    },
+    {
+      "theta0": 4.9,
+      "tof_days": 7.5,
+      "closest_dist_km": 5117.933994871633,
+      "t_days": 7.326388888888889,
+      "speed_rel": 1554.2126337876432,
+      "burn_dv": 3114.4754230432113,
+      "reason": null
+    },
+    {
+      "theta0": 5.0,
+      "tof_days": 7.5,
+      "closest_dist_km": 5119.813719765977,
+      "t_days": 7.326388888888889,
+      "speed_rel": 1554.1947407756038,
+      "burn_dv": 3164.0146888643767,
+      "reason": null
+    },
+    {
+      "theta0": 5.1,
+      "tof_days": 7.5,
+      "closest_dist_km": 5120.333621893343,
+      "t_days": 7.326388888888889,
+      "speed_rel": 1554.1399963498936,
+      "burn_dv": 3239.9718588099327,
+      "reason": null
+    },
+    {
+      "theta0": 5.2,
+      "tof_days": 7.5,
+      "closest_dist_km": 5121.4302747478205,
+      "t_days": 7.327083333333333,
+      "speed_rel": 1554.9611735380224,
+      "burn_dv": 3390.680456830797,
+      "reason": null
+    },
+    {
+      "theta0": 4.6,
+      "tof_days": 7.5,
+      "closest_dist_km": 5480.260324111405,
+      "t_days": 7.3277777777777775,
+      "speed_rel": 1530.9113183484233,
+      "burn_dv": 3397.003090838421,
+      "reason": null
+    },
+    {
+      "theta0": 4.4,
+      "tof_days": 6.75,
+      "closest_dist_km": 16412.394703237405,
+      "t_days": 6.577083333333333,
+      "speed_rel": 1206.1734129360616,
+      "burn_dv": 3450.4285250747366,
+      "reason": null
+    },
+    {
+      "theta0": 3.9,
+      "tof_days": 4.5,
+      "closest_dist_km": 47749.25459968193,
+      "t_days": 4.4944444444444445,
+      "speed_rel": 951.5015070806884,
+      "burn_dv": 3474.397133333101,
+      "reason": "ground impact"
+    },
+    {
+      "theta0": 3.8,
+      "tof_days": 4.0,
+      "closest_dist_km": 58814.78945355265,
+      "t_days": 4.102083333333334,
+      "speed_rel": 909.262316646865,
+      "burn_dv": 3482.205078854276,
+      "reason": "ground impact"
+    },
+    {
+      "theta0": 4.0,
+      "tof_days": 5.0,
+      "closest_dist_km": 84463.20602270022,
+      "t_days": 4.7,
+      "speed_rel": 1001.2694913520673,
+      "burn_dv": 3479.305869897687,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 4.5,
+      "tof_days": 7.25,
+      "closest_dist_km": 88126.4298718631,
+      "t_days": 6.672916666666667,
+      "speed_rel": 1197.8155413864424,
+      "burn_dv": 3478.5074583243304,
+      "reason": "ground impact"
+    },
+    {
+      "theta0": 4.1,
+      "tof_days": 5.5,
+      "closest_dist_km": 196785.75295138799,
+      "t_days": 3.8881944444444443,
+      "speed_rel": 1275.5636130451494,
+      "burn_dv": 3493.23045563849,
+      "reason": "ground impact"
+    },
+    {
+      "theta0": 3.7,
+      "tof_days": 3.5,
+      "closest_dist_km": 206472.7571502492,
+      "t_days": 2.276388888888889,
+      "speed_rel": 919.049425456153,
+      "burn_dv": 3509.063747457795,
+      "reason": "escaped Earth-Moon system"
+    },
+    {
+      "theta0": 3.6,
+      "tof_days": 3.5,
+      "closest_dist_km": 361812.7250112336,
+      "t_days": 4.808333333333334,
+      "speed_rel": 6668.234814793997,
+      "burn_dv": 3735.530005951393,
+      "reason": null
+    },
+    {
+      "theta0": 3.6,
+      "tof_days": 3.75,
+      "closest_dist_km": 361812.7250112336,
+      "t_days": 4.808333333333334,
+      "speed_rel": 6668.234814793997,
+      "burn_dv": 3843.252306844834,
+      "reason": null
+    },
+    {
+      "theta0": 3.6,
+      "tof_days": 4.0,
+      "closest_dist_km": 361812.7250112336,
+      "t_days": 4.808333333333334,
+      "speed_rel": 6668.234814793997,
+      "burn_dv": 3965.034529396378,
+      "reason": null
+    },
+    {
+      "theta0": 3.6,
+      "tof_days": 4.25,
+      "closest_dist_km": 361812.7250112336,
+      "t_days": 4.808333333333334,
+      "speed_rel": 6668.234814793997,
+      "burn_dv": 4099.854292962775,
+      "reason": null
+    },
+    {
+      "theta0": 3.6,
+      "tof_days": 4.5,
+      "closest_dist_km": 361812.7250112336,
+      "t_days": 4.808333333333334,
+      "speed_rel": 6668.234814793997,
+      "burn_dv": 4246.71384616249,
+      "reason": null
+    },
+    {
+      "theta0": 3.6,
+      "tof_days": 4.75,
+      "closest_dist_km": 361812.7250112336,
+      "t_days": 4.808333333333334,
+      "speed_rel": 6668.234814793997,
+      "burn_dv": 4404.635715588978,
+      "reason": null
+    },
+    {
+      "theta0": 3.6,
+      "tof_days": 5.0,
+      "closest_dist_km": 361812.7250112336,
+      "t_days": 4.808333333333334,
+      "speed_rel": 6668.234814793997,
+      "burn_dv": 4572.666138965224,
+      "reason": null
+    },
+    {
+      "theta0": 3.6,
+      "tof_days": 5.25,
+      "closest_dist_km": 361812.7250112336,
+      "t_days": 4.808333333333334,
+      "speed_rel": 6668.234814793997,
+      "burn_dv": 4749.886002635895,
+      "reason": null
+    },
+    {
+      "theta0": 3.6,
+      "tof_days": 5.5,
+      "closest_dist_km": 361812.7250112336,
+      "t_days": 4.808333333333334,
+      "speed_rel": 6668.234814793997,
+      "burn_dv": 4935.4157393899195,
+      "reason": null
+    },
+    {
+      "theta0": 3.6,
+      "tof_days": 5.75,
+      "closest_dist_km": 361812.7250112336,
+      "t_days": 4.808333333333334,
+      "speed_rel": 6668.234814793997,
+      "burn_dv": 5128.422919115327,
+      "reason": null
+    },
+    {
+      "theta0": 3.6,
+      "tof_days": 6.0,
+      "closest_dist_km": 361812.7250112336,
+      "t_days": 4.808333333333334,
+      "speed_rel": 6668.234814793997,
+      "burn_dv": 5328.122718575872,
+      "reason": null
+    },
+    {
+      "theta0": 3.6,
+      "tof_days": 6.25,
+      "closest_dist_km": 361812.7250112336,
+      "t_days": 4.808333333333334,
+      "speed_rel": 6668.234814793997,
+      "burn_dv": 5533.777735729079,
+      "reason": null
+    },
+    {
+      "theta0": 3.6,
+      "tof_days": 6.5,
+      "closest_dist_km": 361812.7250112336,
+      "t_days": 4.808333333333334,
+      "speed_rel": 6668.234814793997,
+      "burn_dv": 5744.702730477181,
+      "reason": null
+    },
+    {
+      "theta0": 3.6,
+      "tof_days": 6.75,
+      "closest_dist_km": 361812.7250112336,
+      "t_days": 4.808333333333334,
+      "speed_rel": 6668.234814793997,
+      "burn_dv": 5960.25664680595,
+      "reason": null
+    },
+    {
+      "theta0": 3.6,
+      "tof_days": 7.0,
+      "closest_dist_km": 361812.7250112336,
+      "t_days": 4.808333333333334,
+      "speed_rel": 6668.234814793997,
+      "burn_dv": 6179.84491035719,
+      "reason": null
+    },
+    {
+      "theta0": 3.6,
+      "tof_days": 7.25,
+      "closest_dist_km": 361812.7250112336,
+      "t_days": 4.808333333333334,
+      "speed_rel": 6668.234814793997,
+      "burn_dv": 6402.914300631407,
+      "reason": null
+    },
+    {
+      "theta0": 3.6,
+      "tof_days": 7.5,
+      "closest_dist_km": 361812.7250112336,
+      "t_days": 4.808333333333334,
+      "speed_rel": 6668.234814793997,
+      "burn_dv": 6628.952241229135,
+      "reason": null
+    },
+    {
+      "theta0": 4.5,
+      "tof_days": 3.5,
+      "closest_dist_km": 361812.77747460443,
+      "t_days": 4.799305555555556,
+      "speed_rel": 6668.230906075886,
+      "burn_dv": 3686.091727574409,
+      "reason": null
+    },
+    {
+      "theta0": 4.5,
+      "tof_days": 3.75,
+      "closest_dist_km": 361812.77747460443,
+      "t_days": 4.799305555555556,
+      "speed_rel": 6668.230906075886,
+      "burn_dv": 3580.5377159135887,
+      "reason": null
+    },
+    {
+      "theta0": 4.5,
+      "tof_days": 7.5,
+      "closest_dist_km": 361812.77747460443,
+      "t_days": 4.799305555555556,
+      "speed_rel": 6668.230906075886,
+      "burn_dv": 3601.6550592001345,
+      "reason": null
+    },
+    {
+      "theta0": 3.8,
+      "tof_days": 4.25,
+      "closest_dist_km": 361812.850069729,
+      "t_days": 4.80625,
+      "speed_rel": 6668.256179020099,
+      "burn_dv": 3582.4177029119387,
+      "reason": null
+    },
+    {
+      "theta0": 3.8,
+      "tof_days": 4.5,
+      "closest_dist_km": 361812.850069729,
+      "t_days": 4.80625,
+      "speed_rel": 6668.256179020099,
+      "burn_dv": 3696.764467966113,
+      "reason": null
+    },
+    {
+      "theta0": 3.8,
+      "tof_days": 4.75,
+      "closest_dist_km": 361812.850069729,
+      "t_days": 4.80625,
+      "speed_rel": 6668.256179020099,
+      "burn_dv": 3824.5073544972047,
+      "reason": null
+    },
+    {
+      "theta0": 3.8,
+      "tof_days": 5.0,
+      "closest_dist_km": 361812.850069729,
+      "t_days": 4.80625,
+      "speed_rel": 6668.256179020099,
+      "burn_dv": 3964.798233623917,
+      "reason": null
+    },
+    {
+      "theta0": 3.8,
+      "tof_days": 5.25,
+      "closest_dist_km": 361812.850069729,
+      "t_days": 4.80625,
+      "speed_rel": 6668.256179020099,
+      "burn_dv": 4116.7209921198755,
+      "reason": null
+    },
+    {
+      "theta0": 3.8,
+      "tof_days": 5.5,
+      "closest_dist_km": 361812.850069729,
+      "t_days": 4.80625,
+      "speed_rel": 6668.256179020099,
+      "burn_dv": 4279.329516792372,
+      "reason": null
+    },
+    {
+      "theta0": 3.8,
+      "tof_days": 5.75,
+      "closest_dist_km": 361812.850069729,
+      "t_days": 4.80625,
+      "speed_rel": 6668.256179020099,
+      "burn_dv": 4451.677689255242,
+      "reason": null
+    },
+    {
+      "theta0": 3.8,
+      "tof_days": 6.0,
+      "closest_dist_km": 361812.850069729,
+      "t_days": 4.80625,
+      "speed_rel": 6668.256179020099,
+      "burn_dv": 4632.840345737732,
+      "reason": null
+    },
+    {
+      "theta0": 3.8,
+      "tof_days": 6.25,
+      "closest_dist_km": 361812.850069729,
+      "t_days": 4.80625,
+      "speed_rel": 6668.256179020099,
+      "burn_dv": 4821.929347571866,
+      "reason": null
+    },
+    {
+      "theta0": 3.8,
+      "tof_days": 6.5,
+      "closest_dist_km": 361812.850069729,
+      "t_days": 4.80625,
+      "speed_rel": 6668.256179020099,
+      "burn_dv": 5018.10511161769,
+      "reason": null
+    },
+    {
+      "theta0": 3.8,
+      "tof_days": 6.75,
+      "closest_dist_km": 361812.850069729,
+      "t_days": 4.80625,
+      "speed_rel": 6668.256179020099,
+      "burn_dv": 5220.57895142461,
+      "reason": null
+    },
+    {
+      "theta0": 3.8,
+      "tof_days": 7.0,
+      "closest_dist_km": 361812.850069729,
+      "t_days": 4.80625,
+      "speed_rel": 6668.256179020099,
+      "burn_dv": 5428.614826377368,
+      "reason": null
+    },
+    {
+      "theta0": 3.8,
+      "tof_days": 7.25,
+      "closest_dist_km": 361812.850069729,
+      "t_days": 4.80625,
+      "speed_rel": 6668.256179020099,
+      "burn_dv": 5641.532330761492,
+      "reason": null
+    },
+    {
+      "theta0": 3.8,
+      "tof_days": 7.5,
+      "closest_dist_km": 361812.850069729,
+      "t_days": 4.80625,
+      "speed_rel": 6668.256179020099,
+      "burn_dv": 5858.700122396699,
+      "reason": null
+    },
+    {
+      "theta0": 5.4,
+      "tof_days": 3.5,
+      "closest_dist_km": 361812.91820921603,
+      "t_days": 4.790277777777778,
+      "speed_rel": 6668.23088188641,
+      "burn_dv": 6773.486256601268,
+      "reason": null
+    },
+    {
+      "theta0": 5.4,
+      "tof_days": 3.75,
+      "closest_dist_km": 361812.91820921603,
+      "t_days": 4.790277777777778,
+      "speed_rel": 6668.23088188641,
+      "burn_dv": 6584.012044738654,
+      "reason": null
+    },
+    {
+      "theta0": 5.4,
+      "tof_days": 4.0,
+      "closest_dist_km": 361812.91820921603,
+      "t_days": 4.790277777777778,
+      "speed_rel": 6668.23088188641,
+      "burn_dv": 6392.228180250462,
+      "reason": null
+    },
+    {
+      "theta0": 5.4,
+      "tof_days": 4.25,
+      "closest_dist_km": 361812.91820921603,
+      "t_days": 4.790277777777778,
+      "speed_rel": 6668.23088188641,
+      "burn_dv": 6198.76741804526,
+      "reason": null
+    },
+    {
+      "theta0": 5.4,
+      "tof_days": 4.5,
+      "closest_dist_km": 361812.91820921603,
+      "t_days": 4.790277777777778,
+      "speed_rel": 6668.23088188641,
+      "burn_dv": 6004.236530318951,
+      "reason": null
+    },
+    {
+      "theta0": 5.4,
+      "tof_days": 4.75,
+      "closest_dist_km": 361812.91820921603,
+      "t_days": 4.790277777777778,
+      "speed_rel": 6668.23088188641,
+      "burn_dv": 5809.232187817693,
+      "reason": null
+    },
+    {
+      "theta0": 5.4,
+      "tof_days": 5.0,
+      "closest_dist_km": 361812.91820921603,
+      "t_days": 4.790277777777778,
+      "speed_rel": 6668.23088188641,
+      "burn_dv": 5614.350642457374,
+      "reason": null
+    },
+    {
+      "theta0": 5.4,
+      "tof_days": 5.25,
+      "closest_dist_km": 361812.91820921603,
+      "t_days": 4.790277777777778,
+      "speed_rel": 6668.23088188641,
+      "burn_dv": 5420.207828714052,
+      "reason": null
+    },
+    {
+      "theta0": 5.4,
+      "tof_days": 5.5,
+      "closest_dist_km": 361812.91820921603,
+      "t_days": 4.790277777777778,
+      "speed_rel": 6668.23088188641,
+      "burn_dv": 5227.44689838334,
+      "reason": null
+    },
+    {
+      "theta0": 5.4,
+      "tof_days": 5.75,
+      "closest_dist_km": 361812.91820921603,
+      "t_days": 4.790277777777778,
+      "speed_rel": 6668.23088188641,
+      "burn_dv": 5036.752462807402,
+      "reason": null
+    },
+    {
+      "theta0": 5.4,
+      "tof_days": 6.0,
+      "closest_dist_km": 361812.91820921603,
+      "t_days": 4.790277777777778,
+      "speed_rel": 6668.23088188641,
+      "burn_dv": 4848.860867352156,
+      "reason": null
+    },
+    {
+      "theta0": 5.4,
+      "tof_days": 6.25,
+      "closest_dist_km": 361812.91820921603,
+      "t_days": 4.790277777777778,
+      "speed_rel": 6668.23088188641,
+      "burn_dv": 4664.576384352055,
+      "reason": null
+    },
+    {
+      "theta0": 5.4,
+      "tof_days": 6.5,
+      "closest_dist_km": 361812.91820921603,
+      "t_days": 4.790277777777778,
+      "speed_rel": 6668.23088188641,
+      "burn_dv": 4484.781043939009,
+      "reason": null
+    },
+    {
+      "theta0": 5.4,
+      "tof_days": 6.75,
+      "closest_dist_km": 361812.91820921603,
+      "t_days": 4.790277777777778,
+      "speed_rel": 6668.23088188641,
+      "burn_dv": 4310.448722745493,
+      "reason": null
+    },
+    {
+      "theta0": 5.4,
+      "tof_days": 7.0,
+      "closest_dist_km": 361812.91820921603,
+      "t_days": 4.790277777777778,
+      "speed_rel": 6668.23088188641,
+      "burn_dv": 4142.651587338722,
+      "reason": null
+    },
+    {
+      "theta0": 5.4,
+      "tof_days": 7.25,
+      "closest_dist_km": 361812.91820921603,
+      "t_days": 4.790277777777778,
+      "speed_rel": 6668.23088188641,
+      "burn_dv": 3982.5787692121703,
+      "reason": null
+    },
+    {
+      "theta0": 5.4,
+      "tof_days": 7.5,
+      "closest_dist_km": 361812.91820921603,
+      "t_days": 4.790277777777778,
+      "speed_rel": 6668.23088188641,
+      "burn_dv": 3831.5301087627845,
+      "reason": null
+    },
+    {
+      "theta0": 4.3,
+      "tof_days": 4.75,
+      "closest_dist_km": 361812.9909248903,
+      "t_days": 4.801388888888889,
+      "speed_rel": 6668.272794195363,
+      "burn_dv": 4897.968197606525,
+      "reason": null
+    },
+    {
+      "theta0": 4.3,
+      "tof_days": 6.5,
+      "closest_dist_km": 361812.9909248903,
+      "t_days": 4.801388888888889,
+      "speed_rel": 6668.272794195363,
+      "burn_dv": 3539.5173888512572,
+      "reason": null
+    },
+    {
+      "theta0": 4.3,
+      "tof_days": 6.75,
+      "closest_dist_km": 361812.9909248903,
+      "t_days": 4.801388888888889,
+      "speed_rel": 6668.272794195363,
+      "burn_dv": 3668.2998219300866,
+      "reason": null
+    },
+    {
+      "theta0": 4.3,
+      "tof_days": 7.0,
+      "closest_dist_km": 361812.9909248903,
+      "t_days": 4.801388888888889,
+      "speed_rel": 6668.272794195363,
+      "burn_dv": 3810.6100953856635,
+      "reason": null
+    },
+    {
+      "theta0": 4.3,
+      "tof_days": 7.25,
+      "closest_dist_km": 361812.9909248903,
+      "t_days": 4.801388888888889,
+      "speed_rel": 6668.272794195363,
+      "burn_dv": 3965.147411789996,
+      "reason": null
+    },
+    {
+      "theta0": 4.3,
+      "tof_days": 7.5,
+      "closest_dist_km": 361812.9909248903,
+      "t_days": 4.801388888888889,
+      "speed_rel": 6668.272794195363,
+      "burn_dv": 4130.636892633733,
+      "reason": null
+    },
+    {
+      "theta0": 4.7,
+      "tof_days": 3.5,
+      "closest_dist_km": 361813.0100454463,
+      "t_days": 4.7972222222222225,
+      "speed_rel": 6668.269542527447,
+      "burn_dv": 4240.568933697565,
+      "reason": null
+    },
+    {
+      "theta0": 4.7,
+      "tof_days": 3.75,
+      "closest_dist_km": 361813.0100454463,
+      "t_days": 4.7972222222222225,
+      "speed_rel": 6668.269542527447,
+      "burn_dv": 4103.761826443636,
+      "reason": null
+    },
+    {
+      "theta0": 4.7,
+      "tof_days": 4.0,
+      "closest_dist_km": 361813.0100454463,
+      "t_days": 4.7972222222222225,
+      "speed_rel": 6668.269542527447,
+      "burn_dv": 3968.4705195983415,
+      "reason": null
+    },
+    {
+      "theta0": 4.7,
+      "tof_days": 4.25,
+      "closest_dist_km": 361813.0100454463,
+      "t_days": 4.7972222222222225,
+      "speed_rel": 6668.269542527447,
+      "burn_dv": 3836.557274690581,
+      "reason": null
+    },
+    {
+      "theta0": 4.7,
+      "tof_days": 4.5,
+      "closest_dist_km": 361813.0100454463,
+      "t_days": 4.7972222222222225,
+      "speed_rel": 6668.269542527447,
+      "burn_dv": 3709.8780082098892,
+      "reason": null
+    },
+    {
+      "theta0": 4.7,
+      "tof_days": 4.75,
+      "closest_dist_km": 361813.0100454463,
+      "t_days": 4.7972222222222225,
+      "speed_rel": 6668.269542527447,
+      "burn_dv": 3590.313571693584,
+      "reason": null
+    },
+    {
+      "theta0": 5.2,
+      "tof_days": 3.5,
+      "closest_dist_km": 361813.0296361793,
+      "t_days": 4.792361111111111,
+      "speed_rel": 6668.25620206366,
+      "burn_dv": 5999.122985484317,
+      "reason": null
+    },
+    {
+      "theta0": 5.2,
+      "tof_days": 3.75,
+      "closest_dist_km": 361813.0296361793,
+      "t_days": 4.792361111111111,
+      "speed_rel": 6668.25620206366,
+      "burn_dv": 5819.429701611088,
+      "reason": null
+    },
+    {
+      "theta0": 5.2,
+      "tof_days": 4.0,
+      "closest_dist_km": 361813.0296361793,
+      "t_days": 4.792361111111111,
+      "speed_rel": 6668.25620206366,
+      "burn_dv": 5637.568266594406,
+      "reason": null
+    },
+    {
+      "theta0": 5.2,
+      "tof_days": 4.25,
+      "closest_dist_km": 361813.0296361793,
+      "t_days": 4.792361111111111,
+      "speed_rel": 6668.25620206366,
+      "burn_dv": 5454.427184305745,
+      "reason": null
+    },
+    {
+      "theta0": 5.2,
+      "tof_days": 4.5,
+      "closest_dist_km": 361813.0296361793,
+      "t_days": 4.792361111111111,
+      "speed_rel": 6668.25620206366,
+      "burn_dv": 5270.858501520347,
+      "reason": null
+    },
+    {
+      "theta0": 5.2,
+      "tof_days": 4.75,
+      "closest_dist_km": 361813.0296361793,
+      "t_days": 4.792361111111111,
+      "speed_rel": 6668.25620206366,
+      "burn_dv": 5087.708888133216,
+      "reason": null
+    },
+    {
+      "theta0": 5.2,
+      "tof_days": 5.0,
+      "closest_dist_km": 361813.0296361793,
+      "t_days": 4.792361111111111,
+      "speed_rel": 6668.25620206366,
+      "burn_dv": 4905.834956382798,
+      "reason": null
+    },
+    {
+      "theta0": 5.2,
+      "tof_days": 5.25,
+      "closest_dist_km": 361813.0296361793,
+      "t_days": 4.792361111111111,
+      "speed_rel": 6668.25620206366,
+      "burn_dv": 4726.127237712588,
+      "reason": null
+    },
+    {
+      "theta0": 5.2,
+      "tof_days": 5.5,
+      "closest_dist_km": 361813.0296361793,
+      "t_days": 4.792361111111111,
+      "speed_rel": 6668.25620206366,
+      "burn_dv": 4549.530013027083,
+      "reason": null
+    },
+    {
+      "theta0": 5.2,
+      "tof_days": 5.75,
+      "closest_dist_km": 361813.0296361793,
+      "t_days": 4.792361111111111,
+      "speed_rel": 6668.25620206366,
+      "burn_dv": 4377.055839897257,
+      "reason": null
+    },
+    {
+      "theta0": 5.2,
+      "tof_days": 6.0,
+      "closest_dist_km": 361813.0296361793,
+      "t_days": 4.792361111111111,
+      "speed_rel": 6668.25620206366,
+      "burn_dv": 4209.802986666552,
+      "reason": null
+    },
+    {
+      "theta0": 5.2,
+      "tof_days": 6.25,
+      "closest_dist_km": 361813.0296361793,
+      "t_days": 4.792361111111111,
+      "speed_rel": 6668.25620206366,
+      "burn_dv": 4048.9700621602974,
+      "reason": null
+    },
+    {
+      "theta0": 5.2,
+      "tof_days": 6.5,
+      "closest_dist_km": 361813.0296361793,
+      "t_days": 4.792361111111111,
+      "speed_rel": 6668.25620206366,
+      "burn_dv": 3895.864596491888,
+      "reason": null
+    },
+    {
+      "theta0": 5.2,
+      "tof_days": 6.75,
+      "closest_dist_km": 361813.0296361793,
+      "t_days": 4.792361111111111,
+      "speed_rel": 6668.25620206366,
+      "burn_dv": 3751.9070758830576,
+      "reason": null
+    },
+    {
+      "theta0": 5.2,
+      "tof_days": 7.0,
+      "closest_dist_km": 361813.0296361793,
+      "t_days": 4.792361111111111,
+      "speed_rel": 6668.25620206366,
+      "burn_dv": 3618.6293097263087,
+      "reason": null
+    },
+    {
+      "theta0": 4.0,
+      "tof_days": 5.25,
+      "closest_dist_km": 361813.4226779539,
+      "t_days": 4.804166666666666,
+      "speed_rel": 6668.35821469538,
+      "burn_dv": 3592.7727774278424,
+      "reason": null
+    },
+    {
+      "theta0": 4.0,
+      "tof_days": 5.5,
+      "closest_dist_km": 361813.4226779539,
+      "t_days": 4.804166666666666,
+      "speed_rel": 6668.35821469538,
+      "burn_dv": 3720.248667338309,
+      "reason": null
+    },
+    {
+      "theta0": 4.0,
+      "tof_days": 5.75,
+      "closest_dist_km": 361813.4226779539,
+      "t_days": 4.804166666666666,
+      "speed_rel": 6668.35821469538,
+      "burn_dv": 3860.7482221008654,
+      "reason": null
+    },
+    {
+      "theta0": 4.0,
+      "tof_days": 6.0,
+      "closest_dist_km": 361813.4226779539,
+      "t_days": 4.804166666666666,
+      "speed_rel": 6668.35821469538,
+      "burn_dv": 4013.2212740332016,
+      "reason": null
+    },
+    {
+      "theta0": 4.0,
+      "tof_days": 6.25,
+      "closest_dist_km": 361813.4226779539,
+      "t_days": 4.804166666666666,
+      "speed_rel": 6668.35821469538,
+      "burn_dv": 4176.59586207295,
+      "reason": null
+    },
+    {
+      "theta0": 4.0,
+      "tof_days": 6.5,
+      "closest_dist_km": 361813.4226779539,
+      "t_days": 4.804166666666666,
+      "speed_rel": 6668.35821469538,
+      "burn_dv": 4349.81733592647,
+      "reason": null
+    },
+    {
+      "theta0": 4.0,
+      "tof_days": 6.75,
+      "closest_dist_km": 361813.4226779539,
+      "t_days": 4.804166666666666,
+      "speed_rel": 6668.35821469538,
+      "burn_dv": 4531.870112580092,
+      "reason": null
+    },
+    {
+      "theta0": 4.0,
+      "tof_days": 7.0,
+      "closest_dist_km": 361813.4226779539,
+      "t_days": 4.804166666666666,
+      "speed_rel": 6668.35821469538,
+      "burn_dv": 4721.794657142274,
+      "reason": null
+    },
+    {
+      "theta0": 4.0,
+      "tof_days": 7.25,
+      "closest_dist_km": 361813.4226779539,
+      "t_days": 4.804166666666666,
+      "speed_rel": 6668.35821469538,
+      "burn_dv": 4918.692513441792,
+      "reason": null
+    },
+    {
+      "theta0": 4.0,
+      "tof_days": 7.5,
+      "closest_dist_km": 361813.4226779539,
+      "t_days": 4.804166666666666,
+      "speed_rel": 6668.35821469538,
+      "burn_dv": 5121.733572964017,
+      "reason": null
+    },
+    {
+      "theta0": 5.3,
+      "tof_days": 3.5,
+      "closest_dist_km": 361813.5024700442,
+      "t_days": 4.854166666666667,
+      "speed_rel": 6668.24315712028,
+      "burn_dv": 6383.64228216768,
+      "reason": null
+    },
+    {
+      "theta0": 5.3,
+      "tof_days": 3.75,
+      "closest_dist_km": 361813.5024700442,
+      "t_days": 4.854166666666667,
+      "speed_rel": 6668.24315712028,
+      "burn_dv": 6198.728926598413,
+      "reason": null
+    },
+    {
+      "theta0": 5.3,
+      "tof_days": 4.0,
+      "closest_dist_km": 361813.5024700442,
+      "t_days": 4.854166666666667,
+      "speed_rel": 6668.24315712028,
+      "burn_dv": 6011.522972468288,
+      "reason": null
+    },
+    {
+      "theta0": 5.3,
+      "tof_days": 4.25,
+      "closest_dist_km": 361813.5024700442,
+      "t_days": 4.854166666666667,
+      "speed_rel": 6668.24315712028,
+      "burn_dv": 5822.777665497975,
+      "reason": null
+    },
+    {
+      "theta0": 5.3,
+      "tof_days": 4.5,
+      "closest_dist_km": 361813.5024700442,
+      "t_days": 4.854166666666667,
+      "speed_rel": 6668.24315712028,
+      "burn_dv": 5633.215664205123,
+      "reason": null
+    },
+    {
+      "theta0": 5.3,
+      "tof_days": 4.75,
+      "closest_dist_km": 361813.5024700442,
+      "t_days": 4.854166666666667,
+      "speed_rel": 6668.24315712028,
+      "burn_dv": 5443.5452559191945,
+      "reason": null
+    },
+    {
+      "theta0": 5.3,
+      "tof_days": 5.0,
+      "closest_dist_km": 361813.5024700442,
+      "t_days": 4.854166666666667,
+      "speed_rel": 6668.24315712028,
+      "burn_dv": 5254.485964156557,
+      "reason": null
+    },
+    {
+      "theta0": 5.3,
+      "tof_days": 5.25,
+      "closest_dist_km": 361813.5024700442,
+      "t_days": 4.854166666666667,
+      "speed_rel": 6668.24315712028,
+      "burn_dv": 5066.775836582848,
+      "reason": null
+    },
+    {
+      "theta0": 5.3,
+      "tof_days": 5.5,
+      "closest_dist_km": 361813.5024700442,
+      "t_days": 4.854166666666667,
+      "speed_rel": 6668.24315712028,
+      "burn_dv": 4881.193977285461,
+      "reason": null
+    },
+    {
+      "theta0": 5.3,
+      "tof_days": 5.75,
+      "closest_dist_km": 361813.5024700442,
+      "t_days": 4.854166666666667,
+      "speed_rel": 6668.24315712028,
+      "burn_dv": 4698.571292557633,
+      "reason": null
+    },
+    {
+      "theta0": 5.3,
+      "tof_days": 6.0,
+      "closest_dist_km": 361813.5024700442,
+      "t_days": 4.854166666666667,
+      "speed_rel": 6668.24315712028,
+      "burn_dv": 4519.8119143917265,
+      "reason": null
+    },
+    {
+      "theta0": 5.3,
+      "tof_days": 6.25,
+      "closest_dist_km": 361813.5024700442,
+      "t_days": 4.854166666666667,
+      "speed_rel": 6668.24315712028,
+      "burn_dv": 4345.8983764591385,
+      "reason": null
+    },
+    {
+      "theta0": 5.3,
+      "tof_days": 6.5,
+      "closest_dist_km": 361813.5024700442,
+      "t_days": 4.854166666666667,
+      "speed_rel": 6668.24315712028,
+      "burn_dv": 4177.911619316741,
+      "reason": null
+    },
+    {
+      "theta0": 5.3,
+      "tof_days": 6.75,
+      "closest_dist_km": 361813.5024700442,
+      "t_days": 4.854166666666667,
+      "speed_rel": 6668.24315712028,
+      "burn_dv": 4017.039447002729,
+      "reason": null
+    },
+    {
+      "theta0": 5.3,
+      "tof_days": 7.0,
+      "closest_dist_km": 361813.5024700442,
+      "t_days": 4.854166666666667,
+      "speed_rel": 6668.24315712028,
+      "burn_dv": 3864.5821301100495,
+      "reason": null
+    },
+    {
+      "theta0": 5.3,
+      "tof_days": 7.25,
+      "closest_dist_km": 361813.5024700442,
+      "t_days": 4.854166666666667,
+      "speed_rel": 6668.24315712028,
+      "burn_dv": 3721.95835869186,
+      "reason": null
+    },
+    {
+      "theta0": 5.3,
+      "tof_days": 7.5,
+      "closest_dist_km": 361813.5024700442,
+      "t_days": 4.854166666666667,
+      "speed_rel": 6668.24315712028,
+      "burn_dv": 3590.691437451059,
+      "reason": null
+    },
+    {
+      "theta0": 5.1,
+      "tof_days": 3.5,
+      "closest_dist_km": 361813.5735185906,
+      "t_days": 4.85625,
+      "speed_rel": 6668.246676384179,
+      "burn_dv": 5621.85090346822,
+      "reason": null
+    },
+    {
+      "theta0": 5.1,
+      "tof_days": 3.75,
+      "closest_dist_km": 361813.5735185906,
+      "t_days": 4.85625,
+      "speed_rel": 6668.246676384179,
+      "burn_dv": 5448.1787565547575,
+      "reason": null
+    },
+    {
+      "theta0": 5.1,
+      "tof_days": 4.0,
+      "closest_dist_km": 361813.5735185906,
+      "t_days": 4.85625,
+      "speed_rel": 6668.246676384179,
+      "burn_dv": 5272.603085614891,
+      "reason": null
+    },
+    {
+      "theta0": 5.1,
+      "tof_days": 4.25,
+      "closest_dist_km": 361813.5735185906,
+      "t_days": 4.85625,
+      "speed_rel": 6668.246676384179,
+      "burn_dv": 5096.165882600832,
+      "reason": null
+    },
+    {
+      "theta0": 5.1,
+      "tof_days": 4.5,
+      "closest_dist_km": 361813.5735185906,
+      "t_days": 4.85625,
+      "speed_rel": 6668.246676384179,
+      "burn_dv": 4919.871705428303,
+      "reason": null
+    },
+    {
+      "theta0": 5.1,
+      "tof_days": 4.75,
+      "closest_dist_km": 361813.5735185906,
+      "t_days": 4.85625,
+      "speed_rel": 6668.246676384179,
+      "burn_dv": 4744.722659762704,
+      "reason": null
+    },
+    {
+      "theta0": 5.1,
+      "tof_days": 5.0,
+      "closest_dist_km": 361813.5735185906,
+      "t_days": 4.85625,
+      "speed_rel": 6668.246676384179,
+      "burn_dv": 4571.746231303895,
+      "reason": null
+    },
+    {
+      "theta0": 5.1,
+      "tof_days": 5.25,
+      "closest_dist_km": 361813.5735185906,
+      "t_days": 4.85625,
+      "speed_rel": 6668.246676384179,
+      "burn_dv": 4402.01270489705,
+      "reason": null
+    },
+    {
+      "theta0": 5.1,
+      "tof_days": 5.5,
+      "closest_dist_km": 361813.5735185906,
+      "t_days": 4.85625,
+      "speed_rel": 6668.246676384179,
+      "burn_dv": 4236.664820876482,
+      "reason": null
+    },
+    {
+      "theta0": 5.1,
+      "tof_days": 5.75,
+      "closest_dist_km": 361813.5735185906,
+      "t_days": 4.85625,
+      "speed_rel": 6668.246676384179,
+      "burn_dv": 4076.928054960594,
+      "reason": null
+    },
+    {
+      "theta0": 5.1,
+      "tof_days": 6.0,
+      "closest_dist_km": 361813.5735185906,
+      "t_days": 4.85625,
+      "speed_rel": 6668.246676384179,
+      "burn_dv": 3924.128304062569,
+      "reason": null
+    },
+    {
+      "theta0": 5.1,
+      "tof_days": 6.25,
+      "closest_dist_km": 361813.5735185906,
+      "t_days": 4.85625,
+      "speed_rel": 6668.246676384179,
+      "burn_dv": 3779.69871568099,
+      "reason": null
+    },
+    {
+      "theta0": 5.1,
+      "tof_days": 6.5,
+      "closest_dist_km": 361813.5735185906,
+      "t_days": 4.85625,
+      "speed_rel": 6668.246676384179,
+      "burn_dv": 3645.1810338012406,
+      "reason": null
+    },
+    {
+      "theta0": 5.1,
+      "tof_days": 6.75,
+      "closest_dist_km": 361813.5735185906,
+      "t_days": 4.85625,
+      "speed_rel": 6668.246676384179,
+      "burn_dv": 3522.2166665075065,
+      "reason": null
+    },
+    {
+      "theta0": 5.0,
+      "tof_days": 3.5,
+      "closest_dist_km": 361813.58341655723,
+      "t_days": 4.794444444444444,
+      "speed_rel": 6668.361365669833,
+      "burn_dv": 5254.151695137516,
+      "reason": null
+    },
+    {
+      "theta0": 5.0,
+      "tof_days": 3.75,
+      "closest_dist_km": 361813.58341655723,
+      "t_days": 4.794444444444444,
+      "speed_rel": 6668.361365669833,
+      "burn_dv": 5087.491866050334,
+      "reason": null
+    },
+    {
+      "theta0": 5.0,
+      "tof_days": 4.0,
+      "closest_dist_km": 361813.58341655723,
+      "t_days": 4.794444444444444,
+      "speed_rel": 6668.361365669833,
+      "burn_dv": 4919.377690955289,
+      "reason": null
+    },
+    {
+      "theta0": 5.0,
+      "tof_days": 4.25,
+      "closest_dist_km": 361813.58341655723,
+      "t_days": 4.794444444444444,
+      "speed_rel": 6668.361365669833,
+      "burn_dv": 4751.022006893567,
+      "reason": null
+    },
+    {
+      "theta0": 5.0,
+      "tof_days": 4.5,
+      "closest_dist_km": 361813.58341655723,
+      "t_days": 4.794444444444444,
+      "speed_rel": 6668.361365669833,
+      "burn_dv": 4583.607111158372,
+      "reason": null
+    },
+    {
+      "theta0": 5.0,
+      "tof_days": 4.75,
+      "closest_dist_km": 361813.58341655723,
+      "t_days": 4.794444444444444,
+      "speed_rel": 6668.361365669833,
+      "burn_dv": 4418.320495565652,
+      "reason": null
+    },
+    {
+      "theta0": 5.0,
+      "tof_days": 5.0,
+      "closest_dist_km": 361813.58341655723,
+      "t_days": 4.794444444444444,
+      "speed_rel": 6668.361365669833,
+      "burn_dv": 4256.387033000925,
+      "reason": null
+    },
+    {
+      "theta0": 5.0,
+      "tof_days": 5.25,
+      "closest_dist_km": 361813.58341655723,
+      "t_days": 4.794444444444444,
+      "speed_rel": 6668.361365669833,
+      "burn_dv": 4099.093334718253,
+      "reason": null
+    },
+    {
+      "theta0": 5.0,
+      "tof_days": 5.5,
+      "closest_dist_km": 361813.58341655723,
+      "t_days": 4.794444444444444,
+      "speed_rel": 6668.361365669833,
+      "burn_dv": 3947.806143234276,
+      "reason": null
+    },
+    {
+      "theta0": 5.0,
+      "tof_days": 5.75,
+      "closest_dist_km": 361813.58341655723,
+      "t_days": 4.794444444444444,
+      "speed_rel": 6668.361365669833,
+      "burn_dv": 3803.990876158962,
+      "reason": null
+    },
+    {
+      "theta0": 5.0,
+      "tof_days": 6.0,
+      "closest_dist_km": 361813.58341655723,
+      "t_days": 4.794444444444444,
+      "speed_rel": 6668.361365669833,
+      "burn_dv": 3669.208400729127,
+      "reason": null
+    },
+    {
+      "theta0": 5.0,
+      "tof_days": 6.25,
+      "closest_dist_km": 361813.58341655723,
+      "t_days": 4.794444444444444,
+      "speed_rel": 6668.361365669833,
+      "burn_dv": 3545.1214394167287,
+      "reason": null
+    },
+    {
+      "theta0": 4.1,
+      "tof_days": 5.75,
+      "closest_dist_km": 361813.65172070736,
+      "t_days": 4.803472222222222,
+      "speed_rel": 6668.39541476592,
+      "burn_dv": 3612.1669265113246,
+      "reason": null
+    },
+    {
+      "theta0": 4.1,
+      "tof_days": 6.0,
+      "closest_dist_km": 361813.65172070736,
+      "t_days": 4.803472222222222,
+      "speed_rel": 6668.39541476592,
+      "burn_dv": 3745.0399612627707,
+      "reason": null
+    },
+    {
+      "theta0": 4.1,
+      "tof_days": 6.25,
+      "closest_dist_km": 361813.65172070736,
+      "t_days": 4.803472222222222,
+      "speed_rel": 6668.39541476592,
+      "burn_dv": 3890.7357542906857,
+      "reason": null
+    },
+    {
+      "theta0": 4.1,
+      "tof_days": 6.5,
+      "closest_dist_km": 361813.65172070736,
+      "t_days": 4.803472222222222,
+      "speed_rel": 6668.39541476592,
+      "burn_dv": 4048.106742816291,
+      "reason": null
+    },
+    {
+      "theta0": 4.1,
+      "tof_days": 6.75,
+      "closest_dist_km": 361813.65172070736,
+      "t_days": 4.803472222222222,
+      "speed_rel": 6668.39541476592,
+      "burn_dv": 4216.016563830756,
+      "reason": null
+    },
+    {
+      "theta0": 4.1,
+      "tof_days": 7.0,
+      "closest_dist_km": 361813.65172070736,
+      "t_days": 4.803472222222222,
+      "speed_rel": 6668.39541476592,
+      "burn_dv": 4393.36813513237,
+      "reason": null
+    },
+    {
+      "theta0": 4.1,
+      "tof_days": 7.25,
+      "closest_dist_km": 361813.65172070736,
+      "t_days": 4.803472222222222,
+      "speed_rel": 6668.39541476592,
+      "burn_dv": 4579.123247795195,
+      "reason": null
+    },
+    {
+      "theta0": 4.1,
+      "tof_days": 7.5,
+      "closest_dist_km": 361813.65172070736,
+      "t_days": 4.803472222222222,
+      "speed_rel": 6668.39541476592,
+      "burn_dv": 4772.312596272883,
+      "reason": null
+    },
+    {
+      "theta0": 4.9,
+      "tof_days": 3.5,
+      "closest_dist_km": 361813.6868140497,
+      "t_days": 4.795138888888889,
+      "speed_rel": 6668.388386316746,
+      "burn_dv": 4898.880567320329,
+      "reason": null
+    },
+    {
+      "theta0": 4.9,
+      "tof_days": 3.75,
+      "closest_dist_km": 361813.6868140497,
+      "t_days": 4.795138888888889,
+      "speed_rel": 6668.388386316746,
+      "burn_dv": 4740.475453683597,
+      "reason": null
+    },
+    {
+      "theta0": 4.9,
+      "tof_days": 4.0,
+      "closest_dist_km": 361813.6868140497,
+      "t_days": 4.795138888888889,
+      "speed_rel": 6668.388386316746,
+      "burn_dv": 4581.299164727775,
+      "reason": null
+    },
+    {
+      "theta0": 4.9,
+      "tof_days": 4.25,
+      "closest_dist_km": 361813.6868140497,
+      "t_days": 4.795138888888889,
+      "speed_rel": 6668.388386316746,
+      "burn_dv": 4422.75626119905,
+      "reason": null
+    },
+    {
+      "theta0": 4.9,
+      "tof_days": 4.5,
+      "closest_dist_km": 361813.6868140497,
+      "t_days": 4.795138888888889,
+      "speed_rel": 6668.388386316746,
+      "burn_dv": 4266.234325991281,
+      "reason": null
+    },
+    {
+      "theta0": 4.9,
+      "tof_days": 4.75,
+      "closest_dist_km": 361813.6868140497,
+      "t_days": 4.795138888888889,
+      "speed_rel": 6668.388386316746,
+      "burn_dv": 4113.135837743862,
+      "reason": null
+    },
+    {
+      "theta0": 4.9,
+      "tof_days": 5.0,
+      "closest_dist_km": 361813.6868140497,
+      "t_days": 4.795138888888889,
+      "speed_rel": 6668.388386316746,
+      "burn_dv": 3964.9136097785545,
+      "reason": null
+    },
+    {
+      "theta0": 4.9,
+      "tof_days": 5.25,
+      "closest_dist_km": 361813.6868140497,
+      "t_days": 4.795138888888889,
+      "speed_rel": 6668.388386316746,
+      "burn_dv": 3823.092669846008,
+      "reason": null
+    },
+    {
+      "theta0": 4.9,
+      "tof_days": 5.5,
+      "closest_dist_km": 361813.6868140497,
+      "t_days": 4.795138888888889,
+      "speed_rel": 6668.388386316746,
+      "burn_dv": 3689.2804651540737,
+      "reason": null
+    },
+    {
+      "theta0": 4.9,
+      "tof_days": 5.75,
+      "closest_dist_km": 361813.6868140497,
+      "t_days": 4.795138888888889,
+      "speed_rel": 6668.388386316746,
+      "burn_dv": 3565.173152403771,
+      "reason": null
+    },
+    {
+      "theta0": 4.4,
+      "tof_days": 7.0,
+      "closest_dist_km": 361813.8245560783,
+      "t_days": 4.863194444444445,
+      "speed_rel": 6668.239963693543,
+      "burn_dv": 3569.1026286191554,
+      "reason": null
+    },
+    {
+      "theta0": 4.4,
+      "tof_days": 7.25,
+      "closest_dist_km": 361813.8245560783,
+      "t_days": 4.863194444444445,
+      "speed_rel": 6668.239963693543,
+      "burn_dv": 3702.344176939782,
+      "reason": null
+    },
+    {
+      "theta0": 4.4,
+      "tof_days": 7.5,
+      "closest_dist_km": 361813.8245560783,
+      "t_days": 4.863194444444445,
+      "speed_rel": 6668.239963693543,
+      "burn_dv": 3848.7840776165267,
+      "reason": null
+    },
+    {
+      "theta0": 5.5,
+      "tof_days": 3.5,
+      "closest_dist_km": 361813.87296244886,
+      "t_days": 4.852083333333334,
+      "speed_rel": 6668.319327307228,
+      "burn_dv": 7167.050230750423,
+      "reason": null
+    },
+    {
+      "theta0": 5.5,
+      "tof_days": 3.75,
+      "closest_dist_km": 361813.87296244886,
+      "t_days": 4.852083333333334,
+      "speed_rel": 6668.319327307228,
+      "burn_dv": 6973.567902643597,
+      "reason": null
+    },
+    {
+      "theta0": 5.5,
+      "tof_days": 4.0,
+      "closest_dist_km": 361813.87296244886,
+      "t_days": 4.852083333333334,
+      "speed_rel": 6668.319327307228,
+      "burn_dv": 6777.841077991241,
+      "reason": null
+    },
+    {
+      "theta0": 5.5,
+      "tof_days": 4.25,
+      "closest_dist_km": 361813.87296244886,
+      "t_days": 4.852083333333334,
+      "speed_rel": 6668.319327307228,
+      "burn_dv": 6580.392376347529,
+      "reason": null
+    },
+    {
+      "theta0": 5.5,
+      "tof_days": 4.5,
+      "closest_dist_km": 361813.87296244886,
+      "t_days": 4.852083333333334,
+      "speed_rel": 6668.319327307228,
+      "burn_dv": 6381.7280043193305,
+      "reason": null
+    },
+    {
+      "theta0": 5.5,
+      "tof_days": 4.75,
+      "closest_dist_km": 361813.87296244886,
+      "t_days": 4.852083333333334,
+      "speed_rel": 6668.319327307228,
+      "burn_dv": 6182.342577438589,
+      "reason": null
+    },
+    {
+      "theta0": 5.5,
+      "tof_days": 5.0,
+      "closest_dist_km": 361813.87296244886,
+      "t_days": 4.852083333333334,
+      "speed_rel": 6668.319327307228,
+      "burn_dv": 5982.734558702721,
+      "reason": null
+    },
+    {
+      "theta0": 5.5,
+      "tof_days": 5.25,
+      "closest_dist_km": 361813.87296244886,
+      "t_days": 4.852083333333334,
+      "speed_rel": 6668.319327307228,
+      "burn_dv": 5783.414447854494,
+      "reason": null
+    },
+    {
+      "theta0": 5.5,
+      "tof_days": 5.5,
+      "closest_dist_km": 361813.87296244886,
+      "t_days": 4.852083333333334,
+      "speed_rel": 6668.319327307228,
+      "burn_dv": 5584.914776023654,
+      "reason": null
+    },
+    {
+      "theta0": 5.5,
+      "tof_days": 5.75,
+      "closest_dist_km": 361813.87296244886,
+      "t_days": 4.852083333333334,
+      "speed_rel": 6668.319327307228,
+      "burn_dv": 5387.799482251225,
+      "reason": null
+    },
+    {
+      "theta0": 5.5,
+      "tof_days": 6.0,
+      "closest_dist_km": 361813.87296244886,
+      "t_days": 4.852083333333334,
+      "speed_rel": 6668.319327307228,
+      "burn_dv": 5192.672624938125,
+      "reason": null
+    },
+    {
+      "theta0": 5.5,
+      "tof_days": 6.25,
+      "closest_dist_km": 361813.87296244886,
+      "t_days": 4.852083333333334,
+      "speed_rel": 6668.319327307228,
+      "burn_dv": 5000.189368022021,
+      "reason": null
+    },
+    {
+      "theta0": 5.5,
+      "tof_days": 6.5,
+      "closest_dist_km": 361813.87296244886,
+      "t_days": 4.852083333333334,
+      "speed_rel": 6668.319327307228,
+      "burn_dv": 4811.067960188539,
+      "reason": null
+    },
+    {
+      "theta0": 5.5,
+      "tof_days": 6.75,
+      "closest_dist_km": 361813.87296244886,
+      "t_days": 4.852083333333334,
+      "speed_rel": 6668.319327307228,
+      "burn_dv": 4626.099685902906,
+      "reason": null
+    },
+    {
+      "theta0": 5.5,
+      "tof_days": 7.0,
+      "closest_dist_km": 361813.87296244886,
+      "t_days": 4.852083333333334,
+      "speed_rel": 6668.319327307228,
+      "burn_dv": 4446.157599654609,
+      "reason": null
+    },
+    {
+      "theta0": 5.5,
+      "tof_days": 7.25,
+      "closest_dist_km": 361813.87296244886,
+      "t_days": 4.852083333333334,
+      "speed_rel": 6668.319327307228,
+      "burn_dv": 4272.214758538525,
+      "reason": null
+    },
+    {
+      "theta0": 5.5,
+      "tof_days": 7.5,
+      "closest_dist_km": 361813.87296244886,
+      "t_days": 4.852083333333334,
+      "speed_rel": 6668.319327307228,
+      "burn_dv": 4105.346153407965,
+      "reason": null
+    },
+    {
+      "theta0": 4.2,
+      "tof_days": 6.0,
+      "closest_dist_km": 361813.9980680734,
+      "t_days": 4.865277777777778,
+      "speed_rel": 6668.260163293852,
+      "burn_dv": 3513.833733767501,
+      "reason": null
+    },
+    {
+      "theta0": 4.2,
+      "tof_days": 6.25,
+      "closest_dist_km": 361813.9980680734,
+      "t_days": 4.865277777777778,
+      "speed_rel": 6668.260163293852,
+      "burn_dv": 3637.8502308657708,
+      "reason": null
+    },
+    {
+      "theta0": 4.2,
+      "tof_days": 6.5,
+      "closest_dist_km": 361813.9980680734,
+      "t_days": 4.865277777777778,
+      "speed_rel": 6668.260163293852,
+      "burn_dv": 3775.6456223788614,
+      "reason": null
+    },
+    {
+      "theta0": 4.2,
+      "tof_days": 6.75,
+      "closest_dist_km": 361813.9980680734,
+      "t_days": 4.865277777777778,
+      "speed_rel": 6668.260163293852,
+      "burn_dv": 3925.997882904532,
+      "reason": null
+    },
+    {
+      "theta0": 4.2,
+      "tof_days": 7.0,
+      "closest_dist_km": 361813.9980680734,
+      "t_days": 4.865277777777778,
+      "speed_rel": 6668.260163293852,
+      "burn_dv": 4087.6862923588155,
+      "reason": null
+    },
+    {
+      "theta0": 4.2,
+      "tof_days": 7.25,
+      "closest_dist_km": 361813.9980680734,
+      "t_days": 4.865277777777778,
+      "speed_rel": 6668.260163293852,
+      "burn_dv": 4259.5242306602195,
+      "reason": null
+    },
+    {
+      "theta0": 4.2,
+      "tof_days": 7.5,
+      "closest_dist_km": 361813.9980680734,
+      "t_days": 4.865277777777778,
+      "speed_rel": 6668.260163293852,
+      "burn_dv": 4440.388500130246,
+      "reason": null
+    },
+    {
+      "theta0": 4.6,
+      "tof_days": 3.5,
+      "closest_dist_km": 361814.09742702305,
+      "t_days": 4.861111111111111,
+      "speed_rel": 6668.300346720112,
+      "burn_dv": 3947.256736695361,
+      "reason": null
+    },
+    {
+      "theta0": 4.6,
+      "tof_days": 3.75,
+      "closest_dist_km": 361814.09742702305,
+      "t_days": 4.861111111111111,
+      "speed_rel": 6668.300346720112,
+      "burn_dv": 3824.641068079403,
+      "reason": null
+    },
+    {
+      "theta0": 4.6,
+      "tof_days": 4.0,
+      "closest_dist_km": 361814.09742702305,
+      "t_days": 4.861111111111111,
+      "speed_rel": 6668.300346720112,
+      "burn_dv": 3705.2475117201566,
+      "reason": null
+    },
+    {
+      "theta0": 4.6,
+      "tof_days": 4.25,
+      "closest_dist_km": 361814.09742702305,
+      "t_days": 4.861111111111111,
+      "speed_rel": 6668.300346720112,
+      "burn_dv": 3591.1679736618503,
+      "reason": null
+    },
+    {
+      "theta0": 3.5,
+      "tof_days": 3.5,
+      "closest_dist_km": 361814.23208577716,
+      "t_days": 4.872222222222222,
+      "speed_rel": 6668.240046707018,
+      "burn_dv": 3997.6362435136043,
+      "reason": null
+    },
+    {
+      "theta0": 3.5,
+      "tof_days": 3.75,
+      "closest_dist_km": 361814.23208577716,
+      "t_days": 4.872222222222222,
+      "speed_rel": 6668.240046707018,
+      "burn_dv": 4119.305399624193,
+      "reason": null
+    },
+    {
+      "theta0": 3.5,
+      "tof_days": 4.0,
+      "closest_dist_km": 361814.23208577716,
+      "t_days": 4.872222222222222,
+      "speed_rel": 6668.240046707018,
+      "burn_dv": 4254.49566227303,
+      "reason": null
+    },
+    {
+      "theta0": 3.5,
+      "tof_days": 4.25,
+      "closest_dist_km": 361814.23208577716,
+      "t_days": 4.872222222222222,
+      "speed_rel": 6668.240046707018,
+      "burn_dv": 4401.992871634909,
+      "reason": null
+    },
+    {
+      "theta0": 3.5,
+      "tof_days": 4.5,
+      "closest_dist_km": 361814.23208577716,
+      "t_days": 4.872222222222222,
+      "speed_rel": 6668.240046707018,
+      "burn_dv": 4560.684363688771,
+      "reason": null
+    },
+    {
+      "theta0": 3.5,
+      "tof_days": 4.75,
+      "closest_dist_km": 361814.23208577716,
+      "t_days": 4.872222222222222,
+      "speed_rel": 6668.240046707018,
+      "burn_dv": 4729.5344513579275,
+      "reason": null
+    },
+    {
+      "theta0": 3.5,
+      "tof_days": 5.0,
+      "closest_dist_km": 361814.23208577716,
+      "t_days": 4.872222222222222,
+      "speed_rel": 6668.240046707018,
+      "burn_dv": 4907.577899715483,
+      "reason": null
+    },
+    {
+      "theta0": 3.5,
+      "tof_days": 5.25,
+      "closest_dist_km": 361814.23208577716,
+      "t_days": 4.872222222222222,
+      "speed_rel": 6668.240046707018,
+      "burn_dv": 5093.908511814263,
+      "reason": null
+    },
+    {
+      "theta0": 3.5,
+      "tof_days": 5.5,
+      "closest_dist_km": 361814.23208577716,
+      "t_days": 4.872222222222222,
+      "speed_rel": 6668.240046707018,
+      "burn_dv": 5287.682232611575,
+      "reason": null
+    },
+    {
+      "theta0": 3.5,
+      "tof_days": 5.75,
+      "closest_dist_km": 361814.23208577716,
+      "t_days": 4.872222222222222,
+      "speed_rel": 6668.240046707018,
+      "burn_dv": 5488.109215493538,
+      "reason": null
+    },
+    {
+      "theta0": 3.5,
+      "tof_days": 6.0,
+      "closest_dist_km": 361814.23208577716,
+      "t_days": 4.872222222222222,
+      "speed_rel": 6668.240046707018,
+      "burn_dv": 5694.454599712937,
+      "reason": null
+    },
+    {
+      "theta0": 3.5,
+      "tof_days": 6.25,
+      "closest_dist_km": 361814.23208577716,
+      "t_days": 4.872222222222222,
+      "speed_rel": 6668.240046707018,
+      "burn_dv": 5906.034363237431,
+      "reason": null
+    },
+    {
+      "theta0": 3.5,
+      "tof_days": 6.5,
+      "closest_dist_km": 361814.23208577716,
+      "t_days": 4.872222222222222,
+      "speed_rel": 6668.240046707018,
+      "burn_dv": 6122.211841486689,
+      "reason": null
+    },
+    {
+      "theta0": 3.5,
+      "tof_days": 6.75,
+      "closest_dist_km": 361814.23208577716,
+      "t_days": 4.872222222222222,
+      "speed_rel": 6668.240046707018,
+      "burn_dv": 6342.3964755232,
+      "reason": null
+    },
+    {
+      "theta0": 3.5,
+      "tof_days": 7.0,
+      "closest_dist_km": 361814.23208577716,
+      "t_days": 4.872222222222222,
+      "speed_rel": 6668.240046707018,
+      "burn_dv": 6566.037597420973,
+      "reason": null
+    },
+    {
+      "theta0": 3.5,
+      "tof_days": 7.25,
+      "closest_dist_km": 361814.23208577716,
+      "t_days": 4.872222222222222,
+      "speed_rel": 6668.240046707018,
+      "burn_dv": 6792.623004195807,
+      "reason": null
+    },
+    {
+      "theta0": 3.5,
+      "tof_days": 7.5,
+      "closest_dist_km": 361814.23208577716,
+      "t_days": 4.872222222222222,
+      "speed_rel": 6668.240046707018,
+      "burn_dv": 7021.675847422436,
+      "reason": null
+    },
+    {
+      "theta0": 3.7,
+      "tof_days": 3.75,
+      "closest_dist_km": 361814.3970935025,
+      "t_days": 4.870138888888889,
+      "speed_rel": 6668.283162748396,
+      "burn_dv": 3599.8004905863713,
+      "reason": null
+    },
+    {
+      "theta0": 3.7,
+      "tof_days": 4.0,
+      "closest_dist_km": 361814.3970935025,
+      "t_days": 4.870138888888889,
+      "speed_rel": 6668.283162748396,
+      "burn_dv": 3705.16328456794,
+      "reason": null
+    },
+    {
+      "theta0": 3.7,
+      "tof_days": 4.25,
+      "closest_dist_km": 361814.3970935025,
+      "t_days": 4.870138888888889,
+      "speed_rel": 6668.283162748396,
+      "burn_dv": 3824.391578550616,
+      "reason": null
+    },
+    {
+      "theta0": 3.7,
+      "tof_days": 4.5,
+      "closest_dist_km": 361814.3970935025,
+      "t_days": 4.870138888888889,
+      "speed_rel": 6668.283162748396,
+      "burn_dv": 3956.653926426367,
+      "reason": null
+    },
+    {
+      "theta0": 3.7,
+      "tof_days": 4.75,
+      "closest_dist_km": 361814.3970935025,
+      "t_days": 4.870138888888889,
+      "speed_rel": 6668.283162748396,
+      "burn_dv": 4101.061118971396,
+      "reason": null
+    },
+    {
+      "theta0": 3.7,
+      "tof_days": 5.0,
+      "closest_dist_km": 361814.3970935025,
+      "t_days": 4.870138888888889,
+      "speed_rel": 6668.283162748396,
+      "burn_dv": 4256.693413897146,
+      "reason": null
+    },
+    {
+      "theta0": 3.7,
+      "tof_days": 5.25,
+      "closest_dist_km": 361814.3970935025,
+      "t_days": 4.870138888888889,
+      "speed_rel": 6668.283162748396,
+      "burn_dv": 4422.621847894925,
+      "reason": null
+    },
+    {
+      "theta0": 3.7,
+      "tof_days": 5.5,
+      "closest_dist_km": 361814.3970935025,
+      "t_days": 4.870138888888889,
+      "speed_rel": 6668.283162748396,
+      "burn_dv": 4597.928689929364,
+      "reason": null
+    },
+    {
+      "theta0": 3.7,
+      "tof_days": 5.75,
+      "closest_dist_km": 361814.3970935025,
+      "t_days": 4.870138888888889,
+      "speed_rel": 6668.283162748396,
+      "burn_dv": 4781.726510651281,
+      "reason": null
+    },
+    {
+      "theta0": 3.7,
+      "tof_days": 6.0,
+      "closest_dist_km": 361814.3970935025,
+      "t_days": 4.870138888888889,
+      "speed_rel": 6668.283162748396,
+      "burn_dv": 4973.166589411848,
+      "reason": null
+    },
+    {
+      "theta0": 3.7,
+      "tof_days": 6.25,
+      "closest_dist_km": 361814.3970935025,
+      "t_days": 4.870138888888889,
+      "speed_rel": 6668.283162748396,
+      "burn_dv": 5171.445332225518,
+      "reason": null
+    },
+    {
+      "theta0": 3.7,
+      "tof_days": 6.5,
+      "closest_dist_km": 361814.3970935025,
+      "t_days": 4.870138888888889,
+      "speed_rel": 6668.283162748396,
+      "burn_dv": 5375.8076445956285,
+      "reason": null
+    },
+    {
+      "theta0": 3.7,
+      "tof_days": 6.75,
+      "closest_dist_km": 361814.3970935025,
+      "t_days": 4.870138888888889,
+      "speed_rel": 6668.283162748396,
+      "burn_dv": 5585.550232242304,
+      "reason": null
+    },
+    {
+      "theta0": 3.7,
+      "tof_days": 7.0,
+      "closest_dist_km": 361814.3970935025,
+      "t_days": 4.870138888888889,
+      "speed_rel": 6668.283162748396,
+      "burn_dv": 5800.015681548628,
+      "reason": null
+    },
+    {
+      "theta0": 3.7,
+      "tof_days": 7.25,
+      "closest_dist_km": 361814.3970935025,
+      "t_days": 4.870138888888889,
+      "speed_rel": 6668.283162748396,
+      "burn_dv": 6018.597982768838,
+      "reason": null
+    },
+    {
+      "theta0": 3.7,
+      "tof_days": 7.5,
+      "closest_dist_km": 361814.3970935025,
+      "t_days": 4.870138888888889,
+      "speed_rel": 6668.283162748396,
+      "burn_dv": 6240.73237656658,
+      "reason": null
+    },
+    {
+      "theta0": 4.8,
+      "tof_days": 3.5,
+      "closest_dist_km": 361814.58115855034,
+      "t_days": 4.7965277777777775,
+      "speed_rel": 6668.546680398999,
+      "burn_dv": 4559.5646281196705,
+      "reason": null
+    },
+    {
+      "theta0": 4.8,
+      "tof_days": 3.75,
+      "closest_dist_km": 361814.58115855034,
+      "t_days": 4.7965277777777775,
+      "speed_rel": 6668.546680398999,
+      "burn_dv": 4410.979435829822,
+      "reason": null
+    },
+    {
+      "theta0": 4.8,
+      "tof_days": 4.0,
+      "closest_dist_km": 361814.58115855034,
+      "t_days": 4.7965277777777775,
+      "speed_rel": 6668.546680398999,
+      "burn_dv": 4262.592316114809,
+      "reason": null
+    },
+    {
+      "theta0": 4.8,
+      "tof_days": 4.25,
+      "closest_dist_km": 361814.58115855034,
+      "t_days": 4.7965277777777775,
+      "speed_rel": 6668.546680398999,
+      "burn_dv": 4116.029995979657,
+      "reason": null
+    },
+    {
+      "theta0": 4.8,
+      "tof_days": 4.5,
+      "closest_dist_km": 361814.58115855034,
+      "t_days": 4.7965277777777775,
+      "speed_rel": 6668.546680398999,
+      "burn_dv": 3972.9056059796403,
+      "reason": null
+    },
+    {
+      "theta0": 4.8,
+      "tof_days": 4.75,
+      "closest_dist_km": 361814.58115855034,
+      "t_days": 4.7965277777777775,
+      "speed_rel": 6668.546680398999,
+      "burn_dv": 3834.862150749758,
+      "reason": null
+    },
+    {
+      "theta0": 4.8,
+      "tof_days": 5.0,
+      "closest_dist_km": 361814.58115855034,
+      "t_days": 4.7965277777777775,
+      "speed_rel": 6668.546680398999,
+      "burn_dv": 3703.5953824782787,
+      "reason": null
+    },
+    {
+      "theta0": 4.8,
+      "tof_days": 5.25,
+      "closest_dist_km": 361814.58115855034,
+      "t_days": 4.7965277777777775,
+      "speed_rel": 6668.546680398999,
+      "burn_dv": 3580.864446346291,
+      "reason": null
+    },
+    {
+      "theta0": 4.8,
+      "tof_days": 6.75,
+      "closest_dist_km": 361814.58115855034,
+      "t_days": 4.7965277777777775,
+      "speed_rel": 6668.546680398999,
+      "burn_dv": 4278.065082467101,
+      "reason": null
+    },
+    {
+      "theta0": 3.9,
+      "tof_days": 4.75,
+      "closest_dist_km": 361814.7603367772,
+      "t_days": 4.805555555555555,
+      "speed_rel": 6668.598809437591,
+      "burn_dv": 3581.7937401262006,
+      "reason": null
+    },
+    {
+      "theta0": 3.9,
+      "tof_days": 5.0,
+      "closest_dist_km": 361814.7603367772,
+      "t_days": 4.805555555555555,
+      "speed_rel": 6668.598809437591,
+      "burn_dv": 3703.225168340746,
+      "reason": null
+    },
+    {
+      "theta0": 3.9,
+      "tof_days": 5.25,
+      "closest_dist_km": 361814.7603367772,
+      "t_days": 4.805555555555555,
+      "speed_rel": 6668.598809437591,
+      "burn_dv": 3837.843376167294,
+      "reason": null
+    },
+    {
+      "theta0": 3.9,
+      "tof_days": 5.5,
+      "closest_dist_km": 361814.7603367772,
+      "t_days": 4.805555555555555,
+      "speed_rel": 6668.598809437591,
+      "burn_dv": 3984.705726268696,
+      "reason": null
+    },
+    {
+      "theta0": 3.9,
+      "tof_days": 5.75,
+      "closest_dist_km": 361814.7603367772,
+      "t_days": 4.805555555555555,
+      "speed_rel": 6668.598809437591,
+      "burn_dv": 4142.82153473875,
+      "reason": null
+    },
+    {
+      "theta0": 3.9,
+      "tof_days": 6.0,
+      "closest_dist_km": 361814.7603367772,
+      "t_days": 4.805555555555555,
+      "speed_rel": 6668.598809437591,
+      "burn_dv": 4311.188767721179,
+      "reason": null
+    },
+    {
+      "theta0": 3.9,
+      "tof_days": 6.25,
+      "closest_dist_km": 361814.7603367772,
+      "t_days": 4.805555555555555,
+      "speed_rel": 6668.598809437591,
+      "burn_dv": 4488.824935527238,
+      "reason": null
+    },
+    {
+      "theta0": 3.9,
+      "tof_days": 6.5,
+      "closest_dist_km": 361814.7603367772,
+      "t_days": 4.805555555555555,
+      "speed_rel": 6668.598809437591,
+      "burn_dv": 4674.786567642078,
+      "reason": null
+    },
+    {
+      "theta0": 3.9,
+      "tof_days": 6.75,
+      "closest_dist_km": 361814.7603367772,
+      "t_days": 4.805555555555555,
+      "speed_rel": 6668.598809437591,
+      "burn_dv": 4868.179774193182,
+      "reason": null
+    },
+    {
+      "theta0": 3.9,
+      "tof_days": 7.0,
+      "closest_dist_km": 361814.7603367772,
+      "t_days": 4.805555555555555,
+      "speed_rel": 6668.598809437591,
+      "burn_dv": 5068.167683310844,
+      "reason": null
+    },
+    {
+      "theta0": 3.9,
+      "tof_days": 7.25,
+      "closest_dist_km": 361814.7603367772,
+      "t_days": 4.805555555555555,
+      "speed_rel": 6668.598809437591,
+      "burn_dv": 5273.973416523628,
+      "reason": null
+    },
+    {
+      "theta0": 3.9,
+      "tof_days": 7.5,
+      "closest_dist_km": 361814.7603367772,
+      "t_days": 4.805555555555555,
+      "speed_rel": 6668.598809437591,
+      "burn_dv": 5484.8771388267805,
+      "reason": null
+    }
+  ],
+  "best": {
+    "theta0": 4.4,
+    "tof_days": 5.5,
+    "closest_dist_km": 271.2689223520147,
+    "t_days": 5.271527777777778,
+    "speed_rel": 2402.020093812774,
+    "burn_dv": 3116.402583011397,
+    "reason": "lunar impact"
+  }
+}

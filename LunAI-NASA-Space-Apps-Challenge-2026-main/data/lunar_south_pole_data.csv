@@ -1,0 +1,4 @@
+id,name,lat,lon,water_ice,slope_deg,terrain_roughness,elevation_m,earth_line_of_sight,notes
+site_shackleton,Shackleton Rim,-89.7,-90.0,0.74,3.1,0.7,-220.0,0.72,High persistent shadow near crater rim with strong ice prospecting potential.
+site_amundsen,Amundsen Crater,-84.2,55.0,0.62,4.8,1.2,-310.0,0.68,Large impact crater with nearby permanent shadow and strong scientific value.
+site_nobile,Nobile Rim,-86.5,30.0,0.58,6.5,1.7,480.0,0.61,Elevated rim with broad solar visibility but more rugged terrain and lower ice concentration.
